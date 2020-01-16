@@ -1,2 +1,3 @@
-# Documentation
-Documentation resources
+# Headline
+
+> An awesome project.
