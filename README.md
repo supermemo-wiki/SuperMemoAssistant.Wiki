@@ -6,7 +6,7 @@
 
 #### Import
 
-<img src="C:\Users\nikor\AppData\Roaming\Typora\typora-user-images\image-20200117195953936.png" alt="image-20200117195953936" style="zoom:50%;" />
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/import.png)
 
 1. Set hook (hook determines place in the [knowledge tree](https://www.supermemo.com/archives1990-2015/help/g#knowledge tree) where PDFs are added)
 
