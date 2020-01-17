@@ -25,14 +25,14 @@ All extracting happens with ALT+X.
 
 ### Extract Images 
 
-<video src="C:\Users\nikor\Downloads\Mouse_drag.mp4"></video>
-
+```markdown
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/Mouse_drag.mp4)
+```
 
 
 ### **Extract Images with text**
 
-<video src="C:\Users\nikor\Downloads\textandimage.mp4"></video>
-
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textandimage.mp4)
 
 
 
@@ -45,23 +45,22 @@ All extracting happens with ALT+X.
 
 ### How to do PDF extract:
 
-<video src="C:\Users\nikor\Downloads\PDFextract.mp4"></video>
-
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/PDFextract.mp4)
 
 
 ### **Result of PDF Extract in knowledge tree**
 
 
 
-![subpdf](C:\Users\nikor\Downloads\subpdf.png)
+![subpdf](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png)
 
 
 
 ### Result of PDF Extract in newly created Sub-PDF
 
-#### ![redsection](C:\Users\nikor\Downloads\redsection.png)
+#### ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png)
 
-![orangesect](C:\Users\nikor\Downloads\orangesect.png)
+![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png)
 
 
 
