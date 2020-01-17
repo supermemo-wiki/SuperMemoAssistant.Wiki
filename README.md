@@ -6,7 +6,7 @@
 
 #### Import
 
-![](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png)
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png" style="zoom: 67%;" />
 
 1. Set hook (hook determines place in the [knowledge tree](https://www.supermemo.com/archives1990-2015/help/g#knowledge tree) where PDFs are added)
 
@@ -25,7 +25,7 @@ All extracting happens with ALT+X.
 
 ### Extract Images 
 
-![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/mousedrag.gif)
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/mousedrag.gif?raw=true)
 
 
 ### **Extract Images with text**
