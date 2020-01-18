@@ -47,3 +47,38 @@ Extracts will show up in your knowledge tree just like any other topic!
 
 
 <!-- tabs:end -->
+
+------
+
+# LateX
+
+<!-- tabs:start -->
+
+#### ** How to **
+
+<!-- tabs:end -->
+
+------
+
+# Dictionary
+
+<!-- tabs:start -->
+
+#### ** In SM **
+
+#### ** In PDF **
+
+<!-- tabs:end -->
+
+------
+
+# Setup
+
+<!-- tabs:start -->
+
+#### ** LateX **
+
+#### ** Dictionary **
+
+<!-- tabs:end -->
+
