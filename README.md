@@ -18,7 +18,7 @@
 
 #### ** Extract **
 
-**Images and text (ALT+X)**
+Extracts will show up in your knowledge tree just like any other topic!
 
 
 
@@ -32,7 +32,7 @@
 
 **What it does:** Creates Sub-PDF of the original one.
 
-**Why to use it:** PDF Extracts are useful when you want to keep your focus on certain chapter, whilst working separately with rest of the chapters.
+**Why to use it:** PDF Extracts are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters.
 
 <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 80%;" />
 
