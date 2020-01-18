@@ -8,15 +8,13 @@
 
 #### ** Import **
 
-1. Set hook (it determines place where PDFs are added in the knowledge tree)
+1. Set hook *(Hook determines place where PDFs are added in the knowledge tree)*
 2. CTRL+ALT+I
-3. File explorer for PDF should open. (if it doesn't check ALT+TAB to see if it's in the 										background.)
+3. File explorer for PDF should open. *(If file explorer doesn't pop up check ALT+TAB for window called "Open")*
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png" style="zoom: 50%;" />
 
-
-
-*Note: You need to set hook only once, not everytime you import PDFs!*
+​	**Note: You need to set hook only once, not everytime you import PDFs!**
 
 #### ** Extract **
 
@@ -42,8 +40,8 @@
 
 
 
-|                   Result in knowledge tree                   | Result in Sub-PDF (everything but extracted section is marked red) | Result of in the original PDF (extracted section is marked orange) |      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ---- |
+| Result in knowledge tree *(Sub-PDF works just like any other PDFs)* | Result in Sub-PDF *(everything but extracted section is marked red)* | Result of in the original PDF *(extracted section is marked orange)* |      |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- |
 | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) |      |
 
 
