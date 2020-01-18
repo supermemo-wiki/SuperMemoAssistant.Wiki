@@ -18,10 +18,9 @@
 
 
 
-## Extract (ALT+X)
+## Extract Images and text (ALT+X)
 
 
-### **Extract Images and text**
 
 ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true)
 
@@ -30,11 +29,11 @@
 
 
 
-## PDF Extracts (bookmarks & sections as new PDF)
+## PDF Extracts
 
-**What it does:** PDF Extract creates Sub-PDF of the original one.
+**What it does:** Creates Sub-PDF of the original one.
 
-**Why to use it:** PDF Extracts are useful if you want to keep your focus on certain chapter, whilst working seperately with rest of the chapters.
+**Why to use it:** PDF Extracts are useful when you want to keep your focus on certain chapter, whilst working separately with rest of the chapters.
 
 ### How to do PDF extract:
 
