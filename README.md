@@ -1,4 +1,4 @@
-# SuperMemoAssistant
+# How to use SuperMemoAssistant
 
 # **PDF**
 
@@ -9,12 +9,16 @@
 #### ** Import **
 
 1. Set hook *(Hook determines place where PDFs are added in the knowledge tree)*
+
 2. CTRL+ALT+I
+
 3. File explorer for PDF should open. *(If file explorer doesn't pop up check ALT+TAB for window called "Open")*
+
+   **Note: You need to set hook only once, not everytime you import PDFs!**
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png" style="zoom: 50%;" />
 
-​	**Note: You need to set hook only once, not everytime you import PDFs!**
+
 
 #### ** Extract **
 
