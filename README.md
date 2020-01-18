@@ -20,11 +20,10 @@
 
 Extracts will show up in your knowledge tree just like any other topic!
 
-
+1. Select text *(or/and image)*
+2. Alt+X *(hold CTRL if you want both text & image)*
 
 <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom:80%;" />
-
-------
 
 
 
@@ -44,7 +43,11 @@ Extracts will show up in your knowledge tree just like any other topic!
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- |
 | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) |      |
 
+#### ** FAQ **
 
+Q: Concept verification error: hook is not a child of root!
+
+A: Change currently activated concept as the one with hook in it for the PDFs
 
 <!-- tabs:end -->
 
@@ -54,7 +57,11 @@ Extracts will show up in your knowledge tree just like any other topic!
 
 <!-- tabs:start -->
 
-#### ** How to **
+#### ** How to use **
+
+#### ** Setup **
+
+#### ** FAQ **
 
 <!-- tabs:end -->
 
@@ -68,17 +75,11 @@ Extracts will show up in your knowledge tree just like any other topic!
 
 #### ** In PDF **
 
-<!-- tabs:end -->
+#### ** Setup**
 
-------
-
-# Setup
-
-<!-- tabs:start -->
-
-#### ** LateX **
-
-#### ** Dictionary **
+#### ** FAQ **
 
 <!-- tabs:end -->
+
+
 
