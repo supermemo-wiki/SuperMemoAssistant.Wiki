@@ -31,11 +31,11 @@ Extracts will show up in your knowledge tree just like any other topic!
 
 
 
-#### ** PDF Extract **
+#### ** Bookmark Extract **
 
-**What it does:** Creates Sub-PDF of the original one.
+**What it does:** Creates Sub-PDF of bookmark.
 
-**Why to use it:** PDF Extracts are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters.
+**Why to use it:** Bookmark Extracts are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters.
 
 <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 80%;" />
 
