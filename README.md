@@ -85,13 +85,9 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 2. Sign-up requires credit card, the costs are insignificant - practically free (unless you do thousands of request per month)
 
-3. After you have signed in, locate :
+3. After you have signed in, locate : **(1) app_id** and **(2) app_key** 
 
-**app_id: ** 
-
-**app_key:** 
-
-These you need to insert in SMA´s PDF settings:
+   These you need to insert in SMA´s PDF settings:
 
 4. You can access PDF settings via SMA icon (the image), or **CTRL+ALT+SHIFT+O**
 
@@ -138,13 +134,13 @@ You need to set up an oxford dictionary developer account.
 
 <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/prototype2.png?raw=true" alt="image-20200119020106787" style="zoom:50%;" />
 
-After the account is made and you are signed in, click **credentials** in the home page. 
+After the account is made and you are signed in, click **CREDENTIALS** in the home page. 
 
-4. In credentials click "*[yourname]'s app*" and locate (1) application ID  (2) Application keys, *(the image below)*
+4. In credentials click "<u>[yourname]'s app</u>" and locate **(1) application ID  (2) Application keys**, *(the image below)*
 
    <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/credentials.png" style="zoom: 50%;" />
 
-5. After you located these values, go to dictionary settings *(you can access it by rightclicking SMA icon in windows toolbar)*
+5. After you located these values, go to dictionary settings in SMA *(you can access it by rightclicking SMA icon in windows toolbar)*
 
 6. In dictionary settings: Write values in "Oxford Dict. App ID" and Oxford Dict. App Key *(app key is the longer one)*
 
