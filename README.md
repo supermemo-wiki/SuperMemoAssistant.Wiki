@@ -83,6 +83,24 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 1. You need mathpix account https://mathpix.com/ocr
 
+2. Sign-up requires credit card, the costs are insignificant - practically free (unless you do thousands of request per month)
+
+3. After you have signed in, locate :
+
+   **app_id: ** 
+
+   **app_key:** 
+
+   These you need to insert in SMA´s PDF settings:
+
+4. You can access PDF settings via SMA icon (the image), or **CTRL+ALT+SHIFT+O**
+
+   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accessettings.png?raw=true)
+
+5. **app_id ** and **app_key** is inserted in boxes shown in image below
+
+   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png?raw=true)
+
 #### ** Setup LateX**
 
 #### ** FAQ **
@@ -91,7 +109,7 @@ Q: Is credit card required?
 
 A: yes, the costs are insignificant. 
 
-Monthly payment as you go:
+Monthly payment as you go ("As of 2020/01/20"):
 
 - First 1000 requests free.
 - $0.004/request (1-100K requests)
