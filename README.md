@@ -87,17 +87,17 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 3. After you have signed in, locate :
 
-   **app_id: ** 
+**app_id: ** 
 
-   **app_key:** 
+**app_key:** 
 
-   These you need to insert in SMA´s PDF settings:
+These you need to insert in SMA´s PDF settings:
 
 4. You can access PDF settings via SMA icon (the image), or **CTRL+ALT+SHIFT+O**
 
-   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accesssettings.png?raw=true)
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accesssettings.png?raw=true)
 
-5. **app_id ** and **app_key** is inserted in boxes shown in image below
+5. **app_id ** and **app_key** are inserted in boxes shown in the image below
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png" style="zoom: 50%;" />
 
@@ -140,9 +140,13 @@ You need to set up an oxford dictionary developer account.
 
 After the account is made and you are signed in, click **credentials** in the home page. 
 
-4. In credentials click "*[yourname]'s app*" and locate (1) application ID  (2) Application keys
+4. In credentials click "*[yourname]'s app*" and locate (1) application ID  (2) Application keys, *(the image below)*
 
-5. After this input these values in dictionary settings *(you can access it by rightclicking SMA icon in windows toolbar)*
+   <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/credentials.png" style="zoom: 50%;" />
+
+5. After you located these values, go to dictionary settings *(you can access it by rightclicking SMA icon in windows toolbar)*
+
+6. In dictionary settings: Write values in "Oxford Dict. App ID" and Oxford Dict. App Key *(app key is the longer one)*
 
 #### ** FAQ **
 
