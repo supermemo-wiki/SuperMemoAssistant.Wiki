@@ -95,17 +95,17 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 4. You can access PDF settings via SMA icon (the image), or **CTRL+ALT+SHIFT+O**
 
-   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accessettings.png?raw=true)
+   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accesssettings.png?raw=true)
 
 5. **app_id ** and **app_key** is inserted in boxes shown in image below
 
-   ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png?raw=true)
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png" style="zoom: 50%;" />
 
 #### ** Setup LateX**
 
 #### ** FAQ **
 
-Q: Is credit card required?
+Q: Is credit card required for OCR?
 
 A: yes, the costs are insignificant. 
 
