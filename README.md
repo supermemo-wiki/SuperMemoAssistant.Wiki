@@ -104,9 +104,11 @@ You need to set up an oxford dictionary developer account.
 
 5. After this input these values in dictionary settings *(you can access it by rightclicking SMA icon in windows toolbar)*
 
-**Note: credit card is not required for prototype account, if it is asked you chose the wrong option in step 2**
-
 #### ** FAQ **
+
+Q: Is credit card required?
+
+A: credit card is not required for prototype account, if it is asked you chose the wrong option in step 2
 
 <!-- tabs:end -->
 
