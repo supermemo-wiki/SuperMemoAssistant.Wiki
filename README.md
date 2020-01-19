@@ -57,26 +57,46 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 ------
 
-# LateX
+# OCR & LateX
 
 <!-- tabs:start -->
 
-#### ** How to use **
+#### ** LateX **
 
-1. You need to OCR text by holding ALT+(left or right drag) 
+<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/JstLtX.gif?raw=true" style="zoom: 67%;" />
 
-   *right drag forces selection (ignores text selection)* 
 
-   2. Alt+X 
-   3. CTRL+ALT+L to turn extracted text into L
 
-    
+#### ** Latex + Text **
 
-#### ** Setup **
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/Txt%20and%20LtX.gif?raw=true)
 
-Download MikTeX
+
+
+#### ** More examples **
+
+![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/CmplXLtX.gif?raw=true)
+
+
+
+#### ** Setup OCR**
+
+1. You need mathpix account https://mathpix.com/ocr
+
+#### ** Setup LateX**
 
 #### ** FAQ **
+
+Q: Is credit card required?
+
+A: yes, the costs are insignificant. 
+
+Monthly payment as you go:
+
+- First 1000 requests free.
+- $0.004/request (1-100K requests)
+- $0.002/request (100-300K requests)
+- $0.001/request (300K+ requests)
 
 <!-- tabs:end -->
 
@@ -98,7 +118,9 @@ You need to set up an oxford dictionary developer account.
 
 2. Get your api key -> Choose the option "PROTOTYPE" on the left
 
-![image-20200119020106787](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/prototype2.png?raw=true)After the account is made and you are signed in click **credentials** in the home page. 
+<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/prototype2.png?raw=true" alt="image-20200119020106787" style="zoom:50%;" />
+
+After the account is made and you are signed in, click **credentials** in the home page. 
 
 4. In credentials click "*[yourname]'s app*" and locate (1) application ID  (2) Application keys
 
