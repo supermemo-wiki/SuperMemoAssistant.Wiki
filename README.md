@@ -98,7 +98,7 @@ You need to set up an oxford dictionary developer account.
 
 2. Get your api key -> Choose the option "PROTOTYPE" on the left
 
-![image-20200119020106787](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/prototype.png?raw=true)After the account is made and you are signed in click **credentials** in the home page. 
+![image-20200119020106787](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/prototype2.png?raw=true)After the account is made and you are signed in click **credentials** in the home page. 
 
 4. In credentials click "*[yourname]'s app*" and locate (1) application ID  (2) Application keys
 
