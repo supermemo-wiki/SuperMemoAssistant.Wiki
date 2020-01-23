@@ -2,7 +2,19 @@
 
 # **PDF**
 
+<!-- tabs:start -->
 
+#### **PDF Activation**
+
+PDF will open when the topic created by SMA on PDF import is selected. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/metadata.png" style="zoom: 50%;" />
+
+#### **PDF Deletion**
+
+Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other registries -> Binary**. If you delete topic in knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic, if you don't want unnecessary things to make your **collection size** larger.
+
+<!-- tabs:end -->
 
 <!-- tabs:start -->
 
@@ -94,6 +106,8 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 ![](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accesssettings.png?raw=true)
 
 5. **app_id ** and **app_key** are inserted in boxes shown in the image below
+
+   
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png" style="zoom: 50%;" />
 
