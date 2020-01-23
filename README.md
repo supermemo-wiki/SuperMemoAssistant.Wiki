@@ -4,19 +4,9 @@
 
 <!-- tabs:start -->
 
-#### **PDF Activation**
+#### ** **
 
-PDF will open when the topic created by SMA is selected. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
-
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/metadata.png" style="zoom: 50%;" />
-
-#### **PDF Deletion**
-
-Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other registries -> Binary**. If you delete topic from knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic, if you don't want unnecessary things to make your **collection size** larger.
-
-<!-- tabs:end -->
-
-<!-- tabs:start -->
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/pdf.png" style="zoom: 65%;" />
 
 #### ** Import **
 
@@ -29,6 +19,12 @@ Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other 
    **Note: You need to set hook only once, not everytime you import PDFs!**
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png" style="zoom: 50%;" />
+
+#### **PDF Activation**
+
+PDF will open when the topic created by SMA is selected. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/metadata.png" style="zoom: 50%;" />
 
 
 
@@ -59,6 +55,10 @@ You can create Sub-PDFs of the original PDF via bookmarks or manual selection.
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- |
 | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) |      |
 
+#### **PDF Deletion**
+
+Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other registries -> Binary**. If you delete topic from knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic, if you don't want unnecessary things to make your **collection size** larger.
+
 #### ** FAQ **
 
 Q: Concept verification error: hook is not a child of root!
@@ -72,6 +72,10 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 # OCR & LateX
 
 <!-- tabs:start -->
+
+#### ** **
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/ocrlatex.png" style="zoom: 65%;" />
 
 #### ** LateX **
 
@@ -133,6 +137,10 @@ Monthly payment as you go ("As of 2020/01/20"):
 # Dictionary
 
 <!-- tabs:start -->
+
+#### ** **
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/dictionary.png" style="zoom: 65%;" />
 
 #### ** In SM **
 
