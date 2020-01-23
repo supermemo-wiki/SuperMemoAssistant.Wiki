@@ -6,7 +6,7 @@
 
 #### **PDF Activation**
 
-PDF will open when the topic created by SMA on PDF import is selected. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
+PDF will open when the topic created by SMA is selected. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/metadata.png" style="zoom: 50%;" />
 
