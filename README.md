@@ -4,7 +4,7 @@
 
 <!-- tabs:start -->
 
-#### ** **
+#### ** PDF **
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/pdf.png" style="zoom: 65%;" />
 
@@ -73,7 +73,7 @@ A: Change currently activated concept as the one with hook in it for the PDFs
 
 <!-- tabs:start -->
 
-#### ** **
+#### ** OCR & LateX **
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/ocrlatex.png" style="zoom: 65%;" />
 
@@ -138,7 +138,7 @@ Monthly payment as you go ("As of 2020/01/20"):
 
 <!-- tabs:start -->
 
-#### ** **
+#### ** Dictionary **
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/dictionary.png" style="zoom: 65%;" />
 
