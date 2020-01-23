@@ -12,7 +12,7 @@ PDF will open when the topic created by SMA is selected. When unselected the PDF
 
 #### **PDF Deletion**
 
-Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other registries -> Binary**. If you delete topic in knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic, if you don't want unnecessary things to make your **collection size** larger.
+Your PDFs are held in SM binary, which can be located in SM:  **Search -> Other registries -> Binary**. If you delete topic from knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic, if you don't want unnecessary things to make your **collection size** larger.
 
 <!-- tabs:end -->
 
