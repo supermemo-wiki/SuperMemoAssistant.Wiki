@@ -6,28 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-<style>
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Inter", cursive, sans-serif;
-}
-</style>
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-	 externalLinkTarget: '_self' // default: '_blank'
-	themeColor: '#319EB4'
-	loadSidebar : true
-	 maxLevel: 3,
-    subMaxLevel: 2,
-    auto2top: true,
-    loadSidebar: true,
-    autoHeader: true,
-    };
-	 
-    
+      name: 'SMA Wiki',
+      repo: 'https://github.com/supermemo/SuperMemoAssistant.Documentation/tree/docs'
+	  loadSidebar: true,
+	   alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+		'PDF.md'
+      },
+	  search: 'auto'
+	  auto2top: true
+    }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
