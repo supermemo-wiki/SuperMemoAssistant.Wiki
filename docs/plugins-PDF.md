@@ -39,9 +39,9 @@ Note: You need to set hook only once, not everytime you import PDFs!
  <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 50%;" />
 
 
- | Result in knowledge tree *(Sub-PDF works just like any other PDFs)* | Result in Sub-PDF *(everything but extracted section is marked red)* | Result in the original PDF *(extracted section is marked orange)* |      |
- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- |
- | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) |      |
+| Result in knowledge tree *(Sub-PDF works just like any other PDFs)* | Result in Sub-PDF *(everything but extracted section is marked red)* | Result in the original PDF *(extracted section is marked orange)* |      |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | ---- |
+| <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) |      |
 
 ## PDF Deletion
 
@@ -50,10 +50,10 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
 ## FAQ
 
- Q: Concept verification error: hook is not a child of root!
+ **Q: Concept verification error: hook is not a child of root!**
 
  A: Change currently activated concept as the one with hook in it for the PDFs
 
- Q: PDFs stop working after repair of SM collection
+ **Q: PDFs stop working after repair of SM collection**
 
  A: This is because when you do repair, SM restarts itself, while SMA doesn't. So the solution is to restart SMA manually.
