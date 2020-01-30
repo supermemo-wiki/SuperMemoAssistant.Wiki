@@ -5,7 +5,7 @@
 *Work in progress...*
 
 ## Installing SMA
-*Work in progress...*
+1. Extract SMA in (C:\Users\YourUserName\AppData\Roaming\SuperMemoAssistant)
 
 ## Starting SMA
 **When starting SMA make sure that SuperMemo.exe is not running.**
