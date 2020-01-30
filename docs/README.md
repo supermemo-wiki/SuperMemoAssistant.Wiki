@@ -1,12 +1,13 @@
 # Welcome to SuperMemoAssistant wiki!
 
-**Incrementally read PDFs**
+**Table of contents**
 
-**Extract math formulas in LateX**
+[Getting started](https://sma.supermemo.wiki/#/sma) *(Install and start using SMA in minutes!)*
 
-**Import material from Chrome, Firefox**
+[How to use](https://sma.supermemo.wiki/#/plugins)
 
-It all starts here!
+
+
 
 
 
@@ -17,3 +18,4 @@ It all starts here!
 - Contributing
 - Community (coming soon)
 - Contacting us-->
+

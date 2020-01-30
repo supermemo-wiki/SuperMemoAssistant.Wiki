@@ -18,19 +18,12 @@
 
 ### LateX
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/JstLtX.gif?raw=true" style="zoom: 50%;" />
+
 
 
 
 ### Latex + Text
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/Txt%20and%20LtX.gif?raw=true" style="zoom: 50%;" />
-
-
-
-### More examples
-
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/CmplXLtX.gif?raw=true" style="zoom: 50%;" />
 
 
 
@@ -79,7 +72,7 @@ Monthly payment as you go ("As of 2020/01/20"):
 
 ### Setup
 
-You need to set up an oxford dictionary developer account.  
+You need to set up an oxford dictionary developer account.
 
 1. https://developer.oxforddictionaries.com/
 
@@ -235,7 +228,7 @@ Monthly payment as you go ("As of 2020/01/20"):
 
 ### Setup
 
-You need to set up an oxford dictionary developer account.  
+You need to set up an oxford dictionary developer account.
 
 1. https://developer.oxforddictionaries.com/
 
