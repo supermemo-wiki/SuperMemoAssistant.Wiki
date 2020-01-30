@@ -1,9 +1,9 @@
-- [Home](readme.md)
+- [Home](README.md)
 - [Getting started](sma.md)
 
-  - [SuperMemo Assistant](sma.md)
+  - [SuperMemoAssistant](sma.md)
   - [Plugins](plugins.md)
-  
+
 - [Plugins](plugins.md#plugin-list)
 
   - [PDF](plugins-PDF.md)

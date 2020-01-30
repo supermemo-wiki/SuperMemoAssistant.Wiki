@@ -1,10 +1,19 @@
-# Headline
+# Welcome to SuperMemoAssistant wiki!
 
-> An awesome project.
+**Incrementally read PDFs**
 
-- Insert a short description of SMA ("why should you care ?" "features"),
+**Extract math formulas in LateX**
+
+**Import material from Chrome, Firefox**
+
+It all starts here!
+
+
+
+
+<!-- Insert a short description of SMA ("why should you care ?" "features"),
 - Insert links to websites (github, supermemo.wiki, ...)
 - Insert a table of content
 - Contributing
 - Community (coming soon)
-- Contacting us
+- Contacting us-->
