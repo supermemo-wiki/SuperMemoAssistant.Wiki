@@ -1,25 +1,25 @@
-# LaTeX
+# LaTeX & OCR
 
-## Examples of use (GIFs)
+## Installation
 
-<font size="4">**Simple extract**</font>
+### OCR
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/JstLtX.gif?raw=true" style="zoom: 50%;" />
+1. You need mathpix account https://mathpix.com/ocr
 
-<hr>
+2. Sign-up requires credit card, the costs are insignificant - practically free (unless you do thousands of request per month)
 
-<font size="4">**Latex + Text**</font>
+3. After you have signed in, locate :(1) app_idand(2) app_key
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/Txt%20and%20LtX.gif?raw=true" style="zoom: 50%;" />
+   These you need to insert in SMA´s PDF settings:
 
-<hr>
+4. You can access PDF settings via SMA icon (the image), orCTRL+ALT+SHIFT+O
+
+<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/accesssettings.png?raw=true" style="zoom:50%;" />
+
+5. app_id andapp_keyare inserted in boxes shown in the image below
 
 
 
-<font size="4">**Complex equation**</font>
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png" style="zoom: 33%;" />
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/CmplXLtX.gif?raw=true" style="zoom: 50%;" />
-
-<!-- # LaTeX
-
-# LaTeX -->
+### 

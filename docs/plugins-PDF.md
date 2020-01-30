@@ -32,9 +32,9 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
 ## What is SUB-PDF?
 
- You can create Sub-PDFs of the original PDF via bookmarks or manual selection.
+Sub-PDFs are basically mirrors of your original PDF, but with specified section targeted. Sub PDFs are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters. 
 
- Why to use it:Sub-PDFs are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters.
+ You can create Sub-PDFs of the original PDF via bookmarks or manual selection.
 
  <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 50%;" />
 
