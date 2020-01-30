@@ -1,8 +1,8 @@
 - [Home](README.md)
-- [Installation](sma.md)
-- [How to use](howtouse.md)
+- [Installation](Installation.md)
+- [How to use](HowToUse.md)
   - [PDF](plugins-PDF.md)
   - [LaTeX & OCR](plugins-LaTeX.md)
-  - [Dictionary](dictionary.md)
+  - [Dictionary](plugins-Dictionary.md)
   - [Accessing Settings](settings.md)
 
