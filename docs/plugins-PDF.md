@@ -61,7 +61,7 @@ There are multiple ways to extract images in PDF.
 
 Simplest way is by holding left click
 
-
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-click/image-click.gif" style="zoom:50%;" />
 
 ## PDF Deletion
 
