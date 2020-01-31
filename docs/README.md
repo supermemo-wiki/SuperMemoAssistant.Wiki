@@ -18,22 +18,6 @@ You can use it just like SuperMemo, extract important notes straight into your k
 
 <hr>
 
-**Table of contents**
-
-**[Getting started](https://sma.supermemo.wiki/#/sma) *(Install and start using SMA in minutes!)***
-
-**[How to use](https://sma.supermemo.wiki/#/plugins)**
-
-**SuperMemoAssistant**
-
-1. **[What is SuperMemoAssistant?](https://sma.supermemo.wiki/#/sma?id=how-to-get-sma-)**
-2. **How to get SMA?**
-3. **Installing SMA**
-4. **[Starting SMA](**
-
-
-
-
 
 <!--** Insert a short description of SMA ("why should you care ?" "features"),**
 - **Insert links to websites (github, supermemo.wiki, ...)**
