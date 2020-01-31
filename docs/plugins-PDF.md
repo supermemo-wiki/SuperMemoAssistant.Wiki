@@ -24,7 +24,7 @@ Note: You need to set hook only once, not everytime you import PDFs!
  Extracts will show up in your knowledge tree just like any other topic!
 
  1. Select text *(or/and image)*
- 2. Alt+X *(hold CTRL if you want both text & image)*
+  2. Alt+X *(hold CTRL if you want both text & image)*
 
  <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
 
@@ -36,19 +36,25 @@ Sub-PDFs are basically mirrors of your original PDF, but with specified section 
 
  You can create Sub-PDFs of the original PDF via bookmarks or manual selection.
 
+```
 Hotkeys: 
-
-Bookmark extract CTRL+**ALT**+X
-
-Manual PDF-Extract: CTRL+**SHIFT**+X
+Bookmark extract: CTRL+ALT+X
+Manual PDF-Extract: CTRL+SHIFT+X
+```
 
 **Sub-PDF via bookmarks**
 
  <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 50%;" />
 
-**Sub-PDF manually** *(You can also select text like you normally would and then CTRL+SHIFT+X)*
+**Sub-PDF manually** 
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/manualSUB.gif?raw=true" style="zoom: 50%;" />
+You can select text like you typically would and press CTRL+SHIFT+X
+
+Another way is double clicking area outside of text to turn page blue, then SHIFT+LEFT CLICK last page you want to include in the section. This prodecure is shown in the GIF below.
+
+<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/manualSUB/manualSUB.gif?raw=true" style="zoom: 33%;" />
+
+<font size=5>Your PDFs will look like this after PDF-extracts</font>
 
 
 | Result in Sub-PDF *(everything but extracted section is marked red)* | Result in the original PDF *(extracted section is marked orange)* | Result in knowledge tree *(Sub-PDF works just like any other PDFs)* |
@@ -61,9 +67,9 @@ Manual PDF-Extract: CTRL+**SHIFT**+X
 
 There are multiple ways to extract images in PDF.
 
-Simplest way is by [holding left click](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-drag2/image-drag2.gif")
+Simplest way is by [holding left click](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-drag2/image-drag2.gif") and **ALT+X** after image is selected.
 
-Another way is to [left click the image](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-click3/image-click3.gif")
+Another way is to [left click the image](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-click3/image-click3.gif") and **ALT+X** after image is selected.
 
 ### Force selection
 
