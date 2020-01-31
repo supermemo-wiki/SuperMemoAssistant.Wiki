@@ -17,10 +17,14 @@ for Chrome: https://chrome.google.com/webstore/detail/supermemo-connector/hcnpik
 There's two ways in which you can import material:
 
 1. In SuperMemo: CTRL+ALT+SHIFT+A *(import window will pop up)*
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/webimport.png" style="zoom: 50%;" />
+
+  <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/webimport.png" style="zoom: 50%;" />
+
+  
 
 2. In web browser: Right click SuperMemo Connector icon
     "Import all tabs into SuperMemo (Current window)" will extract only tabs in currently open window
     "Import all tabs into SuperMemo" will extract tabs from every window that is currently running.
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/connectorimport.png" style="zoom: 80%;" />
+    <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/connectorimport.png" style="zoom: 80%;" />
+
