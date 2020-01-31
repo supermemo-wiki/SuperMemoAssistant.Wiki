@@ -57,11 +57,29 @@ Manual PDF-Extract: CTRL+**SHIFT**+X
 
 ## Working with images (and OCR)
 
+### Basic functions
+
 There are multiple ways to extract images in PDF.
 
-Simplest way is by holding left click
+Simplest way is by [holding left click](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-drag2/image-drag2.gif")
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-click/image-click.gif" style="zoom:50%;" />
+Another way is to [left click the image](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-click3/image-click3.gif")
+
+### Force selection
+
+When you have PDF made of images only or you find it hard to select the image (interference with text) you can use force selection by holding right mouse button. This will ignore text selection.
+
+If your PDF is made of only images and you want to extract text, you can use force selection (right click) with OCR as shown in the GIF below. (See [OCR installation](sma.supermemo.wik/#/plugins-LaTeX?id=installation))
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-forceselection/image-forceselection.gif" style="zoom: 33%;" />
+
+### Inline LateX
+
+If your PDF has LateX equations inline with text you want to extract, you need to use CTRL (hotkey for additional text) and ALT (hotkey for OCR) and force selection (right click). This prodecure is shown in the GIF below.
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/images-multipleocrinline/images-multipleocrinline.gif" style="zoom: 33%;" />
+
+
 
 ## PDF Deletion
 
@@ -125,17 +143,8 @@ Non-hotkeys
 
 **Q: When i click PDF the whole page is selected as an image**
 
-A: Your PDF is made of images, force image area selection by holding right click to OCR the text with SMA. Another way is to use external OCR software to turn the PDF into editable text.
+A: Your PDF is made of images, force image area selection by holding right click to OCR the text with SMA. Another way is to use external OCR software to turn the PDF into editable text. See [Working with images](https://sma.supermemo.wiki/#/plugins-PDF?id=working-with-images-and-ocr)
 
 **Q: My PDF won't load and there is an error in the logs**
 
 A: Create an [issue ticket on github](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF/issues) and upload your PDF
-
-
-
-```
-- When I click the whole page is selected as an image
-				> Your pdf is made of images, either use an OCR and remove the images, or use force image area selection
-			- My PDF won't load and there is an error in the logs
-				> Create an [issue ticket on github](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF/issues) and upload your PDF
-```

@@ -1,5 +1,9 @@
 # LaTeX & OCR
 
+## How to use LateX
+
+*Work in progress...*
+
 ## Installation
 
 ### OCR

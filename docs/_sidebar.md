@@ -3,7 +3,7 @@
 - [How to use](HowToUse.md)
   - [PDF](plugins-PDF.md)
   - [LaTeX & OCR](plugins-LaTeX.md)
-  - [Import](plugins-Import.md)
   - [Dictionary](plugins-Dictionary.md)
+  - [Import](plugins-Import.md)
   - [Accessing Settings](settings.md)
 
