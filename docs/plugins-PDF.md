@@ -28,11 +28,12 @@ Note: You need to set hook only once, not everytime you import PDFs!
 2. Alt+X *(hold CTRL if you want both text & image)*
 
      
+
 <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
 
 This is an example of what an image + text extract can look like in SuperMemo
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/extractillustration.png" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/extractillustration.png" style="zoom: 33%;" />
 
 
 
@@ -91,9 +92,9 @@ If your PDF is made of only images and you want to extract text, you can use for
 
 ### Inline LateX
 
-If your PDF has LateX equations inline with text you want to extract, you need to use CTRL (hotkey for additional text) and ALT (hotkey for OCR) and force selection (right click). This prodecure is shown in the GIF below.
+If your PDF has LateX equations inline with text you want to extract, you can tackle this by simply including them both in OCR. Either by ALT+LEFT CLICK or if something is interfering with your selection, then ALT+RIGHT CLICK (force selection) as shown in the GIF below.
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/images-multipleocrinline/images-multipleocrinline.gif" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/images-inlinelatex/images-inlinelatex.gif" style="zoom: 45%;" />
 
 
 
