@@ -4,7 +4,7 @@
 
 **SuperMemoAssistant** is a companion app for [SuperMemo 17](https://super-memo.com/supermemo17.html) and [SuperMemo 18](https://super-memo.com/supermemo18.html).
 
-Incrementally read **<font size="5"> PDFs**</font>, integrate <font size="5"> **LateX**</font>, use modern browsers to <font size="5"> **import**</font> material, do all this in SuperMemo! 
+Incrementally read <font size="5"> **PDFs**</font>, integrate <font size="5"> **LateX**</font>, use modern browsers to <font size="5"> **import**</font> material, get definitions for difficult terminology via <font size="5">**dictionary**</font>, do all this in SuperMemo! 
 
 You can use it just like SuperMemo, extract important notes straight into your knowledge tree!
 
