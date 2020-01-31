@@ -55,10 +55,63 @@ Manual PDF-Extract: CTRL+**SHIFT**+X
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> |
 
+## Working with images (and OCR)
+
+There are multiple ways to extract images in PDF.
+
+Simplest way is by holding left click
+
+
+
 ## PDF Deletion
 
   Your PDFs are held in SM binary, which can be located in SM: Search -> Other registries -> Binary. If you delete topic from knowledge tree, it will not delete it from binary. This you need to do manually after deleting topic if you don't want unnecessary things to make yourcollection sizelarger.
 
+## Hotkeys
+
+```
+HotKeys
+			- Bookmark PDF-extract (Ctrl+Alt+X)
+			- Manual PDF-extract (Ctrl+Shift+X)
+			- SM extract (Alt+X)
+			- Mark text as ignored (Ctrl+Shift+I)
+			- Show selected text in Dictionary (Ctrl+D)
+			- Go To Page (Ctrl+G)
+			- SM Learn (Ctrl+L)
+			- Learn And Reschedule (Ctrl+Shift+L)
+			- SM Reschedule (Ctrl+J)
+			- SM LaterToday (Ctrl+Shift+J)
+			- SM Done (Ctrl+Shift+Enter)
+			- SM Delete (Ctrl+Shift+Del)
+			- SM Previous (Alt+Left)
+			- SM Next (Alt+Right)
+			- SM Parent (Ctrl+Alt+Up)
+			- SM Child (Ctrl+Alt+Down)
+			- SM Prev Sibling (Ctrl+Alt+Left)
+			- SM Next Sibling (Ctrl+Alt+Right)
+			- UI Show Options (Ctrl+O)
+			- UI Toggle Bookmarks (Ctrl+B)
+			- UI Focus Viewer (Alt+C)
+			- UI Focus Bookmarks (Alt+B)
+```
+
+```
+Non-hotkeys
+			- OCR (Alt+Click)
+			- Image area selection (Hold left click)
+			- Force image area selection (Hold right click)
+			- Zoom (Ctrl+Wheel)
+			- Extend text selection (Shift+Click, Shift+Left/Right)
+			- Deselect (Escape)
+			- PDF navigation (Up/Down/Left/Right/Pg. Down/Pg. Up/Home/End)
+			- Select word (Double click)
+			- Select paragraph (Triple click)
+			- Select page text (Quadra click)
+			- Select page (double click on empty space in page)
+			- Extend page selection (Shift+Click page)
+			- Add to selection (Hold ctrl)
+			- Select image (Click image)
+```
 
 ## FAQ
 
@@ -69,3 +122,20 @@ Manual PDF-Extract: CTRL+**SHIFT**+X
  **Q: PDFs stop working after repair of SM collection**
 
  A: This is because when you do repair, SM restarts itself, while SMA doesn't. So the solution is to restart SMA manually.
+
+**Q: When i click PDF the whole page is selected as an image**
+
+A: Your PDF is made of images, force image area selection by holding right click to OCR the text with SMA. Another way is to use external OCR software to turn the PDF into editable text.
+
+**Q: My PDF won't load and there is an error in the logs**
+
+A: Create an [issue ticket on github](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF/issues) and upload your PDF
+
+
+
+```
+- When I click the whole page is selected as an image
+				> Your pdf is made of images, either use an OCR and remove the images, or use force image area selection
+			- My PDF won't load and there is an error in the logs
+				> Create an [issue ticket on github](https://github.com/supermemo/SuperMemoAssistant.Plugins.PDF/issues) and upload your PDF
+```
