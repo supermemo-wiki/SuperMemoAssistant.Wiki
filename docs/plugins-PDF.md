@@ -23,10 +23,12 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
  Extracts in PDF will show up in your knowledge tree just like any other topic!
 
- 1. Select text *(or/and image)*
-  2. Alt+X *(hold CTRL if you want both text & image)*
+1. Select text *(or/and image)*
 
- <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
+2. Alt+X *(hold CTRL if you want both text & image)*
+
+     
+<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
 
 This is an example of what an image + text extract can look like in SuperMemo
 
