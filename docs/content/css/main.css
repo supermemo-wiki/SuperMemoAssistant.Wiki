@@ -1,0 +1,105 @@
+nav.app-nav li ul {
+  min-width: 100px;
+}
+
+.pure-g {
+	font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+}
+
+.pure-g [class*="pure-u"] {
+	font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+	letter-spacing: 0;
+}
+
+.card {
+	padding: 16px 16px 4px 16px;
+	margin-bottom: 24px;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
+}
+
+.card p {
+	margin: 0;
+}
+
+.card a {
+	color: darkred;
+	text-decoration: none;
+}
+
+.card h4 {
+	margin: 0 0 0.4em 0;
+}
+
+.card h5 {
+	margin: 0 0 0.4em 0;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.ph-1 {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.ph-2 {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.ph-3 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.ph-4 {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.ph-5 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.ph-6 {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.pv-1 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pv-2 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.pv-3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.pv-4 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.pv-5 {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.pv-6 {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}

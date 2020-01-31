@@ -1,9 +1,11 @@
 - [Home](README.md)
-- [Installation](Installation.md)
-- [How to use](howtouse.md)
+- Quick start
+  - [Installation](installation.md)
+  - [Recommended backup setup ⚠️](backup-setup.md)
+- Reference manual
   - [PDF](plugins-PDF.md)
   - [LaTeX & OCR](plugins-LaTeX.md)
   - [Dictionary](plugins-Dictionary.md)
   - [Import](plugins-Import.md)
   - [Accessing Settings](settings.md)
-
+- Developer documentation
