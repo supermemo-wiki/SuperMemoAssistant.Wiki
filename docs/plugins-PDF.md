@@ -32,7 +32,7 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
 ## What is SUB-PDF?
 
-Sub-PDFs are basically mirrors of your original PDF, but with specified section targeted. Sub PDFs are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters. 
+Sub-PDFs are basically mirrors of your original PDF, but with specific section targeted. Sub PDFs are useful when you want to focus on certain chapter, whilst working separately with rest of the chapters. 
 
  You can create Sub-PDFs of the original PDF via bookmarks or manual selection.
 
@@ -44,7 +44,9 @@ Manual PDF-Extract: CTRL+SHIFT+X
 
 **Sub-PDF via bookmarks**
 
- <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true" style="zoom: 50%;" />
+If your PDF happens to have pre-made bookmarks you can toggle bookmarks with CTRL+B, select chapter you want to extract and press CTRL+ALT+X.
+
+Or alternatively you can click the bookmark icon <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/bookmarkicon.png" alt="bookmark icon" style="zoom: 80%;" /> and right click to extract, as shown in this [GIF](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true).
 
 **Sub-PDF manually** 
 
