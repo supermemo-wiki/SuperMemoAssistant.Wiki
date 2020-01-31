@@ -28,7 +28,7 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
  <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
 
-This is what you will see in SM:
+This is an example of what an image + text extract can look like in SuperMemo
 
 <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/extractillustration.png" style="zoom: 50%;" />
 
