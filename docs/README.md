@@ -33,11 +33,11 @@ setInterval(() => siema.next(), 5000);
 
 <div class="pure-g" style="margin-top: -10px;">
   <div class="pure-u-1 pure-u-smd-13-24">
-    <p><strong>get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
+    <p style="color: darkred;"><strong>Get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
 	<ol>
       <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases" target="_blank" rel="noopener">Download</a> the latest version</li>
       <li><a href="#/qs-installation">Install SMA</a></li>
-      <li>Learn to <a href="#/qs-pdf-and-browser-101">import PDF and Browser tabs</a></li>
+      <li><a href="#/qs-pdf-and-browser-101">Import PDF and Browser tabs</a></li>
 	</ol>
 	<p>Additional resources:</p>
 	<ul>
@@ -48,11 +48,13 @@ setInterval(() => siema.next(), 5000);
     <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em>.</p>
   </div>
   <div class="pure-u-1 pure-u-smd-11-24">
-    <video style="margin: 0 40px 0 0;" controls>
-      <source src="content/videos/images-multipleocrinline.gif-vp9-750k.webm" type="video/webm; codecs=vp9">
-      <!--source src="content/videos/big-buck-bunny_trailer.mp4" type="video/mp4"-->
-      <p>Your browser doesn't support HTML5 video. Here is a <a href="big-buck-bunny_trailer.mp4">link to the video</a> instead.</p>
-    </video>
+	<div class="center-div">
+      <video controls>
+        <source src="content/videos/images-multipleocrinline.gif-vp9-750k.webm" type="video/webm; codecs=vp9">
+        <!--source src="content/videos/big-buck-bunny_trailer.mp4" type="video/mp4"-->
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="big-buck-bunny_trailer.mp4">link to the video</a> instead.</p>
+      </video>
+	</div>
   </div>
 </div>
 
