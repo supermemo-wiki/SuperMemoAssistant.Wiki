@@ -3,6 +3,7 @@
   - [Installation](qs-installation.md)
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
   - [Using SMA](qs-using-sma.md)
+  - [PDF and Browser import 101](qs-pdf-and-browser-101.md)
 - Reference manual
   - SMA
 	- [Options & Settings](refm-sma-options-settings.md)
