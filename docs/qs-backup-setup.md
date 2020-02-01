@@ -45,7 +45,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 2. Start **BitShelter Agent** from the Windows Start menu
 3. Double-click on the [**Tray Icon**](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_TrayIcon.png): ![](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter_Icon.png)
 
-###### Enabling Windows snapshots feature
+###### Enabling Windows' Volume Snapshot Service (VSS)
 
 > Take note of the Drive Letter which contains your SuperMemo collection. If you only have one disk in your computer, it should be C:\\
 
@@ -82,16 +82,70 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 	* **End on**: *Never*
   3. Press the **Create** button
 
-###### You are done... Almost !
+#### You are done... Almost !
 
-!> It is highly recommended that you **make sure everything is working as inteded**. [Verify the snapshots](https://www.howtogeek.com/howto/11130/restore-previous-versions-of-files-in-every-edition-of-windows-7/) are properly created on your SuperMemo Drive **(E:\\)**
+!> It is highly recommended that you **make sure everything is working as intended**. [Verify the snapshots](https://www.howtogeek.com/howto/11130/restore-previous-versions-of-files-in-every-edition-of-windows-7/) are properly created on your SuperMemo Drive **(E:\\)**
 
 Your BitShelter settings should look similar to the following configuration:
 ![](content/images/backup-setup/bitshelter-rules.png)
 
+#### Oh no. Something happened to my Collection. How to save the day ?
+
+Don't panic ! Follow [this guide](https://www.howtogeek.com/howto/11130/restore-previous-versions-of-files-in-every-edition-of-windows-7/) to restore your collection to an earlier version.
+
+![](content/images/backup-setup/bitshelter-restore-previous-version.png)
+
 ### Internet backups: Git & Github
 
-> Work in progress. Come back later !
+#### Git 101
+
+?> **Git** is a tool that makes it easier to track changes to files. When you edit a file, git can help you determine exactly *what* changed, *who* changed it, and *why*. <br /><br />It is useful for coordinating work among multiple people on a project, and for tracking progress over time by saving “checkpoints”. You could use it while writing an essay, or to track changes to artwork and design files. [\[1\]](https://hackernoon.com/understanding-git-fcffd87c15a3)
+
+For our purpose, **git** will be our mean to:
+- Create versions of our collection (*\"restore points\"*).
+- Upload our work to a safe\*, remote place.
+- *(Bonus)* Synchronize our work between devices.
+
+\*: *Although GitHub can be considered fairly reliable, we highly recommend that you implement a solution to encrypt your collection. This is, after all, a way to your most inner thoughts.*
+
+#### Installing & Setting up Git with GitHub
+
+?> **In this example, the GitHub repository name will be named SuperMemo-Collection**
+
+1. Create a [GitHub account](https://github.com/join/)
+2. [Follow this guide](https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/) to:
+  - Install Git
+  - Setup a SSH key that automatically authenticate your Git installation with your GitHub account
+  
+#### Creating & Synchronizing your GitHub repository
+
+1. Create a [new repository](https://github.com/new)
+  - Give a name to your new repo (e.g. *SuperMemo-Collection*)
+  - Select **Private**
+2. In your SuperMemo Drive (**E:\\**), open a command prompt: type `cmd.exe`, then press <kbd>Enter</kbd>
+
+![](content/images/backup-setup/windows-explorer-cmd.png)
+
+3. Go to your **GitHub repository** web page, click the <kbd>**Clone or download**</kbd> button, and copy the link.
+
+![](content/images/backup-setup/github-clone-link.png)
+
+4. In the **command prompt**, type `git clone <git@github.com:......>`. Replace the text between **< >** with the link you copied from GitHub.
+5. Your repository is now synchronized with your computer. Copy your SuperMemo collection in the new folder. Your folder should look similar to the example below (*.gitignore* might be missing):
+
+![](content/images/backup-setup/git-local-collection-repository.png)
+
+6. [Download this .bat file](content/data/sm-main-commit.bat ':ignore') and save it in your local repository folder (where your `.git` directory is located). It contains the following commands:
+
+[sm-main-commit.bat](content/data/sm-main-commit.bat ':include')
+
+7. Run `sm-main-commit.bat` (double click). If all went well, your should be able to see your collection on your GitHub repository web page.
+
+#### Pushing (*\"saving\"*) your work to GitHub
+
+!> Every time you finish using SuperMemo, make sure to run `sm-main-commit.bat`.
+
+That's all ! Your collection is synchronized online, congratulations !
 
 ## Suggestions to improve your backup strategy
 
