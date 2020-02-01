@@ -110,14 +110,14 @@ For our purpose, **git** will be our mean to:
 
 #### Installing & Setting up Git with GitHub
 
-?> **In this example, the GitHub repository name will be named SuperMemo-Collection**
-
 1. Create a [GitHub account](https://github.com/join/)
 2. [Follow this guide](https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/) to:
   - Install Git
   - Setup a SSH key that automatically authenticate your Git installation with your GitHub account
   
 #### Creating & Synchronizing your GitHub repository
+
+?> **In this example, the GitHub repository name will be named SuperMemo-Collection**
 
 1. Create a [new repository](https://github.com/new)
   - Give a name to your new repo (e.g. *SuperMemo-Collection*)
