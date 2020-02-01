@@ -4,11 +4,11 @@
 
 !> ⚠️ **Your collection is precious**. If you are using SuperMemo, you will likely be pouring days, weeks or months of your life in building it. Don't let it all go to waste. **Having frequent backups is vital**.
 
-Do you care about your health ? Would you take a gamble on your life and forfeit your health insurance ? If your answer is no, then keep reading.
+Do you care about your health ? Would you take a gamble with your life and forfeit your health insurance ? If your answer is no, then keep reading.
 
 Computer glitches can happen at any time. It is precisely because we cannot anticipate them, that we take measures to mitigate their potential damage.
 
-?> *Still not convinced* ? [Read testimonies](#testimonies) from SuperMemo users who remained skeptic, until it was too late.
+?> *Still not convinced* ? [Read testimonies](#testimonies) of SuperMemo users who remained skeptic, until it was too late.
 
 #### Proposed strategy
 
@@ -16,7 +16,7 @@ The strategy that we suggest attempts to strike a **balance between robustness a
 
 ?> As importantly, it shouldn't take you more than **a few seconds** to commit your hard work to **safety**.
 
-We are going to implement two layers of safety:
+In this guide, you are going to implement two layers of safety:
 1. *Local backups*: Frequent (15 minutes), cheap (disk size), without interruption (you can use SuperMemo concurrently).
 2. *Internet backups*: On-demand (after every session), long-term storage (unlimited).
 
@@ -32,7 +32,7 @@ As of the moment of writing this guide (2020/02), this solution is **free** (as 
 
 For easier management of your files, and to save space for the frequent snapshots (more on these later), we recommend creating a partition dedicated to your SuperMemo collection.
 
-?> If you don't know how to create a partition in Windows, you can [follow this guide](https://www.tomshardware.com/news/how-to-make-partitions-windows-10,36643.html).
+?> If you do not know how to create a partition in Windows, you can [follow this guide](https://www.tomshardware.com/news/how-to-make-partitions-windows-10,36643.html).
 
 You should obtain a layout similar to this one (it is fine if you only have one disk, instead of two as in this example):
 ![SuperMemo partition](content/images/backup-setup/computer-management-disks.png)
@@ -65,7 +65,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *1 Day*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill [the following values](content/images/backup-setup/bitshelter-15min-schedule.png ':ignore')
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](content/images/backup-setup/bitshelter-15min-schedule.png ':ignore')
     * **Occurs every**: *15 minutes*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -75,7 +75,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *6 Month*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill [the following values](content/images/backup-setup/bitshelter-daily-schedule.png ':ignore')
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](content/images/backup-setup/bitshelter-daily-schedule.png ':ignore')
     * **Occurs once at**: *08::00::00 (or whenever your computer is running)*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -139,7 +139,7 @@ For our purpose, **git** will be our mean to:
 
 [sm-main-commit.bat](content/data/sm-main-commit.bat ':include')
 
-7. Run `sm-main-commit.bat` (double click). If all went well, your should be able to see your collection on your GitHub repository web page.
+7. Run `sm-main-commit.bat` (double click). If all went well, your should be able to see your collection in your GitHub repository web page.
 
 #### Pushing (*\"saving\"*) your work to GitHub
 
@@ -151,8 +151,9 @@ That's all ! Your collection is synchronized online, congratulations !
 
 > Work in progress. Come back later !
 
-- 1-2-3 backup rule
-- RAID 0
+- [Encrypt your GitHub repository](https://github.com/AGWA/git-crypt).
+- Implement the [3-2-1 Backup Rule](https://www.acronyms-it.co.uk/blog/backup-rule-of-three/) ([Visual guide](https://github.com/alexis-/BitShelter/raw/master/Resources/X35Ndt4et3JGm9GU-GFTa6y6o4OSnUrVKyUh2y5s8_E.png)).
+- Make your SuperMemo partition a [Mirrored Volume (RAID 1)](https://www.windowscentral.com/how-set-mirrored-volume-file-redundancy-windows-10).
 
 ## Testimonies
 
