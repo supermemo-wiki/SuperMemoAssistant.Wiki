@@ -15,12 +15,19 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="/content/css/grid-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="/content/css/grid.css">
+  <!--<![endif]-->
+	
   <link rel="stylesheet" href="/content/css/main.css">
   
   <script src="/content/js/siema.min.js"></script>
-  <style>
-  </style>
 </head>
 
 <body>
@@ -30,11 +37,19 @@
 	  auto2top: true,
 	  executeScript: true,
       loadSidebar: true,
+	  logo: 'content/images/icons/robot-32.png',
       name: 'SMA Wiki',
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true,
+        crossChapterText: true,
+      },
 	  search: 'auto',
-	  subMaxLevel: 2
-    }
+	  subMaxLevel: 3
+    };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>

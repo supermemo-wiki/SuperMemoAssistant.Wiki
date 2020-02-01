@@ -2,7 +2,7 @@
 
 ## How to import PDF?
 
-[Make sure SMA & SuperMemo both are running](https://sma.supermemo.wiki//#/Installation?id=starting-sma)
+[Make sure SMA & SuperMemo both are running](Installation?id=starting-sma)
 
 1. In SuperMemo: Set hook to determine place where PDFs will be imported
 2. Press CTRL+ALT+I to import PDF

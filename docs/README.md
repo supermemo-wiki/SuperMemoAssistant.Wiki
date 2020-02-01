@@ -14,27 +14,49 @@ setInterval(() => siema.next(), 5000);
 
 **SuperMemo Assistant** supercharges your [*SuperMemo*](https://super-memo.com/supermemo18.html) with powerful features:
 
-<img src="content/images/icons/robot-128.png" align="right" style="margin-right:60px;" />
+<div class="pure-g" style="margin-top: -20px;">
+  <div class="pure-u-1 pure-u-smd-3-4">
+    <blockquote>
+      <ul>
+        <li>Do you want to incrementally read <strong>PDF</strong> files ?</li>
+    	<li>Would <strong>Chrome</strong> or <strong>Firefox</strong> be more convenient to import web articles ?</li>
+    	<li>Do you need <strong>LaTeX</strong> to display scientific formulas ?</li>
+    	<li>Or to quickly lookup word definitions from the <strong>dictionary</strong> ?</li>
+      </ul>
+    </blockquote>
+    <p>You can now do all of this <em>and more</em>, right in SuperMemo !</p>
+  </div>
+  <div class="pure-u-1 pure-u-smd-1-4">
+    <img src="content/images/icons/robot-128.png" style="margin: auto;" />
+  </div>
+</div>
 
-> - Do you want to incrementally read **PDF** files ?
-> - Would **Chrome** or **Firefox** be more convenient to import web articles ?
-> - Do you need **LaTeX** to display scientific formulas ?
-> - Or to quickly lookup word definitions from the **dictionary** ?
-
-You can now do all of this *and more*, right in SuperMemo !
-
-- [Get started](installation) with SMA in 5 minutes
-- [Official GitHub](https://github.com/SuperMemo/) page
-- [SuperMemo documentation](https://www.supermemo.wiki) (WIP)
-
-**Supported SM versions**: *17.40* ; *18.03*.
+<div class="pure-g" style="margin-top: -10px;">
+  <div class="pure-u-1 pure-u-smd-13-24">
+	<ul>
+      <li><a href="#/qs-installation">Get started</a> with SMA in 5 minutes</li>
+      <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases" target="_blank" rel="noopener">Download</a> the latest version</li>
+      <li><a href="https://discord.gg/B2AWHPn" target="_blank" rel="noopener">Discord</a> chat room</li>
+      <li><a href="https://github.com/SuperMemo/" target="_blank" rel="noopener">GitHub page</a></li>
+      <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a> (WIP)</li>
+	</ul>
+    <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em>.</p>
+  </div>
+  <div class="pure-u-1 pure-u-smd-11-24">
+    <video style="margin: 0 40px 0 0;" controls>
+      <source src="content/videos/images-multipleocrinline.gif-vp9-750k.webm" type="video/webm; codecs=vp9">
+      <!--source src="content/videos/big-buck-bunny_trailer.mp4" type="video/mp4"-->
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="big-buck-bunny_trailer.mp4">link to the video</a> instead.</p>
+    </video>
+  </div>
+</div>
 
 <hr />
 
 #### Features
 
 <div class="pure-g">
-  <div class="pure-u-1-2 ph-4">
+  <div class="pure-u-1 pure-u-smd-1-2 ph-4">
     <div class="card">
       <h4><a href="plugin-PDF">PDF Support</a></h4>
 	  <ul>
@@ -62,7 +84,7 @@ You can now do all of this *and more*, right in SuperMemo !
 	  </ul>
     </div>
   </div>
-  <div class="pure-u-1-2 ph-4">
+  <div class="pure-u-1 pure-u-smd-1-2 ph-4">
     <div class="card">
       <h4><a href="plugin-Import">Web Import</a></h4>
 	  <ul>
@@ -99,16 +121,8 @@ You can now do all of this *and more*, right in SuperMemo !
 ⚠️ **Tip**: Have you setup a [backup solution](backup-setup.md) for SuperMemo ? [Testimonies](backup-setup.md#testimonies) of users who found out too late:
 
 <blockquote class="siema" style="margin: 0;">
-<div>John Doe: “Insert a testimony here (1)”</div>
-<div>Jane Doe: “Insert a testimony here (2)”</div>
-<div>Rick Doe: “Insert a testimony here (3)”</div>
-<div>Niko Doe: “Insert a testimony here (4)”</div>
+  <div>Luke Avedon: “Back up your collection.  I'm ashamed to admit I used to never back up my collection.  Once while running a quick, 'repair collection' I lost power.  An entire section of my knowledge tree was mangled forever.  All the references changed to strange, incomprehensible characters.  Now I know better.  I automatically back up to two local hard drives, and three cloud drives each day.”</div>
+  <div>Nour: “Well, I'm a bit new to SM and although I was warned, I did not understand the gravity of the warnings. Back-up your collection. Since I'm new, I don't understand a lot of the issues, but I know I didn't do anything to provoke them, and yet the combination of SM and my virtual machine had corrupted and misplaced files and needed to be repaired – with the repairs yielding some unwanted adjustments to my collection. Of course, if all your final prep is on SM, you'd be having heart palpitations at the thought of your collection getting messed up, I know I was. Sufficed to say lesson learned. The hard way, but learned never-the-less.”</div>
+  <div>Rick Doe: “Insert a testimony here (3)”</div>
+  <div>Niko Doe: “Insert a testimony here (4)”</div>
 </blockquote>
-
-<!--** Insert a short description of SMA ("why should you care ?" "features"),**
-- **Insert links to websites (github, supermemo.wiki, ...)**
-- **Insert a table of content**
-- **Contributing**
-- **Community (coming soon)**
-- **Contacting us**-->
-

@@ -1,11 +1,20 @@
 - [Home](README.md)
 - Quick start
-  - [Installation](installation.md)
-  - [Recommended backup setup ⚠️](backup-setup.md)
+  - [Installation](qs-installation.md)
+  - [Recommended backup setup ⚠️](qs-backup-setup.md)
+  - [Using SMA](qs-using-sma.md)
 - Reference manual
-  - [PDF](plugins-PDF.md)
-  - [LaTeX & OCR](plugins-LaTeX.md)
-  - [Dictionary](plugins-Dictionary.md)
-  - [Import](plugins-Import.md)
-  - [Accessing Settings](settings.md)
+  - SMA
+	- [Options & Settings](refm-sma-options-settings.md)
+    - [Command line parameters](refm-sma-command-line-parameters.md)
+	- [File structure](refm-sma-file-structure.md)
+	- [Technical overview](refm-sma-technical-overview.md)
+	- [Reporting a bug](refm-sma-bug-reporting.md)
+	- [Contributing](refm-sma-contributing.md)
+	- [History](refm-sma-history.md)
+  - Plugins
+    - [PDF](plugins-PDF.md)
+    - [LaTeX](plugins-LaTeX.md)
+    - [Dictionary](plugins-Dictionary.md)
+    - [Import](plugins-Import.md)
 - Developer documentation

@@ -40,8 +40,30 @@ nav.app-nav li ul {
 	margin: 0 0 0.4em 0;
 }
 
+kbd.win {
+	padding: 2px 3px 2px 3px;
+	content: url(/content/images/icons/kbd-win-key.png);
+}
+
+blockquote.siema div {
+	padding-right: 20px;
+}
+
+video {
+	max-width: 100%;
+}
+
 .text-center {
    text-align: center;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .ph-1 {
