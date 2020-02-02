@@ -35,7 +35,7 @@ For easier management of your files, and to save space for the frequent snapshot
 ?> If you do not know how to create a partition in Windows, you can [follow this guide](https://www.tomshardware.com/news/how-to-make-partitions-windows-10,36643.html).
 
 You should obtain a layout similar to this one (it is fine if you only have one disk, instead of two as in this example):
-![SuperMemo partition](content/images/backup-setup/computer-management-disks.png)
+<img src="/content/images/backup-setup/computer-management-disks.png" data-origin="/content/images/backup-setup/computer-management-disks.png" alt="SuperMemo partition">
 
 ##### II) Install & Configuration
 
@@ -65,7 +65,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *1 Day*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](content/images/backup-setup/bitshelter-15min-schedule.png ':ignore')
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in <a href="content/images/backup-setup/bitshelter-15min-schedule.png" target="_blank" rel="noopener">the following values</a>
     * **Occurs every**: *15 minutes*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -75,7 +75,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *6 Month*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](content/images/backup-setup/bitshelter-daily-schedule.png ':ignore')
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in <a href="content/images/backup-setup/bitshelter-daily-schedule.png" target="_blank" rel="noopener">the following values</a>
     * **Occurs once at**: *08::00::00 (or whenever your computer is running)*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -87,13 +87,13 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 !> It is highly recommended that you **make sure everything is working as intended**. [Verify the snapshots](https://www.howtogeek.com/howto/11130/restore-previous-versions-of-files-in-every-edition-of-windows-7/) are properly created on your SuperMemo Drive **(E:\\)**
 
 Your BitShelter settings should look similar to the following configuration:
-![](content/images/backup-setup/bitshelter-rules.png)
+<img src="/content/images/backup-setup/bitshelter-rules.png" data-origin="content/images/backup-setup/bitshelter-rules.png" alt="">
 
 #### Oh no. Something happened to my Collection. How to save the day ?
 
 Don't panic ! Follow [this guide](https://www.howtogeek.com/howto/11130/restore-previous-versions-of-files-in-every-edition-of-windows-7/) to restore your collection to an earlier version.
 
-![](content/images/backup-setup/bitshelter-restore-previous-version.png)
+<img src="/content/images/backup-setup/bitshelter-restore-previous-version.png" data-origin="content/images/backup-setup/bitshelter-restore-previous-version.png" alt="">
 
 ### Internet backups: Git & Github
 
@@ -102,7 +102,7 @@ Don't panic ! Follow [this guide](https://www.howtogeek.com/howto/11130/restore-
 ?> **Git** is a tool that makes it easier to track changes to files. When you edit a file, git can help you determine exactly *what* changed, *who* changed it, and *why*. <br /><br />It is useful for coordinating work among multiple people on a project, and for tracking progress over time by saving “checkpoints”. You could use it while writing an essay, or to track changes to artwork and design files. [\[1\]](https://hackernoon.com/understanding-git-fcffd87c15a3)
 
 For our purpose, **git** will be our mean to:
-- Create versions of our collection (*\"restore points\"*).
+- Create versions of our collection (*\"checkpoints\"*).
 - Upload our work to a safe\*, remote place.
 - *(Bonus)* Synchronize our work between devices.
 
@@ -124,20 +124,23 @@ For our purpose, **git** will be our mean to:
   - Select **Private**
 2. In your SuperMemo Drive (**E:\\**), open a command prompt: type `cmd.exe`, then press <kbd>Enter</kbd>
 
-![](content/images/backup-setup/windows-explorer-cmd.png)
+<img src="/content/images/backup-setup/windows-explorer-cmd.png" data-origin="content/images/backup-setup/windows-explorer-cmd.png" alt="">
 
 3. Go to your **GitHub repository** web page, click the <kbd>**Clone or download**</kbd> button, and copy the link.
 
-![](content/images/backup-setup/github-clone-link.png)
+<img src="/content/images/backup-setup/github-clone-link.png" data-origin="content/images/backup-setup/github-clone-link.png" alt="">
 
 4. In the **command prompt**, type `git clone <git@github.com:......>`. Replace the text between **< >** with the link you copied from GitHub.
 5. Your repository is now synchronized with your computer. Copy your SuperMemo collection in the new folder. Your folder should look similar to the example below (*.gitignore* might be missing):
 
-![](content/images/backup-setup/git-local-collection-repository.png)
+<img src="/content/images/backup-setup/git-local-collection-repository.png" data-origin="content/images/backup-setup/git-local-collection-repository.png" alt="">
 
-6. [Download this .bat file](content/data/sm-main-commit.bat ':ignore') and save it in your local repository folder (where your `.git` directory is located). It contains the following commands:
+6. <a href="content/data/sm-main-commit.bat" target="_blank" rel="noopener">Download this .bat file</a> and save it in your local repository folder (where your `.git` directory is located). It contains the following commands:
 
-[sm-main-commit.bat](content/data/sm-main-commit.bat ':include')
+```bat
+git add -A && git commit -m "Update"
+git push
+```
 
 7. Run `sm-main-commit.bat` (double click). If all went well, your should be able to see your collection in your GitHub repository web page.
 

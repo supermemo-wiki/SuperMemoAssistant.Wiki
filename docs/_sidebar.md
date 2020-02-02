@@ -2,20 +2,6 @@
 - Quick start
   - [Installation](qs-installation.md)
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
-  - [Using SMA](qs-using-sma.md)
-  - [PDF and Browser import 101](qs-pdf-and-browser-101.md)
+  - [Using SM](qs-using-sm.md)
 - Reference manual
-  - SMA
-	- [Options & Settings](refm-sma-options-settings.md)
-    - [Command line parameters](refm-sma-command-line-parameters.md)
-	- [File structure](refm-sma-file-structure.md)
-	- [Technical overview](refm-sma-technical-overview.md)
-	- [Reporting a bug](refm-sma-bug-reporting.md)
-	- [Contributing](refm-sma-contributing.md)
-	- [History](refm-sma-history.md)
-  - Plugins
-    - [PDF](plugins-PDF.md)
-    - [LaTeX](plugins-LaTeX.md)
-    - [Dictionary](plugins-Dictionary.md)
-    - [Import](plugins-Import.md)
-- Developer documentation
+- [SuperMemo Assistant](/sma/ ':ignore')

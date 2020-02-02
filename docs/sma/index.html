@@ -3,19 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>SuperMemo Community Wiki</title>
+  <title>SuperMemo Assistant Wiki</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="SuperMemo documentation, made by its Community.">
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   
-  <link rel="icon" type="image/png" sizes="32x32" href="/content/images/icons/SuperMemo-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/content/images/icons/SuperMemo-16.png">
-  <link rel="shortcut icon" href="/content/images/icons/SuperMemo.ico">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="content/images/icons/robot-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="content/images/icons/robot-16.png">
+  <link rel="shortcut icon" href="content/images/icons/robot.ico">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Default theme -->
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   
+  <!-- Pure CSS -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
   <!--[if lte IE 8]>
     <link rel="stylesheet" href="/content/css/grid-old-ie.css">
@@ -24,7 +27,12 @@
     <link rel="stylesheet" href="/content/css/grid.css">
   <!--<![endif]-->
 	
+  <!-- Website CSS -->
   <link rel="stylesheet" href="/content/css/shared.css">
+  <link rel="stylesheet" href="content/css/main.css">
+  
+  <!-- Carousel library -->
+  <script src="content/js/siema.min.js"></script>
 </head>
 
 <body>
@@ -34,7 +42,8 @@
 	  auto2top: true,
 	  executeScript: true,
       loadSidebar: true,
-      name: 'SM Wiki',
+//	  logo: 'content/images/icons/robot-32.png',
+      name: 'SMA Wiki',
       pagination: {
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
@@ -44,9 +53,11 @@
 	  search: { 
 	    paths: 'auto',
 	  },
-	  subMaxLevel: 3
+	  subMaxLevel: 3,
     };
   </script>
+  
+  <!-- Position and order important -->
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
