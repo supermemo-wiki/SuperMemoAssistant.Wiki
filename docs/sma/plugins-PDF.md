@@ -4,7 +4,6 @@
 
 [Make sure SMA & SuperMemo both are running](Installation?id=starting-sma)
 
-1. In SuperMemo: Set hook to determine place where PDFs will be imported
 2. Press CTRL+ALT+I to import PDF
 3. File explorer window for PDF should open. *(If it doesn't, check ALT+TAB for window called "Open")*
 
