@@ -8,9 +8,9 @@ With SMA you can import material directly from Chrome or Firefox!
 
 You need SuperMemo Connector extension which can be found:
 
-for Firefox: https://addons.mozilla.org/fi/firefox/addon/supermemo-connector/?src=search
+for Firefox: [link](https://addons.mozilla.org/fi/firefox/addon/supermemo-connector/?src=search)
 
-for Chrome: https://chrome.google.com/webstore/detail/supermemo-connector/hcnpikjdiaedadmfkflhilndgailpogj
+for Chrome: [link](https://chrome.google.com/webstore/detail/supermemo-connector/hcnpikjdiaedadmfkflhilndgailpogj)
 
 ## How to use
 
