@@ -37,6 +37,7 @@ setInterval(() => siema.next(), 5000);
 	<ol>
       <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/latest/" target="_blank" rel="noopener">Download</a> the latest version</li>
       <li><a href="#/qs-installation">Install SMA</a></li>
+      <li><a href="#/qs-using-sma">Quick start</a></li>
       <li><a href="#/qs-using-sma#sma-102">Import PDF and Browser tabs</a></li>
 	</ol>
 	<p>Additional resources:</p>
