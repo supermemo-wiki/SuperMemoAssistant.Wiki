@@ -1,7 +1,7 @@
 - [Home](README.md)
 - Quick start
   - [Installation](qs-installation.md)
-  - [Launch & Use SMA](qs-using-sma.md)
+  - [Using SMA](qs-using-sma.md)
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
 - Reference manual
   - Plugins
