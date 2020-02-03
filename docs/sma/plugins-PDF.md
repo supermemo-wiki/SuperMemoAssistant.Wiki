@@ -74,7 +74,12 @@ You can select text like you typically would and press CTRL+SHIFT+X
 
 Another way is double clicking area outside of text to turn page blue, then SHIFT+LEFT CLICK last page you want to include in the section. This prodecure is shown in the GIF below.
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/manualSUB/manualSUB.gif?raw=true" style="zoom: 33%;" />
+<video width="400" height="280" controls>
+<source src="content/videos/plugin-PDF/pdf-manualsub.webm" type="video/webm; codecs=vp9">
+<source src="content/videos/plugin-PDF/pdf-manualsub.mp4" type="video/mp4">
+<p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-PDF/pdf-manualsub.mp4">link to the video</a> instead.</p>
+</video>
+
 
 
 
