@@ -2,7 +2,11 @@
 
 ### In SM
 
+CTRL+ALT+D to open Dictionary
+
 ### In PDF
+
+CTRL+D to open dictionary
 
 ### Setup
 

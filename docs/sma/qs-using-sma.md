@@ -4,7 +4,7 @@
 
 Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shortcut](qs-installation#optional-create-a-shortcut).
 
-?> ⚙️ On the first execution, SMA will ask you for your SuperMemo executable path.
+?> ?? On the first execution, SMA will ask you for your SuperMemo executable path.
 
 ![](content/images/using-sma/setup-sm-exe.png)
 
@@ -21,7 +21,7 @@ The first window in SMA is the **Collection Browser**. It allows you to add, and
 
 <img src="content/images/using-sma/sma-tray-icon.png" align="right" alt="SMA tray icon" />
 
-You can always know whether SMA is running by checking the robot icon in your **tray bar** (image 👉)
+You can always know whether SMA is running by checking the robot icon in your **tray bar** (image ??)
 
 ## How do I use PDF files, Chrome, Firefox, ... ?
 
@@ -62,3 +62,37 @@ You can always know whether SMA is running by checking the robot icon in your **
 #### General settings
 
 #### Layout -->
+
+
+
+## Import PDF
+
+1. <kbd>CTRL+ALT+I</kbd>
+2. If file explorer window doesn't open up check <kbd>ALT+TAB</kbd> for window called **"Open"**
+
+## Open PDF
+
+Open: Select the topic SMA created for you on import.
+
+Close: Unselect the topic.
+
+## Browser import
+
+You need SuperMemo Connector extension:
+
+for Firefox: [link](https://addons.mozilla.org/fi/firefox/addon/supermemo-connector/?src=search)
+
+for Chrome: [link](https://chrome.google.com/webstore/detail/supermemo-connector/hcnpikjdiaedadmfkflhilndgailpogj)
+
+### How to use
+
+1. In SuperMemo: <kbd>CTRL+ALT+SHIFT+A</kbd>
+
+  <img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/webimport.png" style="zoom: 50%;" />
+
+  
+
+2. In web browser: <kbd>Right click</kbd> SuperMemo Connector icon
+   
+   <img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/connectorimport.png" style="zoom: 80%;" />
+
