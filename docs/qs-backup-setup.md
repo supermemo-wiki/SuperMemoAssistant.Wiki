@@ -103,10 +103,11 @@ Don't panic ! Follow [this guide](https://www.howtogeek.com/howto/11130/restore-
 
 For our purpose, **git** will be our mean to:
 - Create versions of our collection (*\"checkpoints\"*).
-- Upload our work to a safe\*, remote place.
+- Upload\* our work to a safe\*\*, remote place.
 - *(Bonus)* Synchronize our work between devices.
 
-\*: *Although GitHub can be considered fairly reliable, we highly recommend that you implement a solution to encrypt your collection. This is, after all, a way to your most inner thoughts.*
+\*: GitHub has a 1GB limit on free private repositories.
+\*\*: *Although GitHub can be considered fairly reliable, we highly recommend that you implement a solution to encrypt your collection. This is, after all, a way to your most inner thoughts.*
 
 #### Installing & Setting up Git with GitHub
 

@@ -22,7 +22,7 @@ You will need to install the following tools in order to use SMA:
 
 > SMA has no public release at this moment. If you wish to participate in the beta test, you can send a request to **@Naess** on our [Discord server](https://discord.gg/B2AWHPn).
 
-Future SMA releases will be published on [our GitHub page](https://github.com/supermemo/SuperMemoAssistant/releases). You may also build the software from sources.
+Future SMA releases will be published on [our GitHub page](https://github.com/supermemo/SuperMemoAssistant/releases/latest/). You may also build the software from sources.
 
 #### Are there risks ?
 
@@ -49,7 +49,8 @@ We have been extensively testing SMA since 2019. There are no reasons to believe
 
 <img src="content/images/install/sma-shortcut.png" align="right" />
 
-5. (*Optional*) Create a shortcut
-  1. In the *SuperMemoAssistant* folder, find `SuperMemoAssistant.exe`.
-  2. Right-click on `SuperMemoAssistant.exe`, and select *Pin to Start*.
-  3. You can now run SMA from your Start Menu.
+##### (*Optional*) Create a shortcut
+
+1. In the *SuperMemoAssistant* folder, find `SuperMemoAssistant.exe`.
+2. Right-click on `SuperMemoAssistant.exe`, and select *Pin to Start*.
+3. You can now run SMA from your Start Menu.

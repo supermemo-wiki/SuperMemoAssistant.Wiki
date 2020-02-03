@@ -1,6 +1,29 @@
-# How to use SMA plugins?
+## Starting with SMA
 
-SuperMemoAssistant contains your study-life changing plugins
+### Running SMA for the first time
+
+Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shortcut](qs-installation#optional-create-a-shortcut).
+
+?> ⚙️ On the first execution, SMA will ask you for your SuperMemo executable path.
+
+![](content/images/using-sma/setup-sm-exe.png)
+
+!> If SMA cannot find your SuperMemo executable, and you do not know how to find, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
+
+### Selecting your collection
+
+The first window in SMA is the **Collection Browser**. It allows you to add, and select **which collection to use**.
+
+- **To add a new collection**: Press the <kbd>Browse</kbd> button, and select your `.kno` collection file.
+- **To open your collection**: Make sure it is *selected from the list*, then click <kbd>Open</kbd>, or press <kbd>enter</kbd>.
+
+?> Once SuperMemo is running, you can use it just as you normally would. **Additional keyboard shortcuts** and **interactions** are adjoined by SMA.
+
+<img src="content/images/using-sma/sma-tray-icon.png" align="right" alt="SMA tray icon" />
+
+You can always know whether SMA is running by checking the robot icon in your **tray bar** (image 👉)
+
+## How do I use PDF files, Chrome, Firefox, ... ?
 
 **Plugin list**
 
@@ -10,19 +33,22 @@ SuperMemoAssistant contains your study-life changing plugins
 - [Dictionary](plugins-Dictionary.md) will expand your vocabulary with the help of Oxford dictionary.
 
 
-## Starting SMA
-**When starting SMA make sure that SuperMemo.exe is not running.**
-1. Locate & launch SuperMemoAssistant.exe *(C:\Users\YourUserName\AppData\Roaming\SuperMemoAssistant)*
-2. SMA **"Collection selection"** window should open up.
+## FAQ
 
-   2.1. Press "Options" and in "SM Binary Path" locate your SuperMemo.exe
+### I can't find my SuperMemo executable path
 
-   2.2. Press "Browse" and locate your SuperMemo collection (.kno file). By default it should be in your SuperMemo folder.
+1. Find your shortcut to `sm1x.exe` (the one you use to run SuperMemo)
+2. <kbd>Right click</kbd> on the shortcut, then click on **More**, and finally click on **Open file location**
 
-   2.3. After selecting your collection, "Collection selection" will disappear, and **SuperMemo should open up for you**
-   
-3. Now you are ready to move onto next step! [importing PDF](https://sma.supermemo.wiki//#/plugins-PDF?id=how-to-import-pdf)
+![](content/images/using-sma/finding-sm-exe-path-shortcut-open-file-location.png)
 
+3. In the new Windows Explorer window, <kbd>right click</kbd> on the `sm1x` shortcut, and click on **Properties**.
+
+![](content/images/using-sma/finding-sm-exe-path-shortcut-open-file-properties.png)
+
+4. In the file property dialog, find the **Target** text box. This is the location of your SuperMemo executable.
+
+![](content/images/using-sma/finding-sm-exe-path-shortcut-file-properties.png)
 
 <!--## Settings
 

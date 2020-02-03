@@ -4,4 +4,4 @@
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
   - [Using SM](qs-using-sm.md)
 - Reference manual
-- [SuperMemo Assistant](/sma/ ':ignore')
+- [**SuperMemo Assistant**](/sma/ ':ignore')
