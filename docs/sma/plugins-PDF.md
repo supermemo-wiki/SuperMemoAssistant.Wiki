@@ -4,10 +4,13 @@
 
 [Make sure SMA & SuperMemo both are running](Installation?id=starting-sma)
 
-2. Press CTRL+ALT+I to import PDF
-3. File explorer window for PDF should open. *(If it doesn't, check ALT+TAB for window called "Open")*
+2. Press <kbd>CTRL+ALT+I</kbd> to import PDF
+3. File explorer window for PDF should open. *(If it doesn't, check <kbd>ALT+TAB</kbd> for window called "Open")*
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/import.png" style="zoom: 25%;" />
+<font size=4> **Optional: Hook** </font>
+If you want control over where your PDFs will appear under currently activated concept *("Reading" in the image)*, you can change the concept's hook by clicking icon shown in the image or <kbd>Right click  -> Concept -> Set hook</kbd>
+
+<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/docs/sma/content/images/import.png" style="zoom: 25%;" />
 
 Note: You need to set hook only once, not everytime you import PDFs!
 
@@ -16,7 +19,7 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
  PDF will open when you select the topic SMA created for you. When unselected the PDF will close. The topic holds metadata of PDF and will look something like this:
 
- <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/metadata.png" style="zoom: 25%;" />
+ <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/docs/sma/content/images/metadata.png" style="zoom: 25%;" />
 
 ## How to make extracts in PDF?
 
@@ -28,11 +31,15 @@ Note: You need to set hook only once, not everytime you import PDFs!
 
      
 
-<img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/textimage.gif?raw=true" style="zoom: 50%;" />
+<video width="400" height="280" controls>
+<source src="content/videos/plugin-PDF/pdf-text-and-image.webm" type="video/webm; codecs=vp9">
+<source src="content/videos/plugin-PDF/pdf-text-and-image.mp4" type="video/mp4">
+<p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-PDF/pdf-text-and-image.mp4">link to the video</a> instead.</p>
+</video> 
 
 This is an example of what an image + text extract can look like in SuperMemo
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/extractillustration.png" style="zoom: 33%;" />
+<img src="content/images/extractillustration.png" style="zoom: 33%;" />
 
 
 
@@ -53,13 +60,13 @@ Manual PDF-Extract: CTRL+SHIFT+X
 
 | Result in Sub-PDF *(everything but extracted section is marked red)* | Result in the original PDF *(extracted section is marked orange)* | Result in knowledge tree *(Sub-PDF works just like any other PDFs)* |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| ![redsection](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/redsection.png?raw=true) | ![orangesect](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/orangesect.png?raw=true) | <img src="https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/subpdf.png?raw=true" alt="subpdf"  /> |
+| ![redsection](content/images/redsection.png?raw=true) | ![orangesect](content/images/orangesect.png?raw=true) | <img src="content/images/subpdf.png?raw=true" alt="subpdf"  /> |
 
 ### **Sub-PDF via bookmarks**
 
 If your PDF happens to have pre-made bookmarks you can toggle bookmarks with CTRL+B, select chapter you want to extract and press CTRL+ALT+X.
 
-Or alternatively you can click the bookmark icon <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/bookmarkicon.png" alt="bookmark icon" style="zoom: 80%;" /> and right click to extract, as shown in this [GIF](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true).
+Or alternatively you can click the bookmark icon <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/docs/sma/content/images/bookmarkicon.png" alt="bookmark icon" style="zoom: 80%;" /> and right click to extract, as shown in this [GIF](https://github.com/supermemo/SuperMemoAssistant.Documentation/blob/master/resources/SuperMemoAssistant.Plugins.PDF/pdfextract.gif?raw=true).
 
 ### **Sub-PDF manually** 
 
@@ -87,13 +94,22 @@ When you have PDF made of images only or you find it hard to select the image (i
 
 If your PDF is made of only images and you want to extract text, you can use force selection (right click) with OCR as shown in the GIF below. (See [OCR installation](sma.supermemo.wik/#/plugins-LaTeX?id=installation))
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/image-forceselection/image-forceselection.gif" style="zoom: 33%;" />
+<video width="400" height="280" controls>
+<source src="content/videos/plugin-PDF/pdf-image-forceselection.webm" type="video/webm; codecs=vp9">
+<source src="content/videos/plugin-PDF/pdf-image-forceselection.mp4" type="video/mp4">
+<p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-PDF/pdf-image-forceselection.webm">link to the video</a> instead.</p>
+</video>
 
 ### Inline LateX
 
 If your PDF has LateX equations inline with text you want to extract, you can tackle this by simply including them both in OCR. Either by ALT+LEFT CLICK or if something is interfering with your selection, then ALT+RIGHT CLICK (force selection) as shown in the GIF below.
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/images-inlinelatex/images-inlinelatex.gif" style="zoom: 45%;" />
+<video width="600" height="360" controls>
+<source src="content/videos/plugin-latex/latex-ocr-wholeline.webm" type="video/webm; codecs=vp9">
+<source src="content/videos/plugin-latex/latex-ocr-wholeline.mp4" type="video/mp4">
+<p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-latex/latex-ocr-wholeline.mp4">link to the video</a> instead.</p>
+</video>
+
 
 
 

@@ -24,15 +24,8 @@ For LaTeX to work in SMA  you need MiKTeX and mathpix OCR.
   3.2 Click "Enviroment Variables"
 
    <img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/MiktexSetup/miktex-enviromental2.png" style="zoom: 80%;" />
-
-<<<<<<< HEAD
-To be able to extract LaTeX equations, you need mathpix OCR and MiKTeX.
-
-
-### OCR
-=======
-	3.3. Find variable called "Path" under **System variables**. Click Edit. Create New value and insert path to miktex (usually *C:\Program Files\MikTeX 2.9\miktex\bin\64\*)
-	
+   
+   3.3. Find variable called "Path" under **System variables** and click "Edit". Create New value and insert path for miktex (usually *C:\Program Files\MikTeX 2.9\miktex\bin\64\*)	
 	<img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/MiktexSetup/miktex-enviromental3.png" style="zoom: 67%;" />
 
 4. Open settings in <u>MiKTeX console</u> and make sure the packages can be downloaded on the fly
@@ -42,11 +35,10 @@ To be able to extract LaTeX equations, you need mathpix OCR and MiKTeX.
 
       <img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/MiktexSetup/miktex-directories.png" style="zoom:67%;" /> 
 
-Once this is done, you're pretty much set up to move onto [How to use LateX](https://sma.supermemo.wiki//sma/#/plugins-LaTeX?id=how-to-use-latex)
+Once this is done, you're ready to move onto [How to use LateX](https://sma.supermemo.wiki//sma/#/plugins-LaTeX?id=how-to-use-latex)
 
 
 ## Installation: OCR
->>>>>>> 9528681123f2ae69606b1957828d7e8e4ad7d28e
 
 1. You need mathpix account https://mathpix.com/ocr
 
@@ -58,41 +50,5 @@ Once this is done, you're pretty much set up to move onto [How to use LateX](htt
 
 <img src="https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/accesssettings.png" style="zoom:50%;" />
 
-<<<<<<< HEAD
-5. app_id and app_keyare inserted in boxes shown in the image below
-=======
 5. app_id and app_key are inserted under "MathPix App name" and "MathPix App key"
->>>>>>> 9528681123f2ae69606b1957828d7e8e4ad7d28e
 
-<img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/insettings.png" style="zoom: 33%;" />
-
-### MiKTeX
-
-
-<<<<<<< HEAD
-https://miktex.org/howto/install-miktex
-
-There are a few additional step involved in getting LaTeX to work
-1) Download MiKTeX https://miktex.org/download
-   1.2) Installation instructions: https://miktex.org/howto/install-miktex
-   **MAKE SURE TO INSTALL FOR ALL USERS**
-2) Add the bin folder to your PATH environment variable
-[.](https://raw.githubusercontent.com/supermemo/Documentation/master/docs/sma/content/images/MiktexSetup/miktex-enviromental.png)
-3) Open MiKTeX console and make sure the packages can be downloaded on the fly
-4) Make sure your directories look like this
-
-Once this is done, you're pretty much set up.
-Use one of
-[$] (inline TeX formula)
-[$$] (\begin{math})
-[latex] (full LaTeX)
-
-like so [$]\frac{1}{2}[/$]
-
-Then use Ctrl+Alt+L to turn them into images
-And Ctrl+Alt+Shift+L to turn images back into formulas
-You can change the shortcuts in the LaTeX plugin options (Ctrl+Alt+Shift+O or right click on the tray icon)
-If you're a LaTeX nerd you can also fine tweak the settings in %AppData%/SuperMemoAssistant/Configs/SuperMemoAssistant.Plugins.LaTeX/LateXCfg.json
-Some of them are available in the option interface, but not all of them
-=======
->>>>>>> 9528681123f2ae69606b1957828d7e8e4ad7d28e
