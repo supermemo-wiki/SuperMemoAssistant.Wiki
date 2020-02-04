@@ -6,7 +6,7 @@ Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shor
 
 ?> ❔ On the first execution, SMA will ask you for your SuperMemo executable path.
 
-<img src="content/images/using-sma/setup-sm-exe.png" style="zoom: 80%;" />
+![](content/images/using-sma/setup-sm-exe.png)
 
 !> If SMA cannot find your SuperMemo executable, and you do not know how to find it, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
 
@@ -33,7 +33,7 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 !> If you cannot find the File Picker Dialog, use <kbd>Alt</kbd> + <kbd>Tab</kbd> to find a window called **"Open"**. It might sometime open in the background.
 
-<img src="content/images/plugins-PDF/pdf-import-pdf.png"  />
+![](content/images/plugins-PDF/pdf-import-pdf.png)
 
 ?> A **new element** will be created **in SuperMemo** for you. You can recognize <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">[**PDF elements**](#glossary)</dfn> by their content, see below:
 
@@ -67,8 +67,6 @@ There are **two modes** for extracting images:
 
 ![Image selection](content/images/plugins-PDF/pdf-image-selections.png  '@z2v=content/videos/plugin-PDF/pdf_image_click_AND_drag')
 
-
-
 ?> <kbd>Right click</kbd> will force the selection mode to **Area snapshot** (i.e. even if your cursor is current over some text, or over an image).
 
 #### Multi-selection
@@ -77,7 +75,7 @@ SMA allows you to **select as many objects** to extract as you desire. To start 
 
 ?> ❔ SMA will automatically try to fit your content to make the best use of the space in SuperMemo. You can create new [layouts](#) to change the default arrangement.
 
-<img src="content/images/plugins-PDF/pdf_extract_multiple_AB.png" title="@z2v=content/videos/plugin-PDF/pdf_extract_multiple"  />
+![](content/images/plugins-PDF/pdf_extract_multiple_AB.png '@z2v=content/videos/plugin-PDF/pdf_extract_multiple')
 
 ### Browser: Setup
 
