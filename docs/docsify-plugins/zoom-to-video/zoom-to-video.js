@@ -29,36 +29,46 @@ function install(hook) {
 }
 
 function addVideoInfo(elm) {
-    let imgHeight = elm.offsetHeight;
-	let imgWidth = elm.offsetWidth;
-	
-	// Container
-	var imgContainer = document.createElement('div');
-	imgContainer.className = 'z2v-img-container';
-	
-	// i> overlay
-	var imgOverlay = document.createElement('div');
-	imgOverlay.className = 'z2v-img-overlay';
-	
-	// Subtitle
-	var imgSubtitle = document.createElement('p');
-	imgSubtitle.className = 'z2v-img-subtitle';
-	imgSubtitle.innerHTML = "Click on the image to activate and play the video.";
-	
-	// Append childs for size calculation
-	imgContainer.appendChild(imgOverlay);
-	imgContainer.appendChild(imgSubtitle);
-	
-	// Apply size
-	elm.parentNode.replaceChild(imgContainer, elm);
-	
-	imgContainer.style.width = imgWidth + 'px';
-	imgContainer.style.height = (imgHeight + imgSubtitle.offsetHeight) + 'px';
-	
-	// Insert image
-	imgContainer.insertBefore(elm, imgOverlay);
-	
-	return imgContainer;
+  // Container
+  var imgContainer = document.createElement('div');
+  imgContainer.className = 'z2v-img-container';
+  
+  // i> overlay
+  var imgOverlay = document.createElement('div');
+  imgOverlay.className = 'z2v-img-overlay';
+  
+  // Subtitle
+  var imgSubtitle = document.createElement('p');
+  imgSubtitle.className = 'z2v-img-subtitle';
+  imgSubtitle.innerHTML = "Click on the image to activate and play the video.";
+  
+  // Append childs for size calculation
+  imgContainer.appendChild(imgOverlay);
+  imgContainer.appendChild(imgSubtitle);
+  
+  // Wait for img to load
+  if (elm.complete) {
+	onImageLoaded(elm, imgContainer, imgSubtitle);
+  } else {
+    elm.onload = () => onImageLoaded(elm, imgContainer, imgSubtitle);
+  }
+  
+  return imgContainer;
+}
+
+function onImageLoaded(elm, imgContainer, imgSubtitle) {
+  // Save image size
+  let imgHeight = elm.offsetHeight;
+  let imgWidth = elm.offsetWidth;
+  
+  // Apply size
+  elm.parentNode.replaceChild(imgContainer, elm);
+  
+  imgContainer.style.width = imgWidth + 'px';
+  imgContainer.style.height = (imgHeight + imgSubtitle.offsetHeight) + 'px';
+  
+  // Insert image
+  imgContainer.insertBefore(elm, imgContainer.firstChild);
 }
 
 function showVideo(elm, baseLink) {
