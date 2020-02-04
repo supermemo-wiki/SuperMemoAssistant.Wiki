@@ -6,7 +6,7 @@ Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shor
 
 ?> ❔ On the first execution, SMA will ask you for your SuperMemo executable path.
 
-![](content/images/using-sma/setup-sm-exe.png)
+<img src="content/images/using-sma/setup-sm-exe.png" style="zoom: 80%;" />
 
 !> If SMA cannot find your SuperMemo executable, and you do not know how to find it, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
 
@@ -33,7 +33,7 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 !> If you cannot find the File Picker Dialog, use <kbd>Alt</kbd> + <kbd>Tab</kbd> to find a window called **"Open"**. It might sometime open in the background.
 
-![](content/images/plugins-PDF/pdf-import-pdf.png)
+<img src="content/images/plugins-PDF/pdf-import-pdf.png"  />
 
 ?> A **new element** will be created **in SuperMemo** for you. You can recognize <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">[**PDF elements**](#glossary)</dfn> by their content, see below:
 
@@ -54,7 +54,7 @@ You can always know whether SMA is running by checking the robot icon in your **
 1. Select text with your mouse
 2. Press <kbd>Alt</kbd> + <kbd>X</kbd>
 
-![](content/images/plugins-PDF/pdf-extract-text.png)  
+![](content/images/plugins-PDF/pdf_extract_text.png '@z2v=content/videos/plugin-PDF/pdf_extract_text_result') 
 
 !> If <kbd>Left click</kbd> selects the whole page, or large chunks of it, this is likely related to the format of your PDF. You will have to modify it, e.g. by using an OCR software, or editing the problematic content. If this is not an option, you can also extract images (see below).
 
@@ -62,11 +62,12 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 There are **two modes** for extracting images:
 
-1. **Image selection**: <kbd>Left click</kbd> on the image. An overlay will be displayed to indicate your selection **(A)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
+1. **Image selection (A)**: <kbd>Left click</kbd> on the image. An overlay will be displayed to indicate your selection. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
+2. **Area snapshot (B)**: Hold <kbd>Left click</kbd> or <kbd>Right click</kbd>, then drag your mouse **(B)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
 
-![Image selection](content/images/plugins-PDF/pdf-image-selections.png)
+![Image selection](content/images/plugins-PDF/pdf-image-selections.png  '@z2v=content/videos/plugin-PDF/pdf_image_click_AND_drag')
 
-2. **Area snapshot**: Hold <kbd>Left click</kbd> or <kbd>Right click</kbd>, then drag your mouse **(B)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
+
 
 ?> <kbd>Right click</kbd> will force the selection mode to **Area snapshot** (i.e. even if your cursor is current over some text, or over an image).
 
@@ -75,6 +76,8 @@ There are **two modes** for extracting images:
 SMA allows you to **select as many objects** to extract as you desire. To start a multi-selection, **hold** the <kbd>Ctrl</kbd> key, and select your content as you normally would.
 
 ?> ❔ SMA will automatically try to fit your content to make the best use of the space in SuperMemo. You can create new [layouts](#) to change the default arrangement.
+
+<img src="content/images/plugins-PDF/pdf_extract_multiple_AB.png" title="@z2v=content/videos/plugin-PDF/pdf_extract_multiple"  />
 
 ### Browser: Setup
 
