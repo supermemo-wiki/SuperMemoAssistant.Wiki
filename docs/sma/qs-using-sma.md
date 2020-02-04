@@ -8,7 +8,7 @@ Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shor
 
 ![](content/images/using-sma/setup-sm-exe.png)
 
-!> If SMA cannot find your SuperMemo executable, and you do not know how to find, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
+!> If SMA cannot find your SuperMemo executable, and you do not know how to find it, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
 
 ### Selecting your collection
 

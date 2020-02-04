@@ -11,7 +11,6 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="content/images/icons/robot-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="content/images/icons/robot-16.png">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <link rel="shortcut icon" href="content/images/icons/robot.ico">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
@@ -27,12 +26,16 @@
   <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="/content/css/grid.css">
   <!--<![endif]-->
+  
+  <!-- KaTeX css -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
 	
   <!-- Website CSS -->
   <link rel="stylesheet" href="/content/css/shared.css">
   <link rel="stylesheet" href="content/css/main.css">
   
-
+  <!-- Zoom to video -->
+  <link rel="stylesheet" href="/docsify-plugins/zoom-to-video/zoom-to-video.css" />
   
   <!-- Carousel library -->
   <script src="content/js/siema.min.js"></script>
@@ -53,19 +56,17 @@
         crossChapter: true,
         crossChapterText: true,
       },
-	  search: { 
-	    paths: 'auto',
-	  },
+	  search: 'auto',
 	  subMaxLevel: 3,
     };
   </script>
   
   <!-- Position and order important -->
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   
-    <!-- CDN files for docsify-katex -->
-<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-<script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="/docsify-plugins/zoom-to-video/zoom-to-video.js"></script>
 </body>
 </html>
