@@ -35,13 +35,13 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 ![](content/images/plugins-PDF/pdf-import-pdf.png)
 
-?> A **new element** will be created **in SuperMemo** for you. You can recognize [**PDF elements**](#glossary) by their content, see below:
+?> A **new element** will be created **in SuperMemo** for you. You can recognize <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">[**PDF elements**](#glossary)</dfn> by their content, see below:
 
 ![](content/images/plugins-PDF/pdf-element.png)
 
 ### PDF: Opening, closing
 
-?> To **start working** with one of your PDF, navigate to the **PDF element** that was created in SuperMemo. The [**PDF window**](#glossary) will be opened.
+?> To **start working** with one of your PDF, navigate to the <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">**PDF element**</dfn> that was created in SuperMemo. The <dfn aria-label="The window that displays the actual PDF, and where extracts can be created.">[PDF window](#glossary)</dfn> will be opened.
 
 ![](content/images/plugins-PDF/pdf-window.png)
 

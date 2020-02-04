@@ -54,6 +54,38 @@ blockquote.siema div {
 	padding-right: 20px;
 }
 
+dfn {
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+dfn:hover {
+	cursor: help;
+}
+
+dfn[aria-label]:hover:after {
+	content: attr(aria-label);
+	line-height: 1.2rem;
+	position: absolute;
+	background-color: #C5F7CA;
+	border: #c0c0c0 1px dotted;
+	padding: 4px 8px 4px 8px;
+    -webkit-transform: translate(-60%, 60%);
+       -moz-transform: translate(-60%, 60%);
+        -ms-transform: translate(-60%, 60%);
+         -o-transform: translate(-60%, 60%);
+            transform: translate(-60%, 60%);
+	width: 300px;
+	z-index: 100;
+	text-transform: none;
+	font-style: normal;
+}
+
+dfn a {
+	text-decoration: none;
+	cursor: help;
+}
+
 video {
 	max-width: 100%;
 }
