@@ -2,13 +2,13 @@
 
 ### Pre-requisites
 
-<img src="content/images/install/sm-menu-help-about.png" align="right" />
+<img src="content/images/qs-install/sm-menu-help-about.png" align="right" />
 
 #### Supported SM versions
 
 Make sure your current **version of SuperMemo** [is supported](/#supported-versions). To view your current SuperMemo version, from the menu, click on *Help*, then *About*.
 
-![SuperMemo Version](content/images/install/sm-build-version.png)
+![SuperMemo Version](content/images/qs-install/sm-build-version.png)
 
 #### Dependencies
 
@@ -37,7 +37,7 @@ We have been extensively testing SMA since 2019. There are no reasons to believe
 1. Open Windows Explorer (<kbd class="win"></kbd> + <kbd>E</kbd>).
 2. Navigate to `%AppData%` (expands to `C:\Users\<your-user>\AppData\Roaming`).
 
-![](content/images/install/sma-install-appdata-roaming.png)
+![](content/images/qs-install/sma-install-appdata-roaming.png)
 
 ?> ❔ If you can't view the AppData folder, [enable viewing hidden folders](https://support.pointlogic.com/faq/troubleshooting/accessing-the-appdata-folder).
 
@@ -47,7 +47,7 @@ We have been extensively testing SMA since 2019. There are no reasons to believe
 
 4. Open `SuperMemoAssistant-vX.X.X.7z` and extract the content to the *SuperMemoAssistant* folder you created.
 
-<img src="content/images/install/sma-shortcut.png" align="right" />
+<img src="content/images/qs-install/sma-shortcut.png" align="right" />
 
 ##### (*Optional*) Create a shortcut
 

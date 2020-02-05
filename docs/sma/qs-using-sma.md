@@ -6,7 +6,7 @@ Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shor
 
 ?> ❔ On the first execution, SMA will ask you for your SuperMemo executable path.
 
-![](content/images/using-sma/setup-sm-exe.png)
+![](content/images/qs-using-sma/setup-sm-exe.png)
 
 !> If SMA cannot find your SuperMemo executable, and you do not know how to find it, [follow this procedure](#i-can39t-find-my-supermemo-executable-path).
 
@@ -19,87 +19,19 @@ The first window in SMA is the **Collection Browser**. It allows you to add, and
 
 ?> Once SuperMemo is running, you can use it just as you normally would. **Additional keyboard shortcuts** and **interactions** are adjoined by SMA.
 
-<img src="content/images/using-sma/sma-tray-icon.png" align="right" alt="SMA tray icon" />
+<img src="content/images/qs-using-sma/sma-tray-icon.png" align="right" alt="SMA tray icon" />
 
 You can always know whether SMA is running by checking the robot icon in your **tray bar** (image 👉)
 
 ## SMA 102
 
-### PDF: Importing
+<!-- PDF -->
 
-1. Make sure **SuperMemo** is focused
-2. Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> to open the **File picker dialog**
-3. Select your `.pdf` file, and press the <kbd>Open</kbd> button
+[plugins-PDF-common.md](plugins-PDF-common.md ':include')
 
-!> If you cannot find the File Picker Dialog, use <kbd>Alt</kbd> + <kbd>Tab</kbd> to find a window called **"Open"**. It might sometime open in the background.
+<!-- Import -->
 
-![](content/images/plugins-PDF/pdf-import-pdf.png)
-
-?> A **new element** will be created **in SuperMemo** for you. You can recognize <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">[**PDF elements**](#glossary)</dfn> by their content, see below:
-
-![](content/images/plugins-PDF/pdf-element.png)
-
-### PDF: Opening, closing
-
-?> To **start working** with one of your PDF, navigate to the <dfn aria-label="Element in SuperMemo which contains the data relating to an imported PDF.">**PDF element**</dfn> that was created in SuperMemo. The <dfn aria-label="The window that displays the actual PDF, and where extracts can be created.">[PDF window](#glossary)</dfn> will be opened.
-
-![](content/images/plugins-PDF/pdf-window.png)
-
-?> ❔ To **close** the PDF, either **close the Window** as you normally would, or **navigate to another element**.
-
-### PDF: Extracting
-
-#### Extracting text
-
-1. Select text with your mouse
-2. Press <kbd>Alt</kbd> + <kbd>X</kbd>
-
-![](content/images/plugins-PDF/pdf_extract_text.png '@z2v=content/videos/plugin-PDF/pdf_extract_text_result') 
-
-!> If <kbd>Left click</kbd> selects the whole page, or large chunks of it, this is likely related to the format of your PDF. You will have to modify it, e.g. by using an OCR software, or editing the problematic content. If this is not an option, you can also extract images (see below).
-
-#### Extract images
-
-There are **two modes** for extracting images:
-
-1. **Image selection (A)**: <kbd>Left click</kbd> on the image. An overlay will be displayed to indicate your selection. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
-2. **Area snapshot (B)**: Hold <kbd>Left click</kbd> or <kbd>Right click</kbd>, then drag your mouse **(B)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
-
-![Image selection](content/images/plugins-PDF/pdf-image-selections.png  '@z2v=content/videos/plugin-PDF/pdf_image_click_AND_drag')
-
-?> <kbd>Right click</kbd> will force the selection mode to **Area snapshot** (i.e. even if your cursor is current over some text, or over an image).
-
-#### Multi-selection
-
-SMA allows you to **select as many objects** to extract as you desire. To start a multi-selection, **hold** the <kbd>Ctrl</kbd> key, and select your content as you normally would.
-
-?> ❔ SMA will automatically try to fit your content to make the best use of the space in SuperMemo. You can create new [layouts](#) to change the default arrangement.
-
-![](content/images/plugins-PDF/pdf_extract_multiple_AB.png '@z2v=content/videos/plugin-PDF/pdf_extract_multiple')
-
-### Browser: Setup
-
-To connect your browser to SMA, you will need to download the browser extension **SuperMemo Connector**.
-- [SuperMemo Connector (Firefox)](https://addons.mozilla.org/en/firefox/addon/supermemo-connector/?src=search)
-- [SuperMemo Connector (Chrome)](https://chrome.google.com/webstore/detail/supermemo-connector/hcnpikjdiaedadmfkflhilndgailpogj)
-
-### Browser: Importing
-
-There are **two ways** to import tabs from your browser:
-
-1. **In SuperMemo**, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
-
-![](content/images/plugins-Import/import-browser-import.png)
-
-2. **In the Browser**, <kbd>Right click</kbd> on the *SuperMemo Connector* icon ![](content/images/icons/robot-16.png). Then select, either of:
-  - Import all Tabs into SuperMemo (Current window)
-  - Import all Tabs into SuperMemo
-
-![](content/images/plugins-Import/import-browser-menu.png)
-
-### Browser: Filtering & personalizing
-
-
+[plugins-Import-common.md](plugins-Import-common.md ':include')
 
 ## SMA 103
 
@@ -116,8 +48,7 @@ There are **two ways** to import tabs from your browser:
 
 ## Glossary
 
-- **PDF element**: [Element in SuperMemo](content/images/plugins-PDF/pdf-element.png ':ignore'), which contains the data relating to an imported PDF.
-- **PDF window**: [The window](content/images/plugins-PDF/pdf-window.png ':ignore') that displays the actual PDF, and where extracts can be created.
+[plugins-PDF-glossary.md](plugins-PDF-glossary.md ':include')
 
 ## FAQ
 
@@ -126,12 +57,12 @@ There are **two ways** to import tabs from your browser:
 1. Find your shortcut to `sm1x.exe` (the one you use to run SuperMemo)
 2. <kbd>Right click</kbd> on the shortcut, then click on **More**, and finally click on **Open file location**
 
-![](content/images/using-sma/finding-sm-exe-path-shortcut-open-file-location.png)
+![](content/images/qs-using-sma/finding-sm-exe-path-shortcut-open-file-location.png)
 
 3. In the new Windows Explorer window, <kbd>right click</kbd> on the `sm1x` shortcut, and click on **Properties**.
 
-![](content/images/using-sma/finding-sm-exe-path-shortcut-open-file-properties.png)
+![](content/images/qs-using-sma/finding-sm-exe-path-shortcut-open-file-properties.png)
 
 4. In the file property dialog, find the **Target** text box. This is the location of your SuperMemo executable.
 
-![](content/images/using-sma/finding-sm-exe-path-shortcut-file-properties.png)
+![](content/images/qs-using-sma/finding-sm-exe-path-shortcut-file-properties.png)

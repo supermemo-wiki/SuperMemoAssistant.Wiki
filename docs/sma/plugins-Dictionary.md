@@ -22,7 +22,7 @@ After the account is made and you are signed in, clickCREDENTIALSin the home pag
 
 4. In credentials click "<u>[yourname]'s app</u>" and locate(1) application ID  (2) Application keys, *(the image below)*
 
-   <img src="https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/credentials.png" style="zoom: 33%;" />
+![](https://raw.githubusercontent.com/supermemo/SuperMemoAssistant.Documentation/master/resources/SuperMemoAssistant.Plugins.PDF/credentials.png)
 
 5. After you located these values, go to dictionary settings in SMA *(you can access it by rightclicking SMA icon in windows toolbar)*
 
