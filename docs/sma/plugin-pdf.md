@@ -35,20 +35,19 @@ Once you are registered, copy your **MathPix App Name** and **Key** and paste th
 
 #### Using the OCR
 
-In the **PDF window**, press the <kbd>Alt</kbd> key, then capture an <dfn aria-label="Image selection mode which captures a region of your PDF into an image. Hold left or right click, then drag an area with your mouse.">[area snapshot](#extract-images)</dfn>.
-
-If your image was success recognized, a window titled *TeX editor* will display your result.
+1. In the **PDF window**, press the <kbd>Alt</kbd> key, then capture an <dfn aria-label="Image selection mode which captures a region of your PDF into an image. Hold left or right click, then drag an area with your mouse.">[area snapshot](#extract-images)</dfn>.
+2. If your image was success recognized, a window titled *TeX editor* will display your result.
 
 ![TeX editor](content/images/plugin-pdf/pdf-ocr-TeX-editor.png '@z2v=content/videos/plugin-pdf/pdf-ocr-wholeline')
 
-#### Inline formulas
+#### In-line formulas
 
-If your PDF has mathematical or chemestry formulas inline with text you want to extract, you can tackle this by simply including them both in OCR. Either by <kbd>Alt</kbd> + <kbd>Left click</kbd> or if something is interfering with your selection, then <kbd>Alt</kbd> + <kbd>Right click</kbd> (<dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">force selection</dfn>) as shown in the GIF below.
+If your PDF has formulas in-line with text you want to extract, the easiest way to select your area snapshot is to use <dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">[force selection](#pdf-force-selection)</dfn>.
 
 <video width="600" height="360" style="margin: auto auto;" controls>
-  <source src="content/videos/plugin-latex/latex-ocr-wholeline.webm" type="video/webm; codecs=vp9">
-  <source src="content/videos/plugin-latex/latex-ocr-wholeline.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-latex/latex-ocr-wholeline.mp4">link to the video</a> instead.</p>
+  <source src="content/videos/plugin-pdf/pdf-ocr-wholeline.webm" type="video/webm; codecs=vp9">
+  <source src="content/videos/plugin-pdf/pdf-ocr-wholeline.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-latex/pdf-ocr-wholeline.mp4">link to the video</a> instead.</p>
 </video>
 
 ### PDF: Sub-PDF
