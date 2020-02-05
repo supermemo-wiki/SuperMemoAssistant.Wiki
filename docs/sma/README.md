@@ -51,9 +51,9 @@ setInterval(() => siema.next(), 5000);
   <div class="pure-u-1 pure-u-smd-11-24">
 	<div class="center-div">
       <video controls>
-        <source src="content/videos/plugin-PDF/pdf-image-forceselection.webm" type="video/webm; codecs=vp9">
+        <source src="content/videos/plugin-pdf/pdf-image-forceselection.webm" type="video/webm; codecs=vp9">
         <!--source src="content/videos/images-multipleocrinline.gif-x264-1000k.mp4" type="video/mp4"-->
-        <p>Your browser doesn't support HTML5 video. Use this <a href="content/videos/plugin-PDF/pdf-image-forceselection.mp4">link to the video</a> instead.</p>
+        <p>Your browser doesn't support HTML5 video. Use this <a href="content/videos/plugin-pdf/pdf-image-forceselection.mp4">link to the video</a> instead.</p>
       </video>
 	</div>
   </div>
@@ -66,7 +66,7 @@ setInterval(() => siema.next(), 5000);
 <div class="pure-g">
   <div class="pure-u-1 pure-u-smd-1-2 ph-4">
     <div class="card">
-      <h4><a href="plugin-PDF">PDF Support</a></h4>
+      <h4><a href="plugin-pdf">PDF Support</a></h4>
 	  <ul>
 	  <li>Extract text, images & snapshots</li>
 	  <li>Built-in OCR (formulas & text)</li>

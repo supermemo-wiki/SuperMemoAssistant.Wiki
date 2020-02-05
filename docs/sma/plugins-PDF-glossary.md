@@ -1,3 +1,0 @@
-- **PDF element**: [Element in SuperMemo](content/images/plugins-PDF/pdf-element.png ':ignore'), which contains the data relating to an imported PDF.
-- **PDF window**: [The window](content/images/plugins-PDF/pdf-window.png ':ignore') that displays the actual PDF, and where extracts can be created.
-- **Sub-PDFs**: PDF elements which contain only a part of your original PDF.

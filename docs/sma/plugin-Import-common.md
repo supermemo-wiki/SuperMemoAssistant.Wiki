@@ -12,7 +12,7 @@ There are <u>two ways</u> to import tabs from your browser:
 
 **In SuperMemo**, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
 
-![](content/images/plugins-Import/import-browser-import.png)
+![](content/images/plugin-Import/import-browser-import.png)
 
 #### In the Browser
 
@@ -20,7 +20,7 @@ There are <u>two ways</u> to import tabs from your browser:
   - Import all Tabs into SuperMemo (Current window)
   - Import all Tabs into SuperMemo
 
-![](content/images/plugins-Import/import-browser-menu.png)
+![](content/images/plugin-Import/import-browser-menu.png)
 
 ### Browser: Filtering & personalizing
 

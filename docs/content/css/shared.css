@@ -83,7 +83,7 @@ dfn[aria-label]:hover:after {
 
 dfn a {
 	text-decoration: none;
-	cursor: help;
+	/*cursor: help;*/
 }
 
 video {

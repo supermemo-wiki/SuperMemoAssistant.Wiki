@@ -1,20 +1,20 @@
 # PDF
 
-[plugins-PDF-common.md](plugins-PDF-common.md ':include')
+[plugin-pdf-common.md](plugin-pdf-common.md ':include')
 
 ### PDF: Force selection
 
 When you have PDF made of images only, or when you find it hard to select the image (interference with text) you can use force selection by holding <kbd>Right click</kbd>. This will ignore text selection.
 
-You can use <dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">force selection</dfn> with OCR as shown in the video clip below. (See [OCR installation](plugins-LaTeX#latex-amp-ocr))
+You can use <dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">force selection</dfn> with OCR as shown in the video clip below. (See [built-in OCR](#pdf-built-in-ocr))
 
 <video width="600" height="340" controls>
-  <source src="content/videos/plugin-PDF/pdf-extract-image-forceselection.webm" type="video/webm; codecs=vp9">
-  <source src="content/videos/plugin-PDF/pdf-extract-image-forceselection.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. Use this <a href="content/videos/plugin-PDF/pdf-extract-image-forceselection.webm">link to the video</a> instead.</p>
+  <source src="content/videos/plugin-pdf/pdf-extract-image-forceselection.webm" type="video/webm; codecs=vp9">
+  <source src="content/videos/plugin-pdf/pdf-extract-image-forceselection.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Use this <a href="content/videos/plugin-pdf/pdf-extract-image-forceselection.mp4">link to the video</a> instead.</p>
 </video>
 
-### PDF: Integrated OCR
+### PDF: Built-in OCR
 
 The PDF plugin implements an optional **OCR**, working with both **text** and **scientific formulas** (math, chemestry, ...).
 
@@ -26,14 +26,20 @@ Once you are registered, copy your **MathPix App Name** and **Key** and paste th
 
 <div class="pure-g">
   <div class="pure-u-1-3" style="padding-right: 30px;">
-    <img src="content/images/plugins-PDF/pdf-mathpix-pricing.png" />
+    <img src="content/images/plugin-pdf/pdf-mathpix-pricing.png" />
   </div>
   <div class="pure-u-2-3">
-    <img src="content/images/plugins-PDF/pdf-mathpix-settings.png" />
+    <img src="content/images/plugin-pdf/pdf-mathpix-settings.png" />
   </div>
 </div>
 
 #### Using the OCR
+
+In the **PDF window**, press the <kbd>Alt</kbd> key, then capture an <dfn aria-label="Image selection mode which captures a region of your PDF into an image. Hold left or right click, then drag an area with your mouse.">[area snapshot](#extract-images)</dfn>.
+
+If your image was success recognized, a window titled *TeX editor* will display your result.
+
+![TeX editor](content/images/plugin-pdf/pdf-ocr-TeX-editor.png '@z2v=content/videos/plugin-pdf/pdf-ocr-wholeline')
 
 #### Inline formulas
 
@@ -79,9 +85,9 @@ You can select text like you typically would and press <kbd>Ctrl</kbd> + <kbd>SH
 Another way is double clicking area outside of text to turn page blue, then SHIFT+LEFT CLICK last page you want to include in the section. This prodecure is shown in the GIF below.
 
 <video width="400" height="280" controls>
-  <source src="content/videos/plugin-PDF/pdf-manualsub.webm" type="video/webm; codecs=vp9">
-  <source src="content/videos/plugin-PDF/pdf-manualsub.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-PDF/pdf-manualsub.mp4">link to the video</a> instead.</p>
+  <source src="content/videos/plugin-pdf/pdf-manualsub.webm" type="video/webm; codecs=vp9">
+  <source src="content/videos/plugin-pdf/pdf-manualsub.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-pdf/pdf-manualsub.mp4">link to the video</a> instead.</p>
 </video>
 
 ## PDF: Deletion
@@ -138,7 +144,7 @@ Non-hotkeys
 
 ## Glossary
 
-[plugins-PDF-glossary.md](plugins-PDF-glossary.md ':include')
+[plugin-pdf-glossary.md](plugin-pdf-glossary.md ':include')
 
 ## FAQ
 

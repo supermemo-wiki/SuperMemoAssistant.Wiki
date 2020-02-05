@@ -16,7 +16,7 @@ For LaTeX to work in SMA  you need MiKTeX and mathpix OCR.
 
 LateX equation is extracted into your SM collection which will look for example like this 
 
-![](content/images/plugins-LaTeX/latex-image-exampleformula.png)
+![](content/images/plugin-LaTeX/latex-image-exampleformula.png)
 
 You press <kbd>CTRL+ALT+L</kbd></kbd> and it is turned into: 
 
@@ -47,21 +47,21 @@ Note that you can integrate text with LateX. This is useful especially when thes
   3.1 Search "Enviroment variables" in windows
   3.2 Click "Enviroment Variables"
 
-![](content/images/plugins-LaTeX/MiKTeX/miktex-enviromental2.png)
+![](content/images/plugin-LaTeX/MiKTeX/miktex-enviromental2.png)
 
    3.3. Find variable called "Path" under **System variables** and click "Edit". Create New value and insert path for miktex (usually *C:\Program Files\MikTeX 2.9\miktex\bin\64\*)
    
-![](content/images/plugins-LaTeX/MiKTeX/miktex-enviromental3.png)
+![](content/images/plugin-LaTeX/MiKTeX/miktex-enviromental3.png)
 
 4. Open settings in <u>MiKTeX console</u> and make sure the packages can be downloaded on the fly
 
-![](content/images/plugins-LaTeX/MiKTeX/miktex-onfly.png) 
+![](content/images/plugin-LaTeX/MiKTeX/miktex-onfly.png) 
 
-5. Your "Directories" should be configured like [this](content/images/plugins-LaTeX/MiKTeX/miktex-directories.png)
+5. Your "Directories" should be configured like [this](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png)
 
-![](content/images/plugins-LaTeX/MiKTeX/miktex-directories.png)
+![](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png)
 
-Once this is done, you're ready to move onto [How to use LaTeX](plugins-LaTeX#how-to-use-latex)
+Once this is done, you're ready to move onto [How to use LaTeX](plugin-LaTeX#how-to-use-latex)
 
 
 ## Installation: OCR

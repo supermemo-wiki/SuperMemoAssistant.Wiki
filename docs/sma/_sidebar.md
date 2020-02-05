@@ -5,10 +5,10 @@
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
 - Reference manual
   - Plugins
-    - [PDF](plugins-PDF.md)
-    - [LaTeX](plugins-LaTeX.md)
-    - [Dictionary](plugins-Dictionary.md)
-    - [Import](plugins-Import.md)
+    - [PDF](plugin-pdf.md)
+    - [LaTeX](plugin-LaTeX.md)
+    - [Dictionary](plugin-Dictionary.md)
+    - [Import](plugin-Import.md)
   - SMA
 	- [Settings & Options](refm-sma-options-settings.md)
     - [Command line parameters](refm-sma-command-line-parameters.md)

@@ -27,20 +27,20 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 <!-- PDF -->
 
-[plugins-PDF-common.md](plugins-PDF-common.md ':include')
+[plugin-pdf-common.md](plugin-pdf-common.md ':include')
 
 <!-- Import -->
 
-[plugins-Import-common.md](plugins-Import-common.md ':include')
+[plugin-Import-common.md](plugin-Import-common.md ':include')
 
 ## SMA 103
 
 ### Plugins
 
-- [Incremental PDF](plugins-PDF.md) unlocks the power of SuperMemo for PDF files.
-- [LaTeX](plugins-LaTeX.md) integrates LaTeX in your SuperMemo elements.
-- [Import](plugins-Import.md) lets you finally get rid of old Internet Explorer.
-- [Dictionary](plugins-Dictionary.md) will expand your vocabulary with the help of Oxford dictionary.
+- [Incremental PDF](plugin-pdf.md) unlocks the power of SuperMemo for PDF files.
+- [LaTeX](plugin-LaTeX.md) integrates LaTeX in your SuperMemo elements.
+- [Import](plugin-Import.md) lets you finally get rid of old Internet Explorer.
+- [Dictionary](plugin-Dictionary.md) will expand your vocabulary with the help of Oxford dictionary.
 
 ### Changing keyboard shortcuts
 
@@ -48,7 +48,7 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 ## Glossary
 
-[plugins-PDF-glossary.md](plugins-PDF-glossary.md ':include')
+[plugin-pdf-glossary.md](plugin-pdf-glossary.md ':include')
 
 ## FAQ
 
