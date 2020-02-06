@@ -58,7 +58,7 @@ If your PDF has formulas in-line with text you want to extract, the easiest way 
 
 ### PDF: Sub-PDF
 
-Sub-PDFs are <dfn aria-label="Element in SuperMemo which contains the data of an imported PDF.">[PDF elements](#glossary)</dfn> which contain only a part of your original PDF. Sub-PDFs are useful when you want to focus on certain chapter, while working separately with rest of the chapters 
+Sub-PDFs are <dfn aria-label="Element in SuperMemo which contains the data of an imported PDF.">[PDF elements](#glossary)</dfn> which contain only a part of your original PDF. Sub-PDFs are useful when you want to focus on certain chapter, while working separately with rest of the chapters
 
 > PDF extracts are a way of splitting PDF into seperate pieces
 
@@ -73,9 +73,7 @@ Manual PDF-Extract: <kbd>Ctrl</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>
 <font size= 4>**Your PDFs will look like this after PDF-extracts**</font>
 
 
-| Result in Sub-PDF *(extracted sections is focused)*          | Result in the original PDF *(extracted section is marked orange)* |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| <img src="content/images/redsection.png?raw=true" alt="redsection" style="zoom:50%;" /> | <img src="content/images/orangesect.png?raw=true" alt="orangesect" style="zoom: 67%;" /> |
+![](content/images/plugin-pdf/pdf-sub-original.png)
 
 #### Sub-PDF via bookmarks
 
