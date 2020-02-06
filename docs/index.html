@@ -8,14 +8,17 @@
   <meta name="description" content="SuperMemo documentation, made by its Community.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/content/images/icons/SuperMemo-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/content/images/icons/SuperMemo-16.png">
   <link rel="shortcut icon" href="/content/images/icons/SuperMemo.ico">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Default theme -->
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   
+  <!-- Pure CSS -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
   <!--[if lte IE 8]>
     <link rel="stylesheet" href="/content/css/grid-old-ie.css">
@@ -24,7 +27,11 @@
     <link rel="stylesheet" href="/content/css/grid.css">
   <!--<![endif]-->
 	
+  <!-- Website CSS -->
   <link rel="stylesheet" href="/content/css/shared.css">
+  
+  <!-- Zoom to video -->
+  <link rel="stylesheet" href="/docsify-plugins/zoom-to-video/zoom-to-video.css" />
 </head>
 
 <body>
@@ -33,21 +40,30 @@
     window.$docsify = {
 	  auto2top: true,
 	  executeScript: true,
-      loadSidebar: true,
-      name: 'SM Wiki',
-      pagination: {
-        previousText: 'PREVIOUS',
-        nextText: 'NEXT',
-        crossChapter: true,
-        crossChapterText: true,
-      },
-	  search: { 
-	    paths: 'auto',
-	  },
+    loadSidebar: true,
+    name: 'SM Wiki',
+    pagination: {
+      previousText: 'PREVIOUS',
+      nextText: 'NEXT',
+      crossChapter: true,
+      crossChapterText: true,
+    },
+	  search: 'auto',
 	  subMaxLevel: 3
     };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="/docsify-plugins/zoom-to-video/zoom-to-video.js"></script>
+  <script src="/docsify-plugins/custom-attributes/custom-attributes.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '673071773700587521',
+    channel: '673071774438522907',
+    shard: 'https://e.widgetbot.io'
+  });
+  </script>
 </body>
 </html>
