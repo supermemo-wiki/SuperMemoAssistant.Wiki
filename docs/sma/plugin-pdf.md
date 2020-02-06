@@ -40,6 +40,12 @@ Once you are registered, copy your **MathPix App Name** and **Key** and paste th
 
 ![TeX editor](content/images/plugin-pdf/pdf-ocr-TeX-editor.png '@z2v=content/videos/plugin-pdf/pdf-ocr-wholeline')
 
+> [!TIP|style:flat]
+> - MathPix works with complex content
+> <img class="tooltip-preview" src="content/images/plugin-pdf/pdf-ocr-complex-extract.png" data-title="@z2v=content/videos/plugin-pdf/pdf-ocr-complex-extract" />
+> OCR can be used in <dfn aria-label="Selection that contains more than one object (text, image, area snapshot, OCR). Types of objects can be mixed and matched. To start a multi-selection, **hold** the Ctrl key, and select your content.">[multi-selection](#multi-selection)</dfn>
+> ![](content/images/plugin-pdf/pdf-ocr-multi-selection.png ':@z2v=content/videos/plugin-pdf/pdf-ocr-multi-selection')
+
 #### In-line formulas
 
 If your PDF has formulas in-line with text you want to extract, the easiest way to select your area snapshot is to use <dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">[force selection](#pdf-force-selection)</dfn>.

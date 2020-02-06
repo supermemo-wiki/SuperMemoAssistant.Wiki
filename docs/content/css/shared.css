@@ -86,8 +86,38 @@ dfn a {
 	/*cursor: help;*/
 }
 
+img.tooltip-preview:hover:after {
+	content: url(attr(src));
+	position: absolute;
+	background-color: #C5F7CA;
+	border: #c0c0c0 1px dotted;
+	padding: 4px 8px 4px 8px;
+    -webkit-transform: translate(-60%, 60%);
+       -moz-transform: translate(-60%, 60%);
+        -ms-transform: translate(-60%, 60%);
+         -o-transform: translate(-60%, 60%);
+            transform: translate(-60%, 60%);
+	width: 300px;
+	z-index: 100;
+}
+
 video {
 	max-width: 100%;
+}
+
+div.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+iframe.youtube-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .text-center {
