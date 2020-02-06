@@ -16,13 +16,13 @@ You need to set up an oxford dictionary developer account.
 
 2. Get your api key -> Choose the option "PROTOTYPE" on the left
 
-![](content/images/plugin-dictionary/dictionary-prototype-signup.png)
+![](content/images/plugin-dictionary/dictionary-signup-prototype.png)
 
 After the account is made and you are signed in, clickCREDENTIALSin the home page.
 
 4. In credentials click "<u>[yourname]'s app</u>" and locate(1) application ID  (2) Application keys, *(the image below)*
 
-![](content/images/plugin-dictionary/dictionary-dev-account-credentials.png)
+![](content/images/plugin-dictionary/dictionary-signup-dev-account-credentials.png)
 
 5. After you located these values, go to dictionary settings in SMA *(you can access it by rightclicking SMA icon in windows toolbar)*
 
