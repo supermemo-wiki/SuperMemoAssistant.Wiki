@@ -16,7 +16,7 @@ You need to set up an oxford dictionary developer account.
 
 2. Get your api key -> Choose the option "PROTOTYPE" on the left
 
-![](content/images/plugin-dictionary/dictionary-pricing-prototype.png)
+![](content/images/plugin-dictionary/dictionary-prototype-signup.png)
 
 After the account is made and you are signed in, clickCREDENTIALSin the home page.
 
