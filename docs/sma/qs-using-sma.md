@@ -29,9 +29,17 @@ You can always know whether SMA is running by checking the robot icon in your **
 
 [plugin-pdf-common.md](plugin-pdf-common.md ':include')
 
+### PDF: Additional features
+
+Visit the [PDF plugin page](plugin-pdf) to read about other available features (OCR, dictionary, etc.).
+
 <!-- Import -->
 
 [plugin-Import-common.md](plugin-Import-common.md ':include')
+
+### Browser: Additional features
+
+Visit the [Import plugin page](plugin-import) to read about other available features (Feeds, advanced customization, etc.).
 
 ## SMA 103
 

@@ -43,7 +43,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 
 1. Download and install [the latest version](https://github.com/alexis-/BitShelter/releases) of *BitShelter*
 2. Start **BitShelter Agent** from the Windows Start menu
-3. Double-click on the [**Tray Icon**](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_TrayIcon.png): ![](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter_Icon.png)
+3. Double-click on the [Tray Icon ![](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_TrayIcon.png)](# '@tooltip-preview') 🖼️
 
 ###### Enabling Windows' Volume Snapshot Service (VSS)
 
@@ -51,11 +51,11 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 
 ?> **In this example, the SuperMemo collection Drive Letter is E:\**
 
-1. In the [Main Window](https://raw.githubusercontent.com/alexis-/BitShelter/master/Resources/BitShelter.Agent_Rules.png), click on the <kbd>**Add Schedule**</kbd> button
-2. Click on <kbd>**Enable other Drive(s)**</kbd> in the [General tab](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png)
-3. Select the SuperMemo drive **(E:\\)** in the [System Protection dialog](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-18.png) and click on <kbd>**Configure**</kbd>
-4. In the [new dialog](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-22.png) click on <kbd>**Turn on protection**</kbd>, select at least 2GB of desired reserved space(\*) for Snapshots, then press <kbd>**OK**</kbd>
-5. Back in the [General tab](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png), click on <kbd>**Raise limit**</kbd>, and set the new limit to **512**
+1. In the [Main Window ![](https://raw.githubusercontent.com/alexis-/BitShelter/master/Resources/BitShelter.Agent_Rules.png)](https://raw.githubusercontent.com/alexis-/BitShelter/master/Resources/BitShelter.Agent_Rules.png '@tooltip-preview'), click on the <kbd>**Add Schedule**</kbd> button
+2. Click on <kbd>**Enable other Drive(s)**</kbd> in the [General tab ![](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png)](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png '@tooltip-preview')
+3. Select the SuperMemo drive **(E:\\)** in the [System Protection dialog ![](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-18.png)](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-18.png '@tooltip-preview') and click on <kbd>**Configure**</kbd>
+4. In the [new dialog ![](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-22.png)](https://github.com/alexis-/BitShelter/raw/master/Resources/SystemPropertiesProtection_2018-05-05_13-10-22.png '@tooltip-preview') click on <kbd>**Turn on protection**</kbd>, select at least 2GB of desired reserved space(\*) for Snapshots, then press <kbd>**OK**</kbd>
+5. Back in the [General tab ![](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png)](https://github.com/alexis-/BitShelter/raw/master/Resources/BitShelter.Agent_General.png '@tooltip-preview'), click on <kbd>**Raise limit**</kbd>, and set the new limit to **512**
 
 \*: *If you chose not to create a partition dedicated to SuperMemo, the reserved space will be used up by all the other modifications written to your partition. You should consequently increase the reserved space.*
 
@@ -65,7 +65,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *1 Day*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in <a href="content/images/backup-setup/bitshelter-15min-schedule.png" target="_blank" rel="noopener">the following values</a>
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](/content/images/backup-setup/bitshelter-15min-schedule.png ':ignore')
     * **Occurs every**: *15 minutes*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -75,7 +75,7 @@ You should obtain a layout similar to this one (it is fine if you only have one 
   1. Click on the <kbd>**Add Schedule**</kbd> button
     * Select the SuperMemo **Drive letter (E:\\)**
     * Set **Lifetime** to *6 Month*
-  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in <a href="content/images/backup-setup/bitshelter-daily-schedule.png" target="_blank" rel="noopener">the following values</a>
+  2. Click on the <kbd>**Schedule**</kbd> **tab** and fill in [the following values](/content/images/backup-setup/bitshelter-daily-schedule.png ':ignore')
     * **Occurs once at**: *08::00::00 (or whenever your computer is running)*
 	* **Frequency**: *Daily*
 	* **Recurs every**: *1 day(s)*
@@ -136,7 +136,7 @@ For our purpose, **git** will be our mean to:
 
 <img src="/content/images/backup-setup/git-local-collection-repository.png" data-origin="content/images/backup-setup/git-local-collection-repository.png" alt="">
 
-6. <a href="content/data/sm-main-commit.bat" target="_blank" rel="noopener">Download this .bat file</a> and save it in your local repository folder (where your `.git` directory is located). It contains the following commands:
+6. <a href="/content/data/sm-main-commit.bat" target="_blank" rel="noopener">Download this .bat file</a> and save it in your local repository folder (where your `.git` directory is located). It contains the following commands:
 
 ```bat
 git add -A && git commit -m "Update"
