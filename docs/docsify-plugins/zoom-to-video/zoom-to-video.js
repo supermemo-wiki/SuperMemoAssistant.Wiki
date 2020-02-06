@@ -1,5 +1,3 @@
-//import { getAndRemoveConfig, showVideo } from './core'
-
 const matchesSelector = Element.prototype.matches || Element.prototype.webkitMatchesSelector || Element.prototype.msMatchesSelector;
 
 const defaultOptions = {
@@ -10,19 +8,24 @@ const defaultOptions = {
 
 function install(hook) {
   hook.doneEach(_ => {
-    let elms = [].slice.call(document.querySelectorAll('.markdown-section img:not(.emoji)'))
-                 .filter(elm => elm.title.includes("@z2v") && matchesSelector.call(elm, 'a img') === false);
+    let imgElms = [].slice.call(document.querySelectorAll('.markdown-section img[z2v]:not(.emoji)'))
+                    .filter(elm => matchesSelector.call(elm, 'a img') === false);
     
-    elms.forEach(elm => {
-      let { str, config } = getAndRemoveConfig(elm.title);
-      
-      elm.title = str;
+    imgElms.forEach(elm => {
       elm.classList.add('z2v-img');
 	  
-	  let imgContainer = addVideoInfo(elm);
+	    let imgContainer = addVideoInfo(elm);
 	  
       imgContainer.onclick = function() {
-        showVideo(imgContainer, config['z2v']);
+        showVideo(elm.getAttribute('z2v'));
+      };
+    });
+    
+    let aElms = [].slice.call(document.querySelectorAll('.markdown-section a[z2v]'));
+    
+    aElms.forEach(elm => {
+      elm.onclick = function() {
+        showVideo(elm.getAttribute('z2v'));
       };
     });
   })
@@ -71,7 +74,7 @@ function onImageLoaded(elm, imgContainer, imgSubtitle) {
   imgContainer.insertBefore(elm, imgContainer.firstChild);
 }
 
-function showVideo(elm, baseLink) {
+function showVideo(baseLink) {
     var overlay = document.createElement('div');
     overlay.className = 'z2v-overlay';
     
@@ -121,22 +124,5 @@ function showVideo(elm, baseLink) {
     overlay.style.opacity = 1;
     overlay.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
 };
-
-function getAndRemoveConfig(str = '') {
-  const config = {}
-
-  if (str) {
-    str = str
-      .replace(/^'/, '')
-      .replace(/'$/, '')
-      .replace(/(?:^|\s)@([\w-]+)=?([\w-./]+)?/g, (m, key, value) => {
-        config[key] = (value && value.replace(/&quot;/g, '')) || true
-        return ''
-      })
-      .trim()
-  }
-
-  return { str, config }
-}
 
 $docsify.plugins = [].concat(install, $docsify.plugins);
