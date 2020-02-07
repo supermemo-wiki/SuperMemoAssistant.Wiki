@@ -50,7 +50,7 @@ setInterval(() => siema.next(), 5000);
   </div>
   <div class="pure-u-1 pure-u-smd-11-24">
 	<div class="youtube-container">
-      <iframe src="https://www.youtube.com/embed/PpaXhwV_x_8" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/watch?v=bZ-F7v_wWg8&t=622s" class="youtube-video" frameborder="0" allowfullscreen></iframe>
 	</div>
   </div>
 </div>
