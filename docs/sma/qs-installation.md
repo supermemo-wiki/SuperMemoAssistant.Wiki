@@ -15,7 +15,8 @@ Make sure your current **version of SuperMemo** [is supported](/#supported-versi
 You will need to install the following tools in order to use SMA:
 
 - [7-zip](https://www.7-zip.org/) to extract the files
-- [Visual C++ Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=30679) (2012 x86)
+- [Visual C++ Redistributable 2012 x86](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
+- [Visual C++ Redistributable 2015-2019 x86](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 - [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer) (4.7.2) (Installed by default on Windows 10)
 
 ### Downloading SMA
