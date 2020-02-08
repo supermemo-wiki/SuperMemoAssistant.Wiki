@@ -1,3 +1,9 @@
+### PDF: Video tutorial
+
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/embed/bZ-F7v_wWg8?start=622" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### PDF: Importing
 
 1. Make sure **SuperMemo** is focused

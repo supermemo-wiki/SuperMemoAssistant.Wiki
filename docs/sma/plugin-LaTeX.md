@@ -1,8 +1,14 @@
 # LaTeX & OCR
 
-For LaTeX to work in SMA  you need MiKTeX and mathpix OCR.
+## Video tutorial
 
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/embed/ctgnQjTEQnw?start=622" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 
+## Setup
+
+For LaTeX to work in SMA you need MiKTeX and mathpix OCR.
 
 ## How to use OCR
 
