@@ -2,7 +2,7 @@
 
 #### What is it?
 
-[SuperMemo](https://super-memo.com/supermemo18.html) is a program that **makes learning easy and fun**. [The](https://supermemo.guru/wiki/Spaced_repetition) [methods](https://supermemo.guru/wiki/Incremental_reading) it [pioneered](https://supermemo.guru/wiki/History_of_spaced_repetition) not only enable you to remember the things you **learn forever**, but also to assemble knowledge at an **unprecedented rate**.
+[SuperMemo](https://super-memo.com/supermemo18.html) is a program that **makes learning easy and fun**. [The](https://supermemo.guru/wiki/Spaced_repetition) [methods](https://supermemo.guru/wiki/Incremental_reading) it [pioneered](https://supermemo.guru/wiki/History_of_spaced_repetition) not only enable you to remember the things you **learn forever**, but also to gain knowledge at an **unprecedented rate**.
 
 <!--
 <div class="pure-g" style="margin-top: -20px;">
