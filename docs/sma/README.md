@@ -50,7 +50,7 @@ setInterval(() => siema.next(), 5000);
   </div>
   <div class="pure-u-1 pure-u-smd-11-24">
 	<div class="youtube-container">
-      <iframe src="https://www.youtube.com/watch?v=bZ-F7v_wWg8&t=622s" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/bZ-F7v_wWg8?start=622" class="youtube-video" frameborder="0" allowfullscreen></iframe>
 	</div>
   </div>
 </div>
@@ -127,6 +127,5 @@ setInterval(() => siema.next(), 5000);
 <blockquote class="siema siema-blockquote">
   <div><p>💬 <strong>Luke Avedon</strong>: “<em>Back up your collection.  I'm ashamed to admit I used to never back up my collection.  Once while running a quick, 'repair collection' I lost power.  An entire section of my knowledge tree was mangled forever.  All the references changed to strange, incomprehensible characters.  Now I know better.  I automatically back up to two local hard drives, and three cloud drives each day.</em>”</p></div>
   <div><p>💬 <strong>Nour</strong>: “<em>Well, I'm a bit new to SM and although I was warned, I did not understand the gravity of the warnings. Back-up your collection. Since I'm new, I don't understand a lot of the issues, but I know I didn't do anything to provoke them, and yet the combination of SM and my virtual machine had corrupted and misplaced files and needed to be repaired – with the repairs yielding some unwanted adjustments to my collection. Of course, if all your final prep is on SM, you'd be having heart palpitations at the thought of your collection getting messed up, I know I was. Sufficed to say lesson learned. The hard way, but learned never-the-less.</em>”</p></div>
-  <div>Rick Doe: “Insert a testimony here (3)”</div>
-  <div>Niko Doe: “Insert a testimony here (4)”</div>
+  <div><p>💬 <strong>supersrdjan</strong>: “<em>I used supermemo for two years enjoying steady gains as my collection grew. I backed up my collection daily at first. But it seemed like overkill. So I switched to weekly backups. Sometimes I would skip a week, or two, and then weeks turned into months between backups. Of course, one day, inevitably, Supermemo crashed and wiped my collection. I felt worse than a stockbroker in 1929. I was about to fall into a great depression.  I had to revert to a 3-month old backup. Better than total bankruptcy I guess. But those months aren't coming back.</em>”</p></div>
 </blockquote>
