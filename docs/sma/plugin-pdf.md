@@ -57,7 +57,13 @@ If your PDF has formulas in-line with text you want to extract, the easiest way 
 
 ### PDF: Dictionary
 
-The PDF plugins implements an optional **dictionary**.
+The PDF plugins implements an optional **dictionary**. Make sure to [setup the dictionary plugin](plugin-dictionary#setup).
+
+Select a word and press <kbd>Ctrl</kbd> + <kbd>D</kbd>. A popup will be displayed [next to the word ![](content/images/plugin-pdf/pdf-dictionary-popup.png)](content/images/plugin-pdf/pdf-dictionary-popup.png ':ignore @tooltip-preview').
+
+#### Per-PDF dictionary language
+
+You can change the dictionary language for each of your PDF. In the <dfn aria-label="The window that displays the actual PDF, and where extracts can be created.">PDF window</dfn>, press <kbd>Ctrl</kbd> + <kbd>O</kbd> and [select a language ![](content/images/plugin-pdf/pdf-settings-dictionary-languages.png)](pdf-settings-dictionary-languages.png ':ignore @tooltip-preview') from the *PDF dictionary language* combo box.
 
 ### PDF: Sub-PDF
 
@@ -91,6 +97,19 @@ There are two ways to manually create sub-PDFs:
   <source src="content/videos/plugin-pdf/pdf-manualsub.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-pdf/pdf-manualsub.mp4">link to the video</a> instead.</p>
 </video>
+
+## PDF: Settings
+
+There are two layers of settings available:
+
+- **Global PDF settings**: To access these settings, either
+  - <kbd>Right click</kbd> the ![](content/images/icons/robot-16.png) icon in your Window tray bar, and click on the <kbd>PDF</kbd> menu item
+  - Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> and click on the cog ![](content/images/icons/cog.png) icon next to the PDF plugin
+  
+- **Per-PDF settings**: In the <dfn aria-label="The window that displays the actual PDF, and where extracts can be created.">PDF window</dfn>, press <kbd>Ctrl</kbd> + <kbd>O</kbd> to bring up [settings dialog ![](content/images/plugin-pdf/pdf-per-pdf-settings.png)](content/images/plugin-pdf/pdf-per-pdf-settings.png ':ignore @tooltip-preview').
+
+> [!NOTE]
+> Per-PDF settings will override the global settings.
 
 ## PDF: Deletion
 
