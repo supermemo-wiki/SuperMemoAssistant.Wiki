@@ -14,7 +14,7 @@ setInterval(() => siema.next(), 5000);
 
 **SuperMemo Assistant** supercharges your [*SuperMemo*](https://super-memo.com/supermemo18.html) with powerful features:
 
-<div class="pure-g" style="margin-top: -20px;">
+<div class="pure-g" style="margin-top: -20px; margin-bottom: -20px;">
   <div class="pure-u-1 pure-u-smd-3-4">
     <blockquote>
       <ul>
@@ -31,7 +31,7 @@ setInterval(() => siema.next(), 5000);
   </div>
 </div>
 
-⚠️ SMA is currently in a *closed beta-test* phase. It is not accessible publicly. We will be accepting more testers in the upcoming days, stay tuned on our [Discord channel](https://discord.gg/vUQhqCT).
+!> ⚠️ SMA is currently in a *closed beta-test* phase. It is not accessible publicly. We will be accepting more testers in the upcoming days, stay tuned on our [Discord channel](https://discord.gg/vUQhqCT).
 
 <div class="pure-g" style="margin-top: -10px;">
   <div class="pure-u-1 pure-u-smd-13-24">
