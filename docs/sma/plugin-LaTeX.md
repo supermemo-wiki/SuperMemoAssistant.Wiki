@@ -6,81 +6,77 @@
   <iframe src="https://www.youtube.com/embed/ctgnQjTEQnw?start=622" class="youtube-video" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Setup
+## LaTeX: Setup
 
-For LaTeX to work in SMA you need MiKTeX and mathpix OCR.
+1. [Download MiKTeK](https://miktex.org/download)
+2. ⚠️ <u>**Install with these options**</u>: ⚠️
+	1. Install MiKTeX for anyone who uses this computer (all users)
+	2. Install missing packages on-the-fly: Yes
 
-## How to use OCR
-
-## How to use LateX
-
-### Basic functionality 
-
-1. You **OCR** text with <kbd>ALT</kbd> + <kbd>Left/Right Mouse button</kbd> *(right mouse = force selection)*
-2. An editor window will pop up. Here you can edit the equation as you wish.
-3. After confirming that everything looks okay, you press OK and <kbd>ALT+X</kbd> 
-
-LateX equation is extracted into your SM collection which will look for example like this 
-
-![](content/images/plugin-LaTeX/latex-image-exampleformula.png)
-
-You press <kbd>CTRL+ALT+L</kbd></kbd> and it is turned into: 
-
-$ 8 y ^ { 2 } - 7 y + 4 $
-
-
-
-<video width="640" height="360" controls>
-  <source src="content/videos/plugin-latex/latex-complex-extract-result.webm?raw=true" type="video/webm; codecs=vp9">
-  <source src="content/videos/plugin-latex/latex-complex-extract-result.mp4?raw=true" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-latex/latex-complex-extract-result.mp4?raw=true">link to the video</a> instead.</p>
-</video>
-
-Note that you can integrate text with LateX. This is useful especially when these two are inline together.
-
-
-## Installation: LateX
-
-1. Download MiKTeX https://miktex.org/download
-
-2. <font size=5 color=red>Install with these options</font>
-	
-	2.1. **Install MiKTeX for anyone who uses this computer (all users)**
-	
-	2.2. **Install missing packages on-the-fly: Yes**
-
-3. Add the miktex bin folder to your PATH environment variables
-  3.1 Search "Enviroment variables" in windows
-  3.2 Click "Enviroment Variables"
-
-![](content/images/plugin-LaTeX/MiKTeX/miktex-enviromental2.png)
-
-   3.3. Find variable called "Path" under **System variables** and click "Edit". Create New value and insert path for miktex (usually *C:\Program Files\MikTeX 2.9\miktex\bin\64\*)
+3. Add the MiKTeX `bin` folder to your `PATH` environment variables
+  1. Search *environment variables* in [windows start menu ![](content/images/plugin-LaTeX/MiKTeX/miktek-start-search-environment-variables.png)](# '@tooltip-preview') 🖼️ and click on <kbd>Edit system environment variables</kbd>
+  
+  2. In the **System Properties** window, click on [<kbd>Environment Variables</kbd> ![](content/images/plugin-LaTeX/MiKTeX/miktex-enviromental2.png)](# '@tooltip-preview') 🖼️
+  
+  3. Under **System variables**, find variable called *Path* and click *Edit*. Click on <kbd>New</kbd> and insert the path for your MiKTeK `bin` folder (usually `C:\Program Files\MikTeX 2.9\miktex\bin\64\`)
    
 ![](content/images/plugin-LaTeX/MiKTeX/miktex-enviromental3.png)
 
-4. Open settings in <u>MiKTeX console</u> and make sure the packages can be downloaded on the fly
+4. Open settings in **MiKTeX console** and:
 
-![](content/images/plugin-LaTeX/MiKTeX/miktex-onfly.png) 
+  1. Make sure the packages can be [downloaded on the fly ![](content/images/plugin-LaTeX/MiKTeX/miktex-onfly.png)](content/images/plugin-LaTeX/MiKTeX/miktex-onfly.png ':ignore @tooltip-preview')
+  
+  2. In the <kbd>Directories</kbd>, make sure your configuration looks [like this ![](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png)](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png ':ignore @tooltip-preview')
+  
+  3. Go to the <kbd>Packages</kbd> tab, and install the following packages: `zhmetrics`, `amsmath`.
+    1. Select [the search box ![](content/images/plugin-LaTeX/MiKTeX/miktex-packages-search.png)](content/images/plugin-LaTeX/MiKTeX/miktex-packages-search.png ':ignore @tooltip-preview') and type the name of the package
+    2. <kbd>Right click</kbd> on [the line ![](content/images/plugin-LaTeX/MiKTeX/miktex-packages-install.png)](content/images/plugin-LaTeX/MiKTeX/miktex-packages-install.png ':ignore @tooltip-preview') that matches the package name, and click on <kbd>Install package</kbd>
 
-5. Your "Directories" should be configured like [this](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png)
+Once this is done, you are ready to use LaTeX.
 
-![](content/images/plugin-LaTeX/MiKTeX/miktex-directories.png)
+## LaTeX basics
 
-Once this is done, you're ready to move onto [How to use LaTeX](plugin-LaTeX#how-to-use-latex)
+### Generating images from LaTeX and back in SuperMemo
 
+In SuperMemo Assistant, TeX formulas are enclosed between tags:
 
-## Installation: OCR
+![](content/images/plugin-LaTeX/latex-image-exampleformula.png)
 
-1. You need mathpix account https://mathpix.com/ocr
+Once your formula has been correctly formatted, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> to generate an image:
 
-2. Sign-up requires credit card, the costs are insignificant - practically free (unless you do thousands of request per month)
+$ 8 y ^ { 2 } - 7 y + 4 $
 
-3. After you have signed in, locate: (1) **app_id** and (2) **app_key**. These you need to insert in SMA´s PDF settings:
+To revert the process, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>. This will turn images back into editable TeX code.
 
-4. You can access PDF settings via SMA icon (the image), or CTRL+ALT+SHIFT+O
+<video controls>
+  <source src="content/videos/plugin-latex/latex-complex-extract-result.webm" type="video/webm; codecs=vp9">
+  <source src="content/videos/plugin-latex/latex-complex-extract-result.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="content/videos/plugin-latex/latex-complex-extract-result.mp4">link to the video</a> instead.</p>
+</video>
+<br/><br/>
 
-![](content/images/accesssettings.png)
+> [!NOTE]
+> - You can integrate text with LateX. This is useful especially when these two are in-line together.
+> - Images are embedded in your HTML elements, and will display even without SMA or an internet connection.
 
-5. app_id and app_key are inserted under "MathPix App name" and "MathPix App key"
+### Default tags (render modes)
 
+By default, SMA implements three tags you can choose from:
+
+##### Inline TeX formula
+
+`[$]\sum^{+\infty}_{n = 0} n = -\frac{1}{12}[/$]` yields:
+
+![](content/images/plugin-LaTeX/latex-inline-example-result.png)
+
+##### Large TeX formula
+
+`[$$]\sum^{+\infty}_{n = 0} n = -\frac{1}{12}[/$$]` yields:
+
+![](content/images/plugin-LaTeX/latex-large-example-result.png)
+
+##### LaTeX document
+
+`[latex]Is \begin{math}\sum^{+\infty}_{n = 0} n \end{math} really equal to $ -\frac{1}{12} $ ?[/latex]` yields:
+
+![](content/images/plugin-LaTeX/latex-document-example-result.png)
