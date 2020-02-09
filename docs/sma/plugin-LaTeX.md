@@ -80,3 +80,70 @@ By default, SMA implements three tags you can choose from:
 `[latex]Is \begin{math}\sum^{+\infty}_{n = 0} n \end{math} really equal to $ -\frac{1}{12} $ ?[/latex]` yields:
 
 ![](content/images/plugin-LaTeX/latex-document-example-result.png)
+
+### Settings
+
+To access the **Dictionary settings**, either:
+  - <kbd>Right click</kbd> the ![](content/images/icons/robot-16.png) icon in your Window tray bar, and click on the <kbd>Dictionary</kbd> menu item
+  - Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> and click on the cog ![](content/images/icons/cog.png) icon next to the Dictionary plugin
+
+![](content/images/plugin-LaTeX/latex-settings.png)
+
+### Advanced configuration
+
+For advanced LaTeX configurations, you can directly edit the configuration file located at `%AppData%\SuperMemoAssistant\Configs\SuperMemoAssistant.Plugins.LaTeX\LateXCfg.json`.
+
+You can download the [default configuration here](content/data/LateXCfg.json ':ignore').
+
+- **DviGenerationCmd**: First command which takes a `.tex` file as input and transforms it into the `.dvi` format
+  - `{inTex}` is replaced with the input file by the plugin
+  - Default:
+```json
+"DviGenerationCmd": [
+    "latex",
+    "-interaction=nonstopmode",
+    "{inTex}"
+]
+```
+- **ImageGenerationCmd**: Second command which takes a `.dvi` file as input and transforms it into the final image format (`.png` by default)
+  - `{inDvi}` is replaced with the input file by the plugin
+  - `{outImg}` is replaced with the output file by the plugin
+  - Default:
+```json
+"ImageGenerationCmd": [
+    "dvipng",
+    "-D",
+    "200",
+    "-T",
+    "tight",
+    "{inDvi}",
+    "-o",
+    "{outImg}.png"
+]
+```
+- **Tags**: Tags available in SuperMemo. Default:
+```json
+"Full": {
+    "TagBegin": "[latex]",
+    "TagEnd": "[/latex]",
+    "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n",
+    "LaTeXEnd": "\r\n\\end{document}"
+},
+"Expression": {
+    "TagBegin": "[$]",
+    "TagEnd": "[/$]",
+    "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n$\r\n",
+    "LaTeXEnd": "\r\n$\r\n\\end{document}"
+},
+"Maths": {
+    "TagBegin": "[$$]",
+    "TagEnd": "[/$$]",
+    "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n\\begin{displaymath}\r\n",
+    "LaTeXEnd": "\r\n\\end{displaymath}\r\n\\end{document}"
+}
+```
+- **LaTeXImageTag**: The html used in the SuperMemo element
+  - `{0}` is replaced with the image width
+  - `{1}` is replaced with the image height
+  - `{2}` is replaced with the base64 encoded image data
+  - `{3}` is replaced with the original LaTeX code

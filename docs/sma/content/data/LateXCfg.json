@@ -1,0 +1,39 @@
+{
+  "DviGenerationCmd": [
+    "latex",
+    "-interaction=nonstopmode",
+    "{inTex}"
+  ],
+  "ImageGenerationCmd": [
+    "dvipng",
+    "-D",
+    "200",
+    "-T",
+    "tight",
+    "{inDvi}",
+    "-o",
+    "{outImg}.png"
+  ],
+  "Tags": {
+    "Full": {
+      "TagBegin": "[latex]",
+      "TagEnd": "[/latex]",
+      "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n",
+      "LaTeXEnd": "\r\n\\end{document}"
+    },
+    "Expression": {
+      "TagBegin": "[$]",
+      "TagEnd": "[/$]",
+      "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n$\r\n",
+      "LaTeXEnd": "\r\n$\r\n\\end{document}"
+    },
+    "Maths": {
+      "TagBegin": "[$$]",
+      "TagEnd": "[/$$]",
+      "LaTeXBegin": "\\documentclass[10pt]{article}\r\n\\special{papersize=3in,5in}\r\n\\usepackage[utf8]{inputenc}\r\n\\usepackage{amssymb,amsmath}\r\n\\pagestyle{empty}\r\n\\setlength{\\parindent}{0in}\r\n\\begin{document}\r\n\\begin{displaymath}\r\n",
+      "LaTeXEnd": "\r\n\\end{displaymath}\r\n\\end{document}"
+    }
+  },
+  "LaTeXImageTag": "<img class=\"sma-latex-img\" width=\"{0}\" height=\"{1}\" style=\"background-image:url('data:image/png;base64,{2}'); background-repeat: no-repeat\" data-latex-code=\"{3}\" />",
+  "ExecutionTimeout": 3000
+}

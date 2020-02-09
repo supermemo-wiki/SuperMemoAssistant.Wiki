@@ -27,7 +27,7 @@ In SuperMemo, select a word in your html component, and press <kbd>Ctrl</kbd> + 
 
 You can change the format of your definition extracts by changing the **Render template** in the [settings](#settings). The Dictionary uses a template engine called **Mustache**, which allows users to dynamically define how to present a data model.
 
-You can [download an example](content/data/plugin-pdf-oxford-dictionaries-model.json) of the data model in the form of a json object for the word **peace**. However, we recommend that you instead study the [default template](content/data/plugin-pdf-default-template.txt) if you wish to create your own.
+You can [download an example](content/data/plugin-pdf-oxford-dictionaries-model.json ':ignore') of the data model in the form of a json object for the word **peace**. However, we recommend that you instead study the [default template](content/data/plugin-pdf-default-template.txt ':ignore') if you wish to create your own.
 
 ### Settings
 
