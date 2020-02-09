@@ -31,6 +31,8 @@ setInterval(() => siema.next(), 5000);
   </div>
 </div>
 
+⚠️ SMA is currently in a *closed beta-test* phase. It is not accessible publicly. We will be accepting more testers in the upcoming days, stay tuned on our [Discord channel](https://discord.gg/vUQhqCT).
+
 <div class="pure-g" style="margin-top: -10px;">
   <div class="pure-u-1 pure-u-smd-13-24">
     <p style="color: darkred;"><strong>Get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
