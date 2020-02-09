@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+.horizontal-line {
+  margin-bottom: 10px;
+  border-top: 1px solid #C9C9C9;
+}
+.pronunciation {
+  margin-left: 2px;
+  padding-left: 10px;
+  border-left: 1px dotted #444;
+}
+.etymologies {
+  font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+{{ #Results.0 }}
+  <h3>{{ Word }}</h3>
+
+  {{ #Results }}
+  {{ #LexicalEntries }}
+  <div class=horizontal-line></div>
+  <div class="lexical-entry">
+    <span><b>{{ Word }}{{ #LexicalCategory }} ({{ LexicalCategory.Text }}){{ /LexicalCategory }}</b></span>
+    {{ #Pronunciations.0 }}<span class="pronunciation">{{ #Pronunciations }}/{{ F_Escape PhoneticSpelling }}/ {{ /Pronunciations }}</span>{{ /Pronunciations.0 }}
+    <ol>
+    {{ #Entries }}
+      {{ #Senses }}{{ #Definitions.0 }}
+      <li>
+        {{ F_Escape Definitions.0 }}
+        {{ #Exemples.0 }}
+        <ul>
+        {{ #Exemples }}
+          <li><i>{{ F_Escape Text }}</i></li>
+        {{ /Exemples }}
+        </ul>
+        {{ /Exemples.0 }}
+      </li>
+      {{ /Definitions.0 }}{{ /Senses }}
+    {{ /Entries }}
+    </ol>
+    
+    {{ #HasEtymologies }}
+    <p class="etymologies"><u>Etymologies</u>:
+    {{ #Entries }}
+      {{ #Etymologies }}<br/>- {{ F_Escape . }}{{ /Etymologies }}
+    {{ /Entries }}
+    </p>
+    {{ /HasEtymologies }}
+  </div>
+  {{ /LexicalEntries }}
+  {{ /Results }}
+
+{{ /Results.0 }}
+</body>
+</html>

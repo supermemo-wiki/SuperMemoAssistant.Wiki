@@ -1,0 +1,372 @@
+{
+  "id": "peace",
+  "metadata": {
+    "operation": "retrieve",
+    "provider": "Oxford University Press",
+    "schema": "RetrieveEntry"
+  },
+  "results": [
+    {
+      "id": "peace",
+      "language": "en-gb",
+      "lexicalEntries": [
+        {
+          "entries": [
+            {
+              "etymologies": [
+                "Middle English: from Old French pais, from Latin pax, pac-‘peace’"
+              ],
+              "grammaticalFeatures": [
+                {
+                  "id": "mass",
+                  "text": "Mass",
+                  "type": "Countability"
+                }
+              ],
+              "senses": [
+                {
+                  "definitions": [
+                    "freedom from disturbance; tranquillity"
+                  ],
+                  "examples": [
+                    {
+                      "text": "he just wanted to drink a few beers in peace"
+                    }
+                  ],
+                  "id": "m_en_gbus0757660.006",
+                  "shortDefinitions": [
+                    "tranquillity"
+                  ],
+                  "subsenses": [
+                    {
+                      "constructions": [
+                        {
+                          "text": "peace of mind"
+                        }
+                      ],
+                      "definitions": [
+                        "mental or emotional calm"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the peace of mind this insurance gives you"
+                        }
+                      ],
+                      "id": "m_en_gbus0757660.008",
+                      "shortDefinitions": [
+                        "mental calm"
+                      ],
+                      "thesaurusLinks": [
+                        {
+                          "entry_id": "peace",
+                          "sense_id": "t_en_gb0010794.002"
+                        }
+                      ]
+                    }
+                  ],
+                  "thesaurusLinks": [
+                    {
+                      "entry_id": "peace",
+                      "sense_id": "t_en_gb0010794.001"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a state or period in which there is no war or a war has ended"
+                  ],
+                  "examples": [
+                    {
+                      "text": "the Straits were to be open to warships in time of peace"
+                    },
+                    {
+                      "notes": [
+                        {
+                          "text": "in singular",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "text": "the peace didn't last"
+                    }
+                  ],
+                  "id": "m_en_gbus0757660.010",
+                  "shortDefinitions": [
+                    "freedom from war"
+                  ],
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "a treaty agreeing peace between warring states"
+                      ],
+                      "examples": [
+                        {
+                          "text": "support for a negotiated peace"
+                        }
+                      ],
+                      "id": "m_en_gbus0757660.012",
+                      "notes": [
+                        {
+                          "text": "in singular",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "shortDefinitions": [
+                        "treaty agreeing peace"
+                      ],
+                      "thesaurusLinks": [
+                        {
+                          "entry_id": "peace",
+                          "sense_id": "t_en_gb0010794.004"
+                        }
+                      ]
+                    },
+                    {
+                      "definitions": [
+                        "the state of being free from civil disorder"
+                      ],
+                      "examples": [
+                        {
+                          "text": "police action to restore peace"
+                        }
+                      ],
+                      "id": "m_en_gbus0757660.013",
+                      "shortDefinitions": [
+                        "freedom from unrest"
+                      ],
+                      "thesaurusLinks": [
+                        {
+                          "entry_id": "peace",
+                          "sense_id": "t_en_gb0010794.003"
+                        }
+                      ]
+                    },
+                    {
+                      "definitions": [
+                        "the state of being free from dissension"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the 8.8 per cent offer promises peace with the union"
+                        }
+                      ],
+                      "id": "m_en_gbus0757660.014",
+                      "shortDefinitions": [
+                        "freedom from dissension"
+                      ]
+                    }
+                  ],
+                  "thesaurusLinks": [
+                    {
+                      "entry_id": "peace",
+                      "sense_id": "t_en_gb0010794.003"
+                    }
+                  ]
+                },
+                {
+                  "crossReferenceMarkers": [
+                    "See also kiss of peace at kiss"
+                  ],
+                  "crossReferences": [
+                    {
+                      "id": "kiss_of_peace",
+                      "text": "kiss of peace",
+                      "type": "see also"
+                    },
+                    {
+                      "id": "kiss",
+                      "text": "kiss",
+                      "type": "see also"
+                    }
+                  ],
+                  "definitions": [
+                    "a ceremonial handshake or kiss exchanged during a service in some Churches (now usually only in the Eucharist), symbolizing Christian love and unity."
+                  ],
+                  "domains": [
+                    {
+                      "id": "ecclesiastical",
+                      "text": "Ecclesiastical"
+                    }
+                  ],
+                  "id": "m_en_gbus0757660.016",
+                  "notes": [
+                    {
+                      "text": "\"the peace\"",
+                      "type": "wordFormNote"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "act symbolizing Christian love and unity"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "noun",
+            "text": "Noun"
+          },
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/peace_1_gb_2.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "piːs"
+            }
+          ],
+          "text": "peace"
+        },
+        {
+          "entries": [
+            {
+              "senses": [
+                {
+                  "definitions": [
+                    "used as a friendly greeting."
+                  ],
+                  "id": "m_en_gbus0757660.018",
+                  "regions": [
+                    {
+                      "id": "us",
+                      "text": "Us"
+                    }
+                  ],
+                  "registers": [
+                    {
+                      "id": "informal",
+                      "text": "Informal"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "used as greeting"
+                  ],
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "used to express good wishes on parting."
+                      ],
+                      "id": "m_en_gbus0757660.053",
+                      "notes": [
+                        {
+                          "text": "also \"peace out\"",
+                          "type": "wordFormNote"
+                        }
+                      ],
+                      "shortDefinitions": [
+                        "used as farewell"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "used as an order to remain silent"
+                  ],
+                  "examples": [
+                    {
+                      "text": "peace, be still!"
+                    }
+                  ],
+                  "id": "m_en_gbus0757660.019",
+                  "registers": [
+                    {
+                      "id": "archaic",
+                      "text": "Archaic"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "used as order to remain silent"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "interjection",
+            "text": "Interjection"
+          },
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/peace_1_gb_2.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "piːs"
+            }
+          ],
+          "text": "peace"
+        },
+        {
+          "entries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "id": "intransitive",
+                  "text": "Intransitive",
+                  "type": "Subcategorization"
+                }
+              ],
+              "notes": [
+                {
+                  "text": "\"peace out\"",
+                  "type": "wordFormNote"
+                }
+              ],
+              "senses": [
+                {
+                  "definitions": [
+                    "leave"
+                  ],
+                  "examples": [
+                    {
+                      "text": "I woke up at seven, thanked my host, and peaced out"
+                    }
+                  ],
+                  "id": "m_en_gbus0757660.048",
+                  "regions": [
+                    {
+                      "id": "us",
+                      "text": "Us"
+                    }
+                  ],
+                  "registers": [
+                    {
+                      "id": "informal",
+                      "text": "Informal"
+                    }
+                  ],
+                  "shortDefinitions": [
+                    "leave"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "verb",
+            "text": "Verb"
+          },
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/peace_1_gb_2.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "piːs"
+            }
+          ],
+          "text": "peace"
+        }
+      ],
+      "type": "headword",
+      "word": "peace"
+    }
+  ],
+  "word": "peace"
+}
