@@ -166,6 +166,8 @@ Non-hotkeys
 			- Add to selection (Hold ctrl)
 			- Select image (Click image)
 ```
+> [!NOTE]
+> When you extract text from the PDF file, the windows error sound may play. You can [disable it by switching off system sounds](#faq).
 
 ## Glossary
 
@@ -192,3 +194,7 @@ A: Create an [issue ticket on github](https://github.com/supermemo/SuperMemoAssi
 **Q: How to I jump to a specific page number ?**
 
 A: Use <kbd>Ctrl</kbd> + <kbd>G</kbd>.
+
+**Q:How do I disable the Windows Sound from playing when I extract from a PDF?**
+
+A: In order to stop the sound from playing, you can right click the volume icon on the taskbar, then open the volume mixer and set system sounds to zero. 
