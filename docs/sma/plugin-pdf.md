@@ -167,7 +167,7 @@ Non-hotkeys
 			- Select image (Click image)
 ```
 > [!NOTE]
->When you extract text from the PDF file, the windows error sound may play. You can [disable it by switching off system sounds](#faq).
+> When you extract text from the PDF file, the windows error sound may play. You can [disable it by switching off system sounds](#faq).
 
 ## Glossary
 
