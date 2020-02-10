@@ -166,7 +166,8 @@ Non-hotkeys
 			- Add to selection (Hold ctrl)
 			- Select image (Click image)
 ```
-<p class="tip">⚠️ When you extract text from the PDF file, the windows error sound may play.</p>
+[!NOTE]
+⚠️ When you extract text from the PDF file, the windows error sound may play. You can [disable it by switching off system sounds](#faq).
 
 ## Glossary
 
@@ -196,4 +197,4 @@ A: Use <kbd>Ctrl</kbd> + <kbd>G</kbd>.
 
 **Q:How do I disable the Windows Sound from playing when I extract from a PDF?**
 
-A: Currently there isn't any workaround, you can disable system sounds by right clicking on the volume icon on your taskbar and setting it to zero.  
+A: In order to stop the sound from playing, you can right click the volume icon on the taskbar, then open the volume mixer and set system sounds to zero. 
