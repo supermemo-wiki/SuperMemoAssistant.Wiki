@@ -50,7 +50,7 @@ Finally, click submit pull request and you're done! Now just wait untill the Adm
 ### Notes
 If you want to learn more about how to use GitHub check out [this guide](https://hackernoon.com/understanding-git-fcffd87c15a3).
 These community-docs use a plugin called [docsify](https://docsify.js.org/#/) that you can check out for more information. Git is a very valuable skill that is used in several projects and looked for by employers.
-
+[This is an interactive tutorial](https://learngitbranching.js.org/) on how to use git and github. 
 ### FAQ
 **Q: How do I add pictures to the website?**
 
