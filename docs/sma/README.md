@@ -44,7 +44,7 @@ setInterval(() => siema.next(), 5000);
 	</ol>
 	<p>Additional resources:</p>
 	<ul>
-      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> chat room</li>
+      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> chat room [![Discord](https://img.shields.io/discord/673071773700587521.svg)](https://chat.supermemo.wiki/)</li>
       <li><a href="https://chat.supermemo.wiki" target="_blank" rel="noopener">Discord (web)</a> for guests</li>
       <li><a href="https://github.com/SuperMemo/" target="_blank" rel="noopener">GitHub page</a></li>
       <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a> (WIP)</li>
