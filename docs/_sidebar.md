@@ -5,3 +5,4 @@
   - [Using SM](qs-using-sm.md)
 - Reference manual
 - [**SuperMemo Assistant**](/sma/ ':ignore')
+- [**Contributing**](/contributing/ ':ignore')
