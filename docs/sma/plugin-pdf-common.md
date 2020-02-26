@@ -44,7 +44,7 @@
 There are **two modes** for extracting images:
 
 1. **Image selection (A)**: <kbd>Left click</kbd> on the image. An overlay will be displayed to indicate your selection. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
-2. **Area snapshot (B)**: Hold <kbd>Left click</kbd> or <kbd>Right click</kbd>, then drag your mouse **(B)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
+2. **Area snapshot (B)**: Hold <kbd>Right click</kbd>, then drag your mouse **(B)**. <kbd>Alt</kbd> + <kbd>X</kbd> to extract.
 
 ![Image selection](content/images/plugin-pdf/pdf-image-selections.png  '@z2v="content/videos/plugin-pdf/pdf-extract-image-click-and-drag"')
 
@@ -56,6 +56,6 @@ SMA allows you to **select as many objects** to extract as you desire. To start 
 
 <!-- TODO -->
 > [!NOTE]
-> SMA will automatically try to fit your content to make the best use of the space in SuperMemo. You can create new [layouts](#) to change the default arrangement.
+> SMA will automatically try to fit your content to make the best use of the space in SuperMemo. *You can create new **layouts** to change the default arrangement. (work in progress)*
 
 ![](content/images/plugin-pdf/pdf-extract-multiple-AB.png '@z2v="content/videos/plugin-pdf/pdf-extract-multiple"')
