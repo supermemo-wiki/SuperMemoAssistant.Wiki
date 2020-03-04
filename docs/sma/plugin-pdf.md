@@ -130,7 +130,7 @@ HotKeys
 			- Show selected text in Dictionary (Ctrl+D)
 			- Go To Page (Ctrl+G)
 			- SM Learn (Ctrl+L)
-			- Learn And Reschedule (Ctrl+Shift+L)
+			- SM Review All (Ctrl+Shift+L)
 			- SM Reschedule (Ctrl+J)
 			- SM LaterToday (Ctrl+Shift+J)
 			- SM Done (Ctrl+Shift+Enter)
