@@ -1,3 +1,17 @@
+### PDF Summary
+
+> **Import:** <kbd> Ctrl + Alt + I </kbd> to import PDF.
+>
+> **Open PDF:** Select the <dfn aria-label="Element in SuperMemo which contains the data of an imported PDF.">**PDF element**</dfn> SMA created for you. Unselect to close.
+>
+> **Extract:** <kbd> Alt + X</kbd> to extract.
+>
+> **Images:** Hold <kbd> Right click </kbd> and drag mouse to **area snapshot** images. 
+>
+> **Multi-content:** Hold <kbd>CTRL</kbd> to choose multiple elements (e.g. text + images).
+>
+> See also: [Sub-PDFs](#pdf-sub-pdf), [LateX](plugin-latex.md), [Dictionary](plugin-Dictionary.md), [PDF deletion](#pdf-Deletion)
+
 ### PDF: Video tutorial
 
 <div class="youtube-container">
