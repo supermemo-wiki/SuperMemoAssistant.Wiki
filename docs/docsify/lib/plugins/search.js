@@ -1,17 +1,22 @@
 (function () {
+  /* eslint-disable no-unused-vars */
   var INDEXS = {};
 
   var LOCAL_STORAGE = {
     EXPIRE_KEY: 'docsify.search.expires',
-    INDEX_KEY: 'docsify.search.index'
+    INDEX_KEY: 'docsify.search.index',
   };
 
   function resolveExpireKey(namespace) {
-    return namespace ? ((LOCAL_STORAGE.EXPIRE_KEY) + "/" + namespace) : LOCAL_STORAGE.EXPIRE_KEY
+    return namespace
+      ? ((LOCAL_STORAGE.EXPIRE_KEY) + "/" + namespace)
+      : LOCAL_STORAGE.EXPIRE_KEY;
   }
 
   function resolveIndexKey(namespace) {
-    return namespace ? ((LOCAL_STORAGE.INDEX_KEY) + "/" + namespace) : LOCAL_STORAGE.INDEX_KEY
+    return namespace
+      ? ((LOCAL_STORAGE.INDEX_KEY) + "/" + namespace)
+      : LOCAL_STORAGE.INDEX_KEY;
   }
 
   function escapeHtml(string) {
@@ -20,31 +25,33 @@
       '<': '&lt;',
       '>': '&gt;',
       '"': '&quot;',
-      '\'': '&#39;',
-      '/': '&#x2F;'
+      "'": '&#39;',
+      '/': '&#x2F;',
     };
 
-    return String(string).replace(/[&<>"'/]/g, function (s) { return entityMap[s]; })
+    return String(string).replace(/[&<>"'/]/g, function (s) { return entityMap[s]; });
   }
 
   function getAllPaths(router) {
     var paths = [];
 
-    Docsify.dom.findAll('.sidebar-nav a:not(.section-link):not([data-nosearch])').forEach(function (node) {
-      var href = node.href;
-      var originHref = node.getAttribute('href');
-      var path = router.parse(href).path;
+    Docsify.dom
+      .findAll('.sidebar-nav a:not(.section-link):not([data-nosearch])')
+      .forEach(function (node) {
+        var href = node.href;
+        var originHref = node.getAttribute('href');
+        var path = router.parse(href).path;
 
-      if (
-        path &&
-        paths.indexOf(path) === -1 &&
-        !Docsify.util.isAbsolutePath(originHref)
-      ) {
-        paths.push(path);
-      }
-    });
+        if (
+          path &&
+          paths.indexOf(path) === -1 &&
+          !Docsify.util.isAbsolutePath(originHref)
+        ) {
+          paths.push(path);
+        }
+      });
 
-    return paths
+    return paths;
   }
 
   function saveData(maxAge, expireKey, indexKey) {
@@ -66,7 +73,7 @@
         index[slug] = { slug: slug, title: token.text, body: '' };
       } else {
         if (!slug) {
-          return
+          return;
         }
 
         if (!index[slug]) {
@@ -76,18 +83,22 @@
         } else {
           if (!token.text) {
             if (token.type === 'table') {
-              token.text = token.cells.map(function (rows) {
-                return rows.join(' | ')
-              }).join(' |\n ');
+              token.text = token.cells
+                .map(function(rows) {
+                  return rows.join(' | ');
+                })
+                .join(' |\n ');
             }
           }
 
-          index[slug].body = (index[slug].body ? index[slug].body + token.text : token.text);
+          index[slug].body = index[slug].body
+            ? index[slug].body + token.text
+            : token.text;
         }
       }
     });
     slugify.clear();
-    return index
+    return index;
   }
 
   /**
@@ -160,7 +171,7 @@
             title: escapeHtml(postTitle),
             content: postContent ? resultStr : '',
             url: postUrl,
-            score: matchesScore
+            score: matchesScore,
           };
 
           matchingResults.push(matchingPost);
@@ -170,7 +181,7 @@
 
     for (var i = 0; i < data.length; i++) loop( i );
 
-    return matchingResults.sort(function (r1, r2) { return r2.score - r1.score; })
+    return matchingResults.sort(function (r1, r2) { return r2.score - r1.score; });
   }
 
   function init(config, vm) {
@@ -186,7 +197,7 @@
     if (isExpired) {
       INDEXS = {};
     } else if (!isAuto) {
-      return
+      return;
     }
 
     var paths = isAuto ? getAllPaths(vm.router) : config.paths;
@@ -195,17 +206,19 @@
 
     paths.forEach(function (path) {
       if (INDEXS[path]) {
-        return count++
+        return count++;
       }
 
-      Docsify
-        .get(vm.router.getFile(path), false, vm.config.requestHeaders)
-        .then(function (result) {
+      Docsify.get(vm.router.getFile(path), false, vm.config.requestHeaders).then(
+        function (result) {
           INDEXS[path] = genIndex(path, result, vm.router, config.depth);
           len === ++count && saveData(config.maxAge, expireKey, indexKey);
-        });
+        }
+      );
     });
   }
+
+  /* eslint-disable no-unused-vars */
 
   var NO_DATA_TEXT = '';
   var options;
@@ -219,8 +232,7 @@
   function tpl(defaultValue) {
     if ( defaultValue === void 0 ) defaultValue = '';
 
-    var html =
-      "<div class=\"input-wrap\">\n      <input type=\"search\" value=\"" + defaultValue + "\" aria-label=\"Search text\" />\n      <div class=\"clear-button\">\n        <svg width=\"26\" height=\"24\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#ccc\" />\n          <path stroke=\"white\" stroke-width=\"2\" d=\"M8.25,8.25,15.75,15.75\" />\n          <path stroke=\"white\" stroke-width=\"2\"d=\"M8.25,15.75,15.75,8.25\" />\n        </svg>\n      </div>\n    </div>\n    <div class=\"results-panel\"></div>\n    </div>";
+    var html = "<div class=\"input-wrap\">\n      <input type=\"search\" value=\"" + defaultValue + "\" aria-label=\"Search text\" />\n      <div class=\"clear-button\">\n        <svg width=\"26\" height=\"24\">\n          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#ccc\" />\n          <path stroke=\"white\" stroke-width=\"2\" d=\"M8.25,8.25,15.75,15.75\" />\n          <path stroke=\"white\" stroke-width=\"2\"d=\"M8.25,15.75,15.75,8.25\" />\n        </svg>\n      </div>\n    </div>\n    <div class=\"results-panel\"></div>\n    </div>";
     var el = Docsify.dom.create('div', html);
     var aside = Docsify.dom.find('aside');
 
@@ -245,7 +257,7 @@
         $appName.classList.remove('hide');
       }
 
-      return
+      return;
     }
 
     var matchs = search(value);
@@ -293,7 +305,7 @@
     var $input = Docsify.dom.getNode('.search input[type="search"]');
 
     if (!$input) {
-      return
+      return;
     }
 
     if (typeof text === 'string') {
@@ -333,6 +345,8 @@
     updateNoData(opts.noData, vm.route.path);
   }
 
+  /* eslint-disable no-unused-vars */
+
   var CONFIG = {
     placeholder: 'Type to search',
     noData: 'No Results!',
@@ -340,10 +354,10 @@
     depth: 2,
     maxAge: 86400000, // 1 day
     hideOtherSidebarContent: false,
-    namespace: undefined
+    namespace: undefined,
   };
 
-  var install = function (hook, vm) {
+  var install = function(hook, vm) {
     var util = Docsify.util;
     var opts = vm.config.search || CONFIG;
 
@@ -355,7 +369,8 @@
       CONFIG.placeholder = opts.placeholder || CONFIG.placeholder;
       CONFIG.noData = opts.noData || CONFIG.noData;
       CONFIG.depth = opts.depth || CONFIG.depth;
-      CONFIG.hideOtherSidebarContent = opts.hideOtherSidebarContent || CONFIG.hideOtherSidebarContent;
+      CONFIG.hideOtherSidebarContent =
+        opts.hideOtherSidebarContent || CONFIG.hideOtherSidebarContent;
       CONFIG.namespace = opts.namespace || CONFIG.namespace;
     }
 

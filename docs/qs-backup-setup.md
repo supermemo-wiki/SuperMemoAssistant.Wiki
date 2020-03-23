@@ -39,6 +39,10 @@ You should obtain a layout similar to this one (it is fine if you only have one 
 ![](/content/images/backup-setup/computer-management-disks.png 'SuperMemo partition :ignore')
 
 
+![](/content/images/backup-setup/computer-management-disks.png)
+
+![](/content/images/backup-setup/computer-management-disks.png ':relative :ignore')
+
 
 ##### II) Install & Configuration
 

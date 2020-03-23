@@ -479,7 +479,7 @@
     return { attributes: attributes, body: body, frontmatter: yaml }
   }
 
-  var install = function (hook, vm) {
+  var install = function(hook, vm) {
     hook.beforeEach(function (content) {
       var ref = extractor(content);
       var attributes = ref.attributes;
@@ -487,7 +487,7 @@
 
       vm.frontmatter = attributes;
 
-      return body
+      return body;
     });
   };
 

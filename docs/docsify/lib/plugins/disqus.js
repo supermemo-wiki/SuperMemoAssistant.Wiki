@@ -1,4 +1,5 @@
 (function () {
+  /* eslint-disable no-unused-vars */
   var fixedPath = location.href.replace('/-/', '/#/');
   if (fixedPath !== location.href) {
     location.href = fixedPath;
@@ -8,7 +9,7 @@
     var dom = Docsify.dom;
     var disqus = vm.config.disqus;
     if (!disqus) {
-      throw Error('$docsify.disqus is required')
+      throw Error('$docsify.disqus is required');
     }
 
     hook.init(function (_) {
@@ -39,11 +40,11 @@
       if (typeof window.DISQUS !== 'undefined') {
         window.DISQUS.reset({
           reload: true,
-          config: function () {
+          config: function() {
             this.page.url = location.origin + '/-' + vm.route.path;
             this.page.identifier = vm.route.path;
             this.page.title = document.title;
-          }
+          },
         });
       }
     });
