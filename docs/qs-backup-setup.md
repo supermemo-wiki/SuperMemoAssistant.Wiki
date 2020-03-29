@@ -1,3 +1,5 @@
+!> Warning! In [SuperMemo 18.04](http://supermemopedia.com/wiki/Bug_fix_in_the_newest_SuperMemo_18) a bug was introduced that can cause catastrophic damage to your collection when you use repair collection. Update to SuperMemo 18.041 to prevent this! 
+
 ## Why & How ?
 
 #### Why should you backup ?
