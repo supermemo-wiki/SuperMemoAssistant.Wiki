@@ -1,4 +1,5 @@
 (function () {
+  /* eslint-disable no-unused-vars */
   function install(hook) {
     var dom = Docsify.dom;
 

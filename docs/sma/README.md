@@ -37,14 +37,15 @@ setInterval(() => siema.next(), 5000);
   <div class="pure-u-1 pure-u-smd-13-24">
     <p style="color: darkred;"><strong>Get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
 	<ol>
-      <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/latest/" target="_blank" rel="noopener">Download</a> the latest version</li>
+      <li><a href="#">Download</a> the latest version (N/A)</li>
+      <!-- <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/latest/" target="_blank" rel="noopener">Download</a> the latest version</li> -->
       <li><a href="#/qs-installation">Install SMA</a></li>
       <li><a href="#/qs-using-sma">Quick start</a></li>
       <li><a href="#/qs-using-sma#sma-102">Import PDF and Browser tabs</a></li>
 	</ol>
 	<p>Additional resources:</p>
 	<ul>
-      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> chat room</li>
+      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> chat room [![Discord](https://img.shields.io/discord/673071773700587521.svg)](https://chat.supermemo.wiki/)</li>
       <li><a href="https://chat.supermemo.wiki" target="_blank" rel="noopener">Discord (web)</a> for guests</li>
       <li><a href="https://github.com/SuperMemo/" target="_blank" rel="noopener">GitHub page</a></li>
       <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a> (WIP)</li>

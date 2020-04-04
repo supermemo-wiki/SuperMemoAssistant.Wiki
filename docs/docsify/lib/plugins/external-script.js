@@ -3,7 +3,7 @@
     var container = Docsify.dom.getNode('#main');
     var scripts = Docsify.dom.findAll(container, 'script');
 
-    for (var i = scripts.length; i--;) {
+    for (var i = scripts.length; i--; ) {
       var script = scripts[i];
 
       if (script && script.src) {
@@ -19,7 +19,7 @@
     }
   }
 
-  var install = function (hook) {
+  var install = function(hook) {
     hook.doneEach(handleExternalScript);
   };
 
