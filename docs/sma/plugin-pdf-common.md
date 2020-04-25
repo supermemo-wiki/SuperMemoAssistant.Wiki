@@ -11,6 +11,10 @@
 3. Select your `.pdf` file, and press the <kbd>Open</kbd> button
 
 !> If you cannot find the File Picker Dialog, use <kbd>Alt</kbd> + <kbd>Tab</kbd> to find a window called **"Open"**. It might sometime open in the background.
+!> If you're running SuperMemo in [Parallels](https://www.parallels.com/), <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd>
+won't work for you. You need to press the keys in the order of <kbd>I</kbd> + <kbd>Alt</kbd> + <kbd>Ctrl</kbd> for the **File picker dialog** to show up. 
+
+
 
 ![](content/images/plugin-pdf/pdf-import-pdf.png '@z2v="content/videos/plugin-pdf/pdf-import"')
 
