@@ -1,0 +1,14 @@
+
+- [Anotar.Serilog.Fody](https://github.com/Fody/Anotar) is a Fody add-on which improves the [Serilog](https://github.com/serilog/serilog) logging library
+- [Extensions.System.IO](https://github.com/alexis-/System.IO.Extensions) facilitates working with files and directories
+- [Fody](https://github.com/Fody/Fody) enables developers to **edit an assembly after it has been compiled**, unlocking some very powerful features through add-ons, such as embedding metadata (line number, method name, ...) when writing logs
+- [MSBuild.Tools](https://github.com/alexis-/MSBuild.Tools) enables developers to customize their build process. It is used by the SDK behind the scene to add features such as automatic release notes, easy packaging and publishing of plugins, etc.
+- [Microsoft.SourceLink.GitHub](https://github.com/dotnet/sourcelink) bakes metadata about your git repository in your assembly to enable source files download while debugging
+- [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) creates unique, deterministic version numbers for your assembly, **based on your Git repository's** height
+- [PluginManager.Interop](https://github.com/alexis-/PluginManager.Net) enables plugins to communicate with SMA's Plugin Manager. It is the backbone of the Plugin's infrastructure
+- [PropertyChanged.Fody](https://github.com/Fody/PropertyChanged) is a Fody add-on which enhances the [INotifyPropertyChanged.PropertyChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged?redirectedfrom=MSDN&view=netcore-3.1) event, and facilitates its implementation in user-code
+- [Sentry.Serilog](https://www.nuget.org/packages/Sentry.Serilog) enables [Sentry](https://sentry.io/) to send bug report based on Serilog logs
+- [Serilog](https://github.com/serilog/serilog) is a popular logging library for C#, with several extensions to enhance its features.
+- [SuperMemoAssistant.Interop](https://github.com/supermemo/SuperMemoAssistant.Interop/) enables Plugins to interact with the SMA API, and provides several tools which facilitate writing plugins (reading and writing configuration files, registering keyboard hotkeys, etc.)
+- [SuperMemoAssistant.mshtml](https://github.com/supermemo/SuperMemoAssistant/tree/develop/libs/mshtml) is a convenience NuGet package which bundles Microsoft's mshtml COM library. The mshtml library is used to interact with the Internet Explorer browser
+- [SuperMemoAssistant.Services.Sentry](https://github.com/supermemo/SuperMemoAssistant.Services.Sentry/) enables developers to use the [Sentry](https://sentry.io/) automated bug reporting service in their plugin by simply specifying an API key

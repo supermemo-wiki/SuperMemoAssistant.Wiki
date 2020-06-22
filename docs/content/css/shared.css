@@ -45,7 +45,11 @@ kbd.win {
 	content: url(/content/images/icons/kbd-win-key.png);
 }
 
-a[target="_blank"]::after {
+.no-after::after {
+  content: none;
+}
+
+a::not(.no-after)::[target="_blank"]::after {
 	margin-left: 5px;
 	content: url(/content/images/icons/external-link.png);
 }

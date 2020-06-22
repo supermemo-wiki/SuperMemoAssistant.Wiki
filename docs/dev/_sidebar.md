@@ -1,0 +1,25 @@
+- [Home](README.md)
+
+- Plugins
+  - [Pre-requisite: Setup](plugin-dev-guide-1-setup.md)
+  - [Plugin 101: The essentials](plugin-dev-guide-2-the-essentials.md)
+  - [Plugin 102: Coding a plugin](plugin-dev-guide-3-plugin-wozniator-2020.md)
+  - [Plugin 103: Publishing a plugin](plugin-dev-guide-4-publishing-plugins.md)
+- Reference Manual
+  - Plugins
+    - [Build](plugin-dev-refm-build.md)
+    - [Dependencies](plugin-dev-refm-dependencies.md)
+    - [SMAPluginBase](plugin-dev-refm-smapluginbase.md)
+    - [Using GUI](plugin-dev-refm-using-gui.md)
+  - Services
+    - [ConfigurationMgr](plugin-dev-refm-svc-configuration.md)
+    - [HotKeyManager](plugin-dev-refm-svc-hotkeymanager.md)
+    - [KeyboardHotKeys](plugin-dev-refm-svc-keyboardhotkey.md)
+    - [SM](plugin-dev-refm-svc-sm.md)
+    - [SMA](plugin-dev-refm-svc-sma.md)
+  - SMA
+    - [Controls and Components](sma-dev-refm-controls-and-components.md)
+- Other wikis
+  - [**SuperMemo wiki**](/ ':ignore')
+  - [**SuperMemo Assistant wiki**](/sma/ ':ignore')
+  - [**Contributing wiki**](/contributing/ ':ignore')

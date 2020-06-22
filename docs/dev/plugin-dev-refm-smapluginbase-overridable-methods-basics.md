@@ -1,0 +1,2 @@
+- **PluginInit()**: This method is called when the Plugin is run and initialized. It will be called every time your Plugin is starting. Plugins must override it since it is marked *abstract*
+- **ShowSettings()**: This method is called when **HasSettings** is `true` and a user clicks on the settings button

@@ -147,18 +147,15 @@ Don't panic! Restoring your collection to an earlier version is easy with BitShe
 > If you want to use SSH authentication instead of HTTPS, follow [this guide](https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/)
 
 1. Create a [GitHub account](https://github.com/join/).
-
 2. Download [Git for Windows](https://gitforwindows.org/).
-
 3. Install it with default settings
-
 5. Open a command prompt: type `cmd.exe`, then press <kbd>Enter</kbd> and run the following two commands (with your own name and email you use for github):
 
    ```
    git config --global user.name "Piotr Wozniak"
    git config --global user.email woz@supermemo.org
    ```
-   Setup is now complete!
+Setup is now complete!
   
 #### Creating & Synchronizing your GitHub repository
 

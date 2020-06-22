@@ -1,8 +1,10 @@
 - [Home](README.md)
+
 - Quick start
   - [Installation](qs-installation.md)
   - [Using SMA](qs-using-sma.md)
   - [Recommended backup setup ⚠️](qs-backup-setup.md)
+  
 - Reference manual
   - Plugins
     - [PDF](plugin-pdf.md)
@@ -18,4 +20,7 @@
 	- [Contributing](refm-sma-contributing.md)
 	- [History](refm-sma-history.md)
 
-- Developer documentation
+- Other wikis
+  - [**SuperMemo wiki**](/ ':ignore')
+  - [**Developer wiki**](/dev/ ':ignore')
+  - [**Contributing wiki**](/contributing/ ':ignore')

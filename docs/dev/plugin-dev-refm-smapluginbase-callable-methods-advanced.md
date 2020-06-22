@@ -1,0 +1,4 @@
+- **GetService<IService>()**: Enables your plugin to request the <dfn aria-label="Service which allows Plugins to interact with another Plugin. For example, the PDF Plugin uses the Dictionary Interop to display its embedded dictionary popup.">Interop service</dfn> from another Plugin
+- **PublishService<IService, TService>(TService, string)**: Use this method to publish a service for other Plugins to consume. This feature will be documented in another part of the documentation (TODO: link to the page)
+- **RevokeService<IService>()**: Use this method to revoke a previously published service
+- **RevokeServices()**: Use this method to revoke all currently published services

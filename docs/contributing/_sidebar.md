@@ -1,4 +1,8 @@
 - [Home](README.md)
+
 - [Contributing to the wiki](editing-the-wiki.md)
-- [**SuperMemo.wiki**](/ ':ignore')
-- [**SuperMemo Assistant**](/sma/ ':ignore')
+
+- Other wikis
+  - [**SuperMemo wiki**](/ ':ignore')
+  - [**SuperMemo Assistant wiki**](/sma/ ':ignore')
+  - [**Developer wiki**](/dev/ ':ignore')

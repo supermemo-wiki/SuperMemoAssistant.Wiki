@@ -1,0 +1,2 @@
+- **Name**: The friendly name of your plugin. It will be displayed in the SMA plugin list
+- **HasSettings**: Whether your plugin has a settings UI or not. Setting this property to true will display the gear icon in the SMA plugin list
