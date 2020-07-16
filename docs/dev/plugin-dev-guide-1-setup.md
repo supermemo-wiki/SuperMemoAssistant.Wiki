@@ -54,8 +54,8 @@ Why you may ask ? This is a good practice which can save you the trouble of a wi
 2. Run the following two commands (with your own name and email):
 
    ```
-   git config --global user.name "Piotr Wozniak"
-   git config --global user.email woz@supermemo.org
+   git config --global user.name "SuperMemo"
+   git config --global user.email help@supermemo.com
    ```
 
 ##### Tortoise Git

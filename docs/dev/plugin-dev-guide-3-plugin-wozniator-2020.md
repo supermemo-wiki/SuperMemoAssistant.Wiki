@@ -185,13 +185,13 @@ This means that the events will be triggered from anywhere inside of Windows, in
 ### 2. The pool of insight
 
 We will be implementing:
-1. A `GetRandomWozQuote` **method** which selects a random quote from a file containing a collection of quotes from Piotr's supermemo.guru website
-2. A `PoolOfInsight` **method** which creates a new Topic containing the text returned by `GetRandomWozQuote`
+1. A `GetRandomQuote` **method** which selects a random quote from a file containing a collection of quotes from Piotr's supermemo.guru website
+2. A `PoolOfInsight` **method** which creates a new Topic containing the text returned by `GetRandomQuote`
 3. A **hot key**: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd>
 
 For our **collection of quotes**, we will be downloading [@jamesb](https://github.com/bjsi)'s spreadsheet. This spreadsheet was created by scrapping content from the supermemo.guru website using a script. [Download the quote spreadsheet](https://github.com/supermemo/Random-Woz-Quote/raw/master/quotes.tsv).
 
-#### The `GetRandomWozQuote` method
+#### The `GetRandomQuote` method
 
 This is a purely algorithmic, SMA-unrelated method. As such we won't be providing in-depth explanation aside from in-code comments.
 
@@ -217,7 +217,7 @@ public static class Utils
   /// Loads the quote file and selects a random quote.
   /// </summary>
   /// <returns>The quote text or <see langword="null" /> if an error occured.</returns>
-  public static string GetRandomWozQuote()
+  public static string GetRandomQuote()
   {
     // Tab separated file with a heading
     // Quote, Author, Url, Title
@@ -282,7 +282,7 @@ private void PoolOfInsight()
 {
   try
   {
-    var quoteText = Utils.GetRandomWozQuote();
+    var quoteText = Utils.GetRandomQuote();
 
     if (quoteText == null)
     {
