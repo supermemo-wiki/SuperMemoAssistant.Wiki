@@ -5,7 +5,7 @@
 > [!NOTE|style:flat|label:What is this] **After completing this tutorial**, you will know how to create SMA Plugins, and you will have an **understanding of what constitutes a Plugin**, as well as the essential tools available to you when writing one.
 >
 > This tutorial assumes that you have already completed the [previous tutorial](plugin-dev-guide-1-setup.md), or that your environment is correctly setup.
-> 
+>
 > In the [next tutorial](plugin-dev-guide-3-plugin-wozniator-2020.md) of this series, we will add functionalities to our Plugin by applying some of the tools we have learned about in this tutorial.
 
 ### Git repository
@@ -23,20 +23,20 @@ This is an **optional, but highly recommended step**. If you are familiar with u
 5. Select `Add .gitignore: VisualStudio`
 6. Select `Add a license: MIT License`
 7. Click on <kbd>Create repository</kbd>
-  
+
 [![](content/images/plugins/plugin-guide-2-the-essentials/dev-git-github-repo-create.png)](content/images/plugins/plugin-guide-2-the-essentials/dev-git-github-repo-create.png ':ignore')
- 
+
 #### Cloning your repository
-  
+
 [![](/content/images/backup-setup/github-clone-link.png)](/content/images/backup-setup/github-clone-link.png  ':ignore @style="max-width:300px; float: right;"')
- 
+
 ##### Get the link of your Git repository
 
 1. Browse to your new **GitHub repository**
 2. Click on the <kbd>Clone or download</kbd> button
 3. Press **Use HTTPS**
 4. Copy the link
-  
+
 ##### Clone your Git repository
 
 
@@ -50,7 +50,7 @@ This is an **optional, but highly recommended step**. If you are familiar with u
 
 [![](content/images/plugins/plugin-guide-2-the-essentials/dev-git-clone-dialog.png '@style="max-width: 400px;"')](content/images/plugins/plugin-guide-2-the-essentials/dev-git-clone-dialog.png ':ignore')
 
-> [!NOTE] For the rest of this tutorial, we will assume that the repository has been cloned in the `C:\Users\SMA\Documents\SMA\SuperMemoAssistant.Plugins.Wozniator2020` directory.
+> [!NOTE] For the rest of this tutorial, we will assume that the repository has been cloned into the `C:\Users\SMA\Documents\SMA\SuperMemoAssistant.Plugins.Wozniator2020` directory.
 
 After the download is complete, a new folder named `SuperMemoAssistant.Plugins.Wozniator2020` should be available. Navigate into the folder and make sure that it contains the following files and folder:
 
@@ -85,7 +85,7 @@ In the *Configure your new project* dialog:
 
 [![](content/images/plugins/plugin-guide-2-the-essentials/dev-project-setup-step-3.png '@style="max-width: 550px;"')](content/images/plugins/plugin-guide-2-the-essentials/dev-project-setup-step-3.png ':ignore')
 
-Your project should now be created, and your Visual Studio should display the [Wozniator2020Plugin.cs 🖼️![](content/images/plugins/plugin-guide-2-the-essentials/dev-project-default-view.png)](content/images/plugins/plugin-guide-2-the-essentials/dev-project-default-view.png ':ignore @class="no-after" @tooltip-preview') file in the text editor.
+Your project should now be created, and Visual Studio should display the [Wozniator2020Plugin.cs 🖼️![](content/images/plugins/plugin-guide-2-the-essentials/dev-project-default-view.png)](content/images/plugins/plugin-guide-2-the-essentials/dev-project-default-view.png ':ignore @class="no-after" @tooltip-preview') file in the text editor.
 
 > [!NOTE] The **minimum version** required for running a Plugin is **.Net framework 4.7.2**. The highest possible version is .NET framework 4.8 since Microsoft announced the end of the .NET Framework line.
 
@@ -100,7 +100,7 @@ Let's take a look at the project structure in the **Solution Explorer**:
 - <dfn aria-label="The _ underscore prepended to the word is used to cheat the sorting algorithm and bring this folder to the top of the list">❔</dfn> **_Solution files** should hold your general-purpose files (e.g. the README.md or LICENSE files)
 - **Plugins** should hold all your projects relating to Wozniator2020 (e.g. the *Plugin* itself, an <dfn aria-label="Library which allows other Plugins to interact with your own Plugin. For example, the PDF Plugin uses the Dictionary Interop to display its embedded dictionary popup.">Interop library</dfn>, etc.)
 - **Tests** should hold all the unit testing code relating to your plugins
-  
+
 ##### Plugin files
 
 - <u>**Wozniator2020Plugin.cs**</u> is the main file of your project: it defines a `Wozniator2020Plugin` class whose role can be compared to the `Program` class, with its `Main()` entry point. You will learn more about its special role later in the guide
@@ -109,7 +109,7 @@ Let's take a look at the project structure in the **Solution Explorer**:
 
 ##### Dependencies
 
-Dependencies are pieces of code that developers can use to leverage their functionalities. If you are not familiar with dependencies and packages, feel free to read [this documentation](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/dependencies).
+Dependencies are shared pieces of code that developers can import to leverage their functionalities. If you are not familiar with dependencies and packages, feel free to read [this documentation](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/dependencies).
 
 > [!NOTE] You can find the full documentation for Dependencies [here](plugin-dev-refm-dependencies.md).
 
@@ -117,7 +117,7 @@ Dependencies are pieces of code that developers can use to leverage their functi
 
 ##### Wozniator2020Plugin.cs
 
-The `Wozniator2020` class implemented in this file has a **pivotal role**: it inherits from the `SMAPluginBase` class which defines the essential properties and methods that makes up a SMA Plugin. Let's take a closer look.
+The `Wozniator2020` class implemented in this file has a **pivotal role**: it inherits from the `SMAPluginBase` class which defines the essential properties and methods that make up a SMA Plugin. Let's take a closer look.
 
 > [!NOTE] You can find the full documentation for `SMAPluginBase` [here](plugin-dev-refm-smapluginbase.md).
 
@@ -136,7 +136,7 @@ The `Wozniator2020` class implemented in this file has a **pivotal role**: it in
 > There will be times when you:
 > - Want to understand some pieces of code that has **no documentation on the wiki**,
 > - Want to **achieve a particular behaviour** but you aren't sure how to do that.
-> 
+>
 > In these circumstances, I suggest that you:
 > - Read the code documentation: most of the SDK is commented and should give sufficient indications,
 > - Check out how [existing plugins](https://github.com/supermemo/) are coded,
@@ -145,7 +145,7 @@ The `Wozniator2020` class implemented in this file has a **pivotal role**: it in
 
 #### Svc : Your Swiss Army Knife
 
-The `Svc` class (located under the `SuperMemoAssistant.Services` namespace) provides a quick access to the essential services that you will be using when writing Plugins for SuperMemo. Let's go over them one-by-one:
+The `Svc` class (located under the `SuperMemoAssistant.Services` namespace) provides quick access to the essential services that you will be using when writing Plugins for SuperMemo. Let's go over them one-by-one:
 
 ##### Core Services
 
@@ -154,13 +154,13 @@ The `Svc` class (located under the `SuperMemoAssistant.Services` namespace) prov
 
 ##### Keyboard Services
 
-- [HotKeyManager](plugin-dev-refm-svc-hotkeymanager.md): Your principle mean of registering keyboard hot keys for your users to interact with your Plugin. Offers facilities for rebinding hotkeys, saving and loading from configuration, and managing all existing your hot keys.
-- [KeyboardHotKey](plugin-dev-refm-svc-keyboardhotkey.md): A lower-level mean of registering hot keys. Enables you to directly register a hot key with a callback, without any of the facilities of HotKeyManager, or set a callback for every key stroke. HotKeyManager uses this service behind the scene.
+- [HotKeyManager](plugin-dev-refm-svc-hotkeymanager.md): Your principle means of registering keyboard hot keys for your users to interact with your Plugin. Offers facilities for rebinding hotkeys, saving and loading from configuration, and managing all existing hot keys.
+- [KeyboardHotKey](plugin-dev-refm-svc-keyboardhotkey.md): A lower-level means of registering hot keys. Enables you to directly register a hot key with a callback, without any of the facilities of HotKeyManager, or set a callback for every key stroke. HotKeyManager uses this service behind the scenes.
 - **KeyboardHotKeyLegacy**: An obsolete version of the KeyboardHotKey service. Only use if you know what you are doing.
 
 ##### Configuration Services
 
-- [Configuration](plugin-dev-refm-svc-configuration.md): The preferred way of saving and loading configuration data. Will serialize your configuration objects to separate json file, and store them in your SMA Config folder.
+- [Configuration](plugin-dev-refm-svc-configuration.md): The preferred way of saving and loading configuration data. It will serialize your configuration objects into a separate json file, and store it in your SMA Config folder.
 - [SharedConfiguration](plugin-dev-refm-svc-configuration.md#shared-configuration): Same as **Configuration**, but stores the files a folder accessible across all Plugins.
 - [CollectionConfiguration](plugin-dev-refm-svc-configuration.md#collection-configuration): Same as **Configuration**, but stores the files in the `sma\configs\<Your-Plugin-Name>\` folder of the open collection. Use this when the configuration data is specific to the collection, and should be available across all computers (e.g. if the user is synchronizing his collection on several computers).
 
@@ -199,8 +199,8 @@ Select your **running Visual Studio instance** (second item in the screenshot ab
 
 [![Missing file dialog](content/images/plugins/plugin-guide-2-the-essentials/dev-debug-plugin-app.xaml.cs.png '@style="max-width: 400px;"')](content/images/plugins/plugin-guide-2-the-essentials/dev-debug-plugin-app.xaml.cs.png ':ignore')
 
-Simply close the dialog, and press <kbd>Continue</kbd> (or <kbd>F5</kbd> on your keyboard) to resume the execution of your Plugin. Any **breakpoint** that you have placed should now **break the execution** of your Plugin, allowing you to inspect the behaviour of your code.
+Simply close the dialog, and press <kbd>Continue</kbd> (or <kbd>F5</kbd> on your keyboard) to resume the execution of your Plugin. Any **breakpoints** that you have placed should now **break the execution** of your Plugin, allowing you to inspect the behaviour of your code.
 
 ##### Troubleshooting
 
-If you have any issue when building your project, visit the [troubleshooting page](plugin-dev-troubleshooting.md), or reach out to a developer on our [Discord server](https://discord.gg/vUQhqCT).
+If you have any issues when building your project, visit the [troubleshooting page](plugin-dev-troubleshooting.md), or reach out to a developer on our [Discord server](https://discord.gg/vUQhqCT).
