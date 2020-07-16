@@ -34,7 +34,7 @@
 
 Once this is done, you are ready to use the LaTeX hotkeys in SuperMemo.
 
-<u>**Remember to setup MathPix OCR(https://supermemo.wiki/sma/#/plugin-pdf?id=pdf-built-in-ocr) to extract text as LaTeX inside PDF documents.**</u>
+?> [!TIP] To extract LaTeX formulas from your PDF documents, setup the PDF plugin with your [MathPix OCR](https://supermemo.wiki/sma/#/plugin-pdf?id=pdf-built-in-ocr) account.
 
 ## LaTeX basics
 
