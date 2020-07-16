@@ -5,7 +5,7 @@
 > [!NOTE|style:flat|label:What is this] **After completing this tutorial**, you will have practical knowledge on using the **SMA SDK** and adding basic functionalities to your Plugins.
 >
 > This tutorial assumes that you have already completed the [previous tutorial](plugin-dev-guide-2-the-essentials.md).
-> 
+>
 > In the [next tutorial](plugin-dev-guide-4-publishing-plugins.md) of this series, we will learn how to create new versions of our Plugin, and how to publish them.
 
 ### Plugin specifications
@@ -14,16 +14,16 @@ In this tutorial we will be **writing code** for our Wozniator 2020 Plugin. Thes
 
 1. A picture of **Piotr Wozniak** should be **inserted** at the top of the currently focused HTML component when the user presses the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd>,
 2. A **new Topic** should be created containing a random quote from Piotr's [supermemo.guru](https://supermemo.guru) website when the user presses <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd>,
-3. When a new element is displayed in SuperMemo, **duplicated** Piotr Wozniak images in HTML components should be **removed** (there can only be one Piotr Wozniak),
+3. When a new element is displayed in SuperMemo, **duplicate** Piotr Wozniak images in HTML components should be **removed** (there can only be one Piotr Wozniak),
 4. Plugin **Settings** with:
-  - An option to set the **amount of Wozniaks** to which we should normalize our HTML components, instead of the fixed number of 1 (see #3),
+  - An option to set the **number of Wozniaks** to which we should normalize our HTML components, instead of the default number of 1 (see #3),
   - An option to select the **destination branch** for new Topics (see #2).
 
 This Plugin should satisfy all your Wozniak needs.
 
 > [!TIP|label:Wozniator 2020 Source Code|style:flat] You can download the complete source code for this project from its [GitHub repository](https://github.com/supermemo/SuperMemoAssistant.Plugins.Wozniator2020).
 
-> [!NOTE|label:Who is Piotr Wozniak] Dr. [Piotr Wozniak](https://www.wired.com/2008/04/ff-wozniak/), is the co-creator of SuperMemo, and inventor of the first spaced repetition Algorithm. He has been uninterruptedly learning with SuperMemo since its first iteration, making him the longest user of SuperMemo !
+> [!NOTE|label:Who is Piotr Wozniak] Dr. [Piotr Wozniak](https://www.wired.com/2008/04/ff-wozniak/) is the co-creator of SuperMemo, and inventor of the first spaced repetition Algorithm. He has been uninterruptedly learning with SuperMemo since its first iteration, making him the longest user of SuperMemo !
 
 ### 0. Setting up the Plugin metadata
 
@@ -125,7 +125,7 @@ We do not log these exceptions, as they neither necessarily constitute an error 
 > [!TIP] The `?.` syntax is called a [null-conditional operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-). It applies the requested operation only if the operand (left-side) is non-null.
 
 ```csharp
-var htmlCtrl = Svc.SM.UI.ElementWdw.ControlGroup?.FocusedControl.AsHtml();
+var htmlCtrl = Svc.SM.UI.ElementWdw.ControlGroup?.FocusedControl?.AsHtml();
 ```
 
 Let's break down this line:
@@ -177,7 +177,7 @@ The second parameter determines the **friendly name** that will be displayed in 
 
 ##### Scope of Hot Keys
 
-`RegisterGlobal` uses the Windows [Hooks API](https://docs.microsoft.com/en-us/windows/win32/winmsg/about-hooks#wh_keyboard_ll) to listen for keystroke on a **system-wide** level. 
+`RegisterGlobal` uses the Windows [Hooks API](https://docs.microsoft.com/en-us/windows/win32/winmsg/about-hooks#wh_keyboard_ll) to listen for keystrokes on a **system-wide** level.
 This means that the events will be triggered from anywhere inside of Windows, including outside the scope of SuperMemo (e.g. if you're reading your email).
 
 *SMA* offers facilities to **narrow down the scope** of the activation to SuperMemo, or specific windows inside of SuperMemo. This option is defined with the `HotKeyScopes` type (see above).
@@ -223,7 +223,7 @@ public static class Utils
     // Quote, Author, Url, Title
     var quoteFile = new FilePath(QuoteFileName);
 
-    if (quoteFile.Exists())
+    if (!quoteFile.Exists())
       return null;
 
     try
