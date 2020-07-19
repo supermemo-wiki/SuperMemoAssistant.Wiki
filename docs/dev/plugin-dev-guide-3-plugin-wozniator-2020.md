@@ -189,7 +189,7 @@ We will be implementing:
 2. A `PoolOfInsight` **method** which creates a new Topic containing the text returned by `GetRandomWozQuote`
 3. A **hot key**: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd>
 
-For our **collection of quotes**, we will be downloading [@jamesb](https://github.com/bjsi)'s spreadsheet. This spreadsheet was created by scrapping content from the supermemo.guru website using a script. [Download the quote spreadsheet](https://github.com/supermemo/Random-Woz-Quote/raw/master/quotes.tsv).
+For our **collection of quotes**, we will be downloading [@jamesb](https://github.com/bjsi)'s spreadsheet. This spreadsheet was created by scraping content from the supermemo.guru website using a script. [Download the quote spreadsheet](https://github.com/supermemo/Random-Woz-Quote/raw/master/quotes.tsv).
 
 #### The `GetRandomWozQuote` method
 
