@@ -4,7 +4,7 @@
 
 ### PDF: Force selection
 
-When you have PDF made of images only, or when you find it hard to select the image (interference with text) you can use force selection by holding <kbd>Right click</kbd>. This will ignore text selection.
+When you have PDF made of images only, or when you find it hard to select the image (because text is in the way) you can use force selection by holding <kbd>Right click</kbd>. This will ignore text selection.
 
 You can use <dfn aria-label="Selection mode that ignores text or image under the cursor. Hold Right click and drag to use.">force selection</dfn> with OCR as shown in the video clip below. (See [built-in OCR](#pdf-built-in-ocr))
 
@@ -16,27 +16,42 @@ You can use <dfn aria-label="Selection mode that ignores text or image under the
 
 ### PDF: Built-in OCR
 
-The PDF plugin implements an optional **OCR**, working with both **text** and **scientific formulas** (math, chemestry, ...). Make sure that you also configure the [LaTeX plugin](plugin-LaTeX).
+The PDF plugin implements an optional **OCR** functionality, which reads out text from images as well as converts scientific formulas (math, chemistry, ...) into Latex. For the latter, please make sure that the separate [LaTeX plugin](plugin-LaTeX) is correctly configured.
 
 #### Setup
 
-Behind the scene, SMA uses [MathPix](https://www.mathpix.com/) to recognize images. [Register](https://dashboard.mathpix.com/) an account to unlock the OCR feature. At the day of writing this guide, pricing is free up to 1000 requests.
+Behind the scene, SMA uses [MathPix](https://www.mathpix.com/) to recognize images. [Register](https://dashboard.mathpix.com/) an account to unlock the OCR feature. As of **24.2.2020**, pricing is free up to 1000 requests (1 request = 1 OCR on image/formula). 
 
-Once you are registered, copy your **MathPix App Name** and **Key** and paste them in the [PDF plugin settings](#).
+!> **Example**: You want to OCR math book which holds 2000 pieces of formulas. First 1000 formulas you OCR are free, the other 1000 formulas will cost a total of $4. However, if you OCR the first 1000 formulas in January and second 1000 in February, it will cost you nothing.
 
 <div class="pure-g">
   <div class="pure-u-1-3" style="padding-right: 30px;">
-    <img src="content/images/plugin-pdf/pdf-mathpix-pricing.png" />
+    <img src="content/images/plugin-pdf/pdf-mathpix-usage.png"  />
   </div>
   <div class="pure-u-2-3">
-    <img src="content/images/plugin-pdf/pdf-mathpix-settings.png" />
+    <img src="content/images/plugin-pdf/pdf-mathpix-pricing.png"width="220" height="240" />
   </div>
 </div>
 
-#### Using the OCR
+*You can find amount of requests you made each month in  https://dashboard.mathpix.com*
 
-1. In the **PDF window**, press the <kbd>Alt</kbd> key, then capture an <dfn aria-label="Image selection mode which captures a region of your PDF into an image. Hold left or right click, then drag an area with your mouse.">[area snapshot](#extract-images)</dfn>.
-2. If your image was success recognized, a window titled *TeX editor* will display your result.
+
+
+
+
+Once you are registered, copy your **MathPix App Name** and **Key** and paste them in the [PDF plugin settings](#).
+
+  <div class="pure-u-2-3">
+    <img src="content/images/plugin-pdf/pdf-mathpix-settings.png" />
+  </div>
+
+</div>
+
+
+#### How to use OCR
+
+1. In the **PDF window**, press the <kbd>Alt</kbd> key, then capture an <dfn aria-label="Image selection mode which captures a region of your PDF into an image. Hold right click, then drag an area with your mouse.">[area snapshot](#extract-images)</dfn>.
+2. If your image was successfully recognized, a *TeX editor* window pops up, in which you can preview your result and make changes before you extract it into SM.
 
 ![TeX editor](content/images/plugin-pdf/pdf-ocr-TeX-editor.png '@z2v="content/videos/plugin-pdf/pdf-ocr-wholeline"')
 
@@ -105,7 +120,7 @@ There are two layers of settings available:
 - **Global PDF settings**: To access these settings, either
   - <kbd>Right click</kbd> the ![](content/images/icons/robot-16.png) icon in your Window tray bar, and click on the <kbd>PDF</kbd> menu item
   - Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> and click on the cog ![](content/images/icons/cog.png) icon next to the PDF plugin
-  
+
 - **Per-PDF settings**: In the <dfn aria-label="The window that displays the actual PDF, and where extracts can be created.">PDF window</dfn>, press <kbd>Ctrl</kbd> + <kbd>O</kbd> to bring up [settings dialog ![](content/images/plugin-pdf/pdf-per-pdf-settings.png)](content/images/plugin-pdf/pdf-per-pdf-settings.png ':ignore @tooltip-preview').
 
 > [!NOTE]
@@ -128,15 +143,12 @@ HotKeys
 			- SM extract (Alt+X)
 			- Mark text as ignored (Ctrl+Shift+I)
 			- Show selected text in Dictionary (Ctrl+D)
-			- Go To Page (Ctrl+G)
 			- SM Learn (Ctrl+L)
 			- Learn And Reschedule (Ctrl+Shift+L)
 			- SM Reschedule (Ctrl+J)
 			- SM LaterToday (Ctrl+Shift+J)
 			- SM Done (Ctrl+Shift+Enter)
 			- SM Delete (Ctrl+Shift+Del)
-			- SM Previous (Alt+Left)
-			- SM Next (Alt+Right)
 			- SM Parent (Ctrl+Alt+Up)
 			- SM Child (Ctrl+Alt+Down)
 			- SM Prev Sibling (Ctrl+Alt+Left)
@@ -152,20 +164,28 @@ HotKeys
 ```
 Non-hotkeys
 			- OCR (Alt+Click)
-			- Image area selection (Hold left click)
-			- Force image area selection (Hold right click)
+			- Image area selection (Hold right click)
 			- Zoom (Ctrl+Wheel)
 			- Extend text selection (Shift+Click, Shift+Left/Right)
-			- Deselect (Escape)
 			- PDF navigation (Up/Down/Left/Right/Pg. Down/Pg. Up/Home/End)
 			- Select word (Double click)
-			- Select paragraph (Triple click)
-			- Select page text (Quadra click)
 			- Select page (double click on empty space in page)
 			- Extend page selection (Shift+Click page)
 			- Add to selection (Hold ctrl)
 			- Select image (Click image)
 ```
+```
+Hotkeys not working currently:
+- Go To Page (Ctrl+G)
+- SM Previous (Alt+Left)
+- SM Next (Alt+Right)
+- Deselect (Escape)
+- Select paragraph (Triple click)
+- Select page text (Quadra click)
+```
+
+
+
 > [!NOTE]
 > When you extract text from the PDF file, the windows error sound may play. You can [disable it by switching off system sounds](#faq).
 
@@ -174,10 +194,6 @@ Non-hotkeys
 [plugin-pdf-glossary.md](plugin-pdf-glossary.md ':include')
 
 ## FAQ
-
-**Q: Concept verification error: hook is not a child of root!**
-
-A: Change currently activated concept as the one with hook in it for the PDFs.
 
 **Q: PDFs stop working after repair of SM collection**
 
@@ -197,4 +213,4 @@ A: Use <kbd>Ctrl</kbd> + <kbd>G</kbd>.
 
 **Q:How do I disable the Windows Sound from playing when I extract from a PDF?**
 
-A: In order to stop the sound from playing, you can right click the volume icon on the taskbar, then open the volume mixer and set system sounds to zero. 
+A: In order to stop the sound from playing, you can right click the volume icon on the taskbar, then open the volume mixer and set system sounds to zero.
