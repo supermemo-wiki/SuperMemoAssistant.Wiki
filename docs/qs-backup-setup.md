@@ -1,5 +1,3 @@
-!> Warning! In [SuperMemo 18.04](http://supermemopedia.com/wiki/Bug_fix_in_the_newest_SuperMemo_18) a bug was introduced that can cause catastrophic damage to your collection when you use repair collection. Update to SuperMemo 18.041 to prevent this! 
-
 ## Why & How ?
 
 #### Why should you backup ?
@@ -11,6 +9,8 @@ Do you care about your health ? Would you take a gamble with your life and forfe
 Computer glitches can happen at any time. It is precisely because we cannot anticipate them, that we take measures to mitigate their potential damage.
 
 ?> *Still not convinced* ? [Read testimonies](#testimonies) of SuperMemo users who remained skeptic, until it was too late.
+
+!> In SuperMemo 18.04 [a bug](http://supermemopedia.com/wiki/Bug_fix_in_the_newest_SuperMemo_18) was introduced that can cause catastrophic damage to your collection when you use repair collection. Update to SuperMemo 18.041 to prevent this ! 
 
 #### Proposed strategy
 
