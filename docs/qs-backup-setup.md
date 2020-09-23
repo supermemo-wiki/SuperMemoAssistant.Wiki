@@ -154,8 +154,8 @@ Don't panic! Restoring your collection to an earlier version is easy with BitShe
 5. Open a command prompt: type `cmd.exe`, then press <kbd>Enter</kbd> and run the following two commands (with your own name and email you use for github):
 
    ```
-   git config --global user.name "Piotr Wozniak"
-   git config --global user.email woz@supermemo.org
+   git config --global user.name "Alexis Inco"
+   git config --global user.email alexis@incogito.org
    ```
 Setup is now complete!
   
