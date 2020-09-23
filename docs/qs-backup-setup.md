@@ -10,6 +10,8 @@ Computer glitches can happen at any time. It is precisely because we cannot anti
 
 ?> *Still not convinced* ? [Read testimonies](#testimonies) of SuperMemo users who remained skeptic, until it was too late.
 
+!> In SuperMemo 18.04 [a bug](http://supermemopedia.com/wiki/Bug_fix_in_the_newest_SuperMemo_18) was introduced that can cause catastrophic damage to your collection when you use repair collection. Update to SuperMemo 18.041 to prevent this ! 
+
 #### Proposed strategy
 
 The strategy that we suggest attempts to strike a **balance between robustness and ease of use**. This is not a foolproof method, but it should be robust enough that you do not lose more than a single session of SuperMemo.

@@ -32,7 +32,9 @@
     1. Select [the search box ![](content/images/plugin-LaTeX/MiKTeX/miktex-packages-search.png)](content/images/plugin-LaTeX/MiKTeX/miktex-packages-search.png ':ignore @tooltip-preview') and type the name of the package
     2. <kbd>Right click</kbd> on [the line ![](content/images/plugin-LaTeX/MiKTeX/miktex-packages-install.png)](content/images/plugin-LaTeX/MiKTeX/miktex-packages-install.png ':ignore @tooltip-preview') that matches the package name, and click on <kbd>Install package</kbd>
 
-Once this is done, you are ready to use LaTeX.
+Once this is done, you are ready to use the LaTeX hotkeys in SuperMemo.
+
+?> [!TIP] To extract LaTeX formulas from your PDF documents, setup the PDF plugin with your [MathPix OCR](https://supermemo.wiki/sma/#/plugin-pdf?id=pdf-built-in-ocr) account.
 
 ## LaTeX basics
 
@@ -83,9 +85,9 @@ By default, SMA implements three tags you can choose from:
 
 ### Settings
 
-To access the **Dictionary settings**, either:
-  - <kbd>Right click</kbd> the ![](content/images/icons/robot-16.png) icon in your Window tray bar, and click on the <kbd>Dictionary</kbd> menu item
-  - Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> and click on the cog ![](content/images/icons/cog.png) icon next to the Dictionary plugin
+To access the **LaTeX settings**, either:
+  - <kbd>Right click</kbd> the ![](content/images/icons/robot-16.png) icon in your Window tray bar, and click on the <kbd>LaTeX</kbd> menu item
+  - Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> and click on the cog ![](content/images/icons/cog.png) icon next to the LaTeX plugin
 
 ![](content/images/plugin-LaTeX/latex-settings.png)
 

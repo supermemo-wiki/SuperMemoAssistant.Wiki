@@ -34,7 +34,7 @@ For the purpose of this guide we will be installing *Git for Windows* and *Torto
 
 **Git for windows** is - surprise surprise - an implementation of the [Git versioning system](https://hackernoon.com/understanding-git-fcffd87c15a3) for Windows. It provides a set of command-line executables (.exe files) to run git operations, such as clone, pull, push, etc.
 
-We will be creating a GitHub repository in the following tutorial and using it for creating our first plugin.
+We will create a GitHub repository in the following tutorial and use it to make our first plugin.
 
 Why you may ask ? This is a good practice which can save you the trouble of a wide array of more or less catastrophic issues, and it will only take about 5-10 minutes when setting things up from scratch, if done correctly.
 
@@ -54,8 +54,8 @@ Why you may ask ? This is a good practice which can save you the trouble of a wi
 2. Run the following two commands (with your own name and email):
 
    ```
-   git config --global user.name "Piotr Wozniak"
-   git config --global user.email woz@supermemo.org
+   git config --global user.name "SuperMemo"
+   git config --global user.email help@supermemo.com
    ```
 
 ##### Tortoise Git
@@ -74,7 +74,7 @@ If you prefer to use the command-line, feel free to skip this step.
 
 #### ![](/content/images/icons/visual-studio-2019.svg '@width="18" @style="margin-right: 2px;"') Visual Studio
 
-**Visual Studio** is one of the most popular IDE for developing with C#. You will need to use <u>VS 2019 or higher</u><sup>1</sup> to write your Plugins. Visual Studio offers a free edition called *Community Edition*.
+**Visual Studio** is one of the most popular IDEs for developing with C#. You will need to use <u>VS 2019 or higher</u><sup>1</sup> to write your Plugins. Visual Studio offers a free edition called *Community Edition*.
 
 ?> Download the latest version of [Visual Studio here](https://visualstudio.microsoft.com/downloads/) (View [picture 🖼️ ![](content/images/plugins/plugin-guide-1-setup/dev-setup-vs-download.png)](content/images/plugins/plugin-guide-1-setup/dev-setup-vs-download.png ':ignore @tooltip-preview')).
 
@@ -132,7 +132,7 @@ It is especially useful when used in combination with *I Hate #Regions* and *Res
 
 SMA heavily relies on Resharper's ability to automatically format code based on user-defined rules to keep its code base as clean and readable as possible. When you create a Plugin using the SDK's templates, the Resharper rules used in SMA will automatically be added to your solution.
 
-Beware though: one of Resharper's main downsides is its tendency to negatively impact Visual Studio's performances. Feel free to give the free trial a chance, and check for yourself.
+Beware though: one of Resharper's main downsides is its tendency to negatively impact Visual Studio's performance. Feel free to give the free trial a chance, and check for yourself.
 
 It is especially useful when used it in combination with *I Hate #Regions* and *Region Highlights* (see above).
 
