@@ -216,7 +216,9 @@ To make running sm-main-commit.bat more convenient, you can add it to taskbar. W
 
 3. You can now [right click the shortcut ![](/content/images/backup-setup/shortcut-taskbar.png)](/content/images/backup-setup/shortcut-taskbar.png '@tooltip-preview') and add it to taskbar. After you are done using SuperMemo, click the shortcut in taskbar (or use winkey + taskbar position number key) to sync changes to your collections's Github repository.nt files that haven't been uploaded before running sm-main-pull.bat as it will overrite all local changes
 
+## Why not use Dropbox or Google Drive for backups?
 
+A common question people ask is "Why not use Dropbox or Google Drive for backups?". Admittedly, these are much more user friendly and require very little set up. However, there are a number of reasons why these services are inadequate for our purposes. Firstly, it is very easy to get something wrong, and corrupt your collection due to file locks. Previous backup methods relied on watching and killing processes in an effort to prevent this, but these are very inelegant solutions. Furthermore, syncing to a cloud provider pushes each file individually without any knowledge of how they are grouped together. If for some reason your cloud provider messes up the syncing, it might lead to nasty results. By contrast, the git push to server is an atomic transaction, meaning it either completely succeeds, or completely fails, there is no situation where your collection data gets partially backed up.
 
 ## Suggestions to improve your backup strategy
 
