@@ -46,10 +46,9 @@ You can [🔑 purchase](https://super-memo.com/supermemo18.html) a license to re
 
 ##### Chat servers
 
-There are 2 SuperMemo discord servers (it is recommended to join both):
+We recommend the fairly active SuperMemo.wiki discord server:
 
 - [SuperMemo.wiki server](https://discord.gg/Cqg9Fyg) (community maintaining this website)
-- [SuperMemo discord server](https://discord.com/invite/pB7jcSK)
 
 ##### Other communities
 
