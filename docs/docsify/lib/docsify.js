@@ -80,7 +80,7 @@
         maxLevel: 6,
         subMaxLevel: 0,
         loadSidebar: null,
-        loadNavbar: null,
+        loadNavbar: true,
         homepage: 'README.md',
         coverpage: '',
         basePath: '',
