@@ -7,7 +7,7 @@
 🚧 This documentation is a work in progress.
 
 <div class="youtube-container">
-  <iframe src="https://www.youtube.com/embed/i33BTuwTgAs?list=PL7RwmzKKAH8eKbDpOe5e-Omfp2Zqed6U1&index=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="youtube-video" src="https://www.youtube.com/embed/i33BTuwTgAs?list=PL7RwmzKKAH8eKbDpOe5e-Omfp2Zqed6U1&index=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!--
