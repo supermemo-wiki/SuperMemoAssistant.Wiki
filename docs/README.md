@@ -4,6 +4,12 @@
 
 [SuperMemo](https://super-memo.com/supermemo18.html) is a program that **makes learning easy and fun**. [The](https://supermemo.guru/wiki/Spaced_repetition) [methods](https://supermemo.guru/wiki/Incremental_reading) it [pioneered](https://supermemo.guru/wiki/History_of_spaced_repetition) not only enable you to remember the things you **learn forever**, but also to gain knowledge at an **unprecedented rate**.
 
+🚧 This documentation is a work in progress.
+
+<div class="youtube-container">
+  <iframe src="https://www.youtube.com/watch?v=i33BTuwTgAs&list=PL7RwmzKKAH8eKbDpOe5e-Omfp2Zqed6U1&index=1" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <!--
 <div class="pure-g" style="margin-top: -20px;">
   <div class="pure-u-1 pure-u-smd-3-4">
