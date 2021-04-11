@@ -3,7 +3,7 @@
 - Quick start
   - [Installation](qs-installation.md)
   - [Using SMA](qs-using-sma.md)
-  - [Recommended backup setup ⚠️](qs-backup-setup.md)
+  - [Recommended backup setup ⚠️](https://www.supermemo.wiki/backup)
   
 - Reference manual
   - Plugins

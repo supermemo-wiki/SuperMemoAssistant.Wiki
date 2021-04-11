@@ -31,26 +31,25 @@ setInterval(() => siema.next(), 5000);
   </div>
 </div>
 
-!> ⚠️ SMA is currently in a *closed beta-test* phase. It is not accessible publicly. We will be accepting more testers in the upcoming days, stay tuned on our [Discord channel](https://discord.gg/vUQhqCT).
+!> ⚠️ SMA is currently in a *beta-test* phase. Visit our [Discord channel](https://discord.gg/vUQhqCT) to receive support and be in the known.
 
 <div class="pure-g" style="margin-top: -10px;">
   <div class="pure-u-1 pure-u-smd-13-24">
     <p style="color: darkred;"><strong>Get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
 	<ol>
-      <li><a href="#">Download</a> the latest version (N/A)</li>
+      <li><a href="#">Download</a> the latest version</li>
       <!-- <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/latest/" target="_blank" rel="noopener">Download</a> the latest version</li> -->
-      <li><a href="#/qs-installation">Install SMA</a></li>
       <li><a href="#/qs-using-sma">Quick start</a></li>
       <li><a href="#/qs-using-sma#sma-102">Import PDF and Browser tabs</a></li>
 	</ol>
 	<p>Additional resources:</p>
 	<ul>
-      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> chat room [![Discord](https://img.shields.io/discord/673071773700587521.svg)](https://chat.supermemo.wiki/)</li>
+      <li><a href="https://discord.gg/vUQhqCT" target="_blank" rel="noopener">Discord (invite)</a> <a href="https://discord.gg/vUQhqCT"><img src="https://img.shields.io/discord/673071773700587521.svg" /></a></li>
       <li><a href="https://chat.supermemo.wiki" target="_blank" rel="noopener">Discord (web)</a> for guests</li>
       <li><a href="https://github.com/SuperMemo/" target="_blank" rel="noopener">GitHub page</a></li>
-      <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a> (WIP)</li>
+      <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a></li>
 	</ul>
-    <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em>.</p>
+    <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em> ; <em>18.04</em> ; <em>18.041</em> ; <em>18.05</em>.</p>
   </div>
   <div class="pure-u-1 pure-u-smd-11-24">
 	<div class="youtube-container">
@@ -66,7 +65,7 @@ setInterval(() => siema.next(), 5000);
 <div class="pure-g">
   <div class="pure-u-1 pure-u-smd-1-2 ph-4">
     <div class="card">
-      <h4><a href="plugin-pdf">PDF Support</a></h4>
+      <h4><a href="#plugin-pdf">PDF Support</a></h4>
 	  <ul>
 	  <li>Extract text, images & snapshots</li>
 	  <li>Built-in OCR (formulas & text)</li>
@@ -76,7 +75,7 @@ setInterval(() => siema.next(), 5000);
 	  <ul>
     </div>
     <div class="card">
-      <h4><a href="plugin-LaTeX">LaTeX</a></h4>
+      <h4><a href="#plugin-LaTeX">LaTeX</a></h4>
 	  <ul>
 	    <li>Render & edit LaTeX in SuperMemo</li>
 	    <li>Several display formats by default</li>
@@ -94,7 +93,7 @@ setInterval(() => siema.next(), 5000);
   </div>
   <div class="pure-u-1 pure-u-smd-1-2 ph-4">
     <div class="card">
-      <h4><a href="plugin-Import">Web Import</a></h4>
+      <h4><a href="#plugin-Import">Web Import</a></h4>
 	  <ul>
 	    <li>Import tabs from Chrome, Firefox, ..</li>
 	    <li>Import feeds (RSS, Atom)</li>
@@ -111,7 +110,7 @@ setInterval(() => siema.next(), 5000);
 	  </ul>
     </div>
     <div class="card">
-      <h4><a href="plugin-Dictionary">Dictionary</a></h4>
+      <h4><a href="#plugin-Dictionary">Dictionary</a></h4>
 	  <ul>
 	    <li>Lookup word definitions in SuperMemo</li>
 	    <li>Multi-lingual</li>
