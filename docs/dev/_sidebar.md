@@ -19,6 +19,7 @@
     - [SMA](plugin-dev-refm-svc-sma.md)
   - SMA
     - [Controls and Components](sma-dev-refm-controls-and-components.md)
+    - [Native methods and variables](sma-dev-refm-natives.md)
 - Other wikis
   - [**SuperMemo wiki**](/ ':ignore')
   - [**SuperMemo Assistant wiki**](/sma/ ':ignore')
