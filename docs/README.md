@@ -125,7 +125,7 @@ setInterval(() => siema.next(), 5000);
 
 <hr/>
 
-!> ⚠️ **Tip**: Have you setup a [backup solution](qs-backup-setup.md) for SuperMemo ? [Testimonies](qs-backup-setup.md#testimonies) of users who found out too late:
+!> ⚠️ **Tip**: Have you setup a [backup solution](https://www.supermemo.wiki/backup) for SuperMemo ? [Testimonies](https://www.supermemo.wiki/backup#testimonies) of users who found out too late:
 
 <blockquote class="siema siema-blockquote">
   <div><p>💬 <strong>Luke Avedon</strong>: “<em>Back up your collection.  I'm ashamed to admit I used to never back up my collection.  Once while running a quick, 'repair collection' I lost power.  An entire section of my knowledge tree was mangled forever.  All the references changed to strange, incomprehensible characters.  Now I know better.  I automatically back up to two local hard drives, and three cloud drives each day.</em>”</p></div>
