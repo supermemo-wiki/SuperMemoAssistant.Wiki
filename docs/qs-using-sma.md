@@ -2,7 +2,7 @@
 
 ### First-time setup
 
-Run `SuperMemoAssistant.exe`. If you can't find SMA, learn how to [create a shortcut](qs-installation#optional-create-a-shortcut).
+Run `SuperMemoAssistant.exe`. If you can't find SMA, make sure that it is [installed](qs-installation).
 
 ?> ❔ On the first execution, SMA will ask you for your SuperMemo executable path.
 

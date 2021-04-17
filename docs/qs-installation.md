@@ -30,3 +30,14 @@ We have been extensively testing SMA since 2019. There are no reasons to believe
 ### Installing SMA
 
 Simply execute the installer, and wait for the setup to complete. A "SuperMemo Assistant" shortcut will be placed in your start menu.
+
+### Updating from version 2.0.3 to 2.1.0
+
+If you were previously using version 2.0.3 or older, you can migrate your configuration to the new version:
+
+1. In **File Explorer**, navigate to `%UserProfile%\Documents\SuperMemoAssistant`
+2. Copy your **Configs** folder
+3. Navigate to `%UserProfile%\SuperMemoAssistant` (create the folder if it doesn't exist)
+4. Paste the folder
+
+The final path should be: `%UserProfile%\SuperMemoAssistant\Configs` (e.g. `C:\Users\Alexis\SuperMemoAssistant\Configs`).
