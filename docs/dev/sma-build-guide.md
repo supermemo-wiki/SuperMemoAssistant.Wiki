@@ -15,7 +15,7 @@
   
 4) Unload the following projects:
   - SuperMemoAssistant Visual studio projects
-  - All SuperMemoAssistant.*.SDK
+  - All SuperMemoAssistant.Sdk.\*
   - SuperMemoAssistant.Plugins.Email
   - SuperMemoAssistant.Plugins.ImageOcclusion
   - SuperMemoAssistant.Plugins.OmniMemo
@@ -24,7 +24,8 @@
 5) Build and pack in order:
   - SuperMemoAssistant.Interop
   - All the services
-  - The SuperMemoAssistant.Plugins.**.Interop projects
+  - The SuperMemoAssistant.Plugins.\*.Interop projects
+  - The SuperMemoAssistant.Plugins.Import.BrowserExtension project
 
 6) In the PDF plugins, you need to remove the PDFLicense variable and the parameter where it is used to call the initialization function (you do not have a license)
 
