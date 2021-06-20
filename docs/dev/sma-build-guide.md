@@ -24,7 +24,7 @@
   - SuperMemoAssistant.Interop
   - All the services
   - The SuperMemoAssistant.Plugins.\*.Interop projects
-  - The SuperMemoAssistant.Plugins.Import.BrowserExtension project
+  - The SuperMemoAssistant.Plugins.Import.BrowserNativeHost project
 
 6) In the PDF plugins, you need to remove the PDFLicense variable and the parameter where it is used to call the initialization function (you do not have a license)
 
