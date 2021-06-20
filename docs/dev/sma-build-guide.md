@@ -14,12 +14,11 @@
   - `releases\nupkg`
   
 4) Unload the following projects:
-  - SuperMemoAssistant Visual studio projects
-  - All SuperMemoAssistant.Sdk.\*
+  - All SuperMemoAssistant.Sdk.\* (under the Build folder)
   - SuperMemoAssistant.Plugins.Email
   - SuperMemoAssistant.Plugins.ImageOcclusion
   - SuperMemoAssistant.Plugins.OmniMemo
-  - SuperMemoAssistant.Plugins.MediaPla  yer
+  - SuperMemoAssistant.Plugins.MediaPlayer
   
 5) Build and pack in order:
   - SuperMemoAssistant.Interop
