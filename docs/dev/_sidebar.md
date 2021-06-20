@@ -18,6 +18,7 @@
     - [SM](plugin-dev-refm-svc-sm.md)
     - [SMA](plugin-dev-refm-svc-sma.md)
   - SMA
+    - [Building SMA](sma-build-guide.md)
     - [Controls and Components](sma-dev-refm-controls-and-components.md)
     - [Native methods and variables](sma-dev-refm-natives.md)
 - Other wikis

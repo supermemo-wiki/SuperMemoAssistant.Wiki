@@ -111,6 +111,10 @@ There are two layers of settings available:
 > [!NOTE]
 > Per-PDF settings will override the global settings.
 
+### Additional settings
+
+Additional settings such as changing the extract/highlight colours are available in the JSON config file located in `%UserProfile%\SuperMemoAssistant\Configs\SuperMemoAssistant.Plugins.PDF\PDFCfg.json`.
+
 ## PDF: Deletion
 
 Your PDFs are stored in your collection elements. They are inserted in SuperMemo's binary registry. To remove a PDF file, follow this procedure:
@@ -174,6 +178,14 @@ Non-hotkeys
 [plugin-pdf-glossary.md](plugin-pdf-glossary.md ':include')
 
 ## FAQ
+
+**Q: The PDF plugin doesn't use my SM template, how do I change that?**
+
+A: You can select a template in the PDF settings. By default none is applied.
+
+**Q: How do I change the highlight/extract colours displayed in the PDF viewer?**
+
+A: You can change the colours by editing the JSON config file located in `%UserProfile%\SuperMemoAssistant\Configs\SuperMemoAssistant.Plugins.PDF\PDFCfg.json`.
 
 **Q: Concept verification error: hook is not a child of root!**
 
