@@ -26,8 +26,10 @@
   - The SuperMemoAssistant.Plugins.\*.Interop projects
   - The SuperMemoAssistant.Plugins.Import.BrowserNativeHost project
 
-6) In PDFplugin.cs, you need edit `PdfCommon.Initialize(PDFLicense.LicenseKey)` to `PdfCommon.Initialize()` (you do not have a license)
+6) In PDFplugin.cs, you need to edit `PdfCommon.Initialize(PDFLicense.LicenseKey)` to `PdfCommon.Initialize()` (you do not have a license)
 
-7) Build everything
+7) In the configuration selector (Debug by default) to one of Alpha/Debug/Stable
+
+8) Build everything
 
 🚧 Work in progress.
