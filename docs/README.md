@@ -50,7 +50,7 @@ setInterval(() => siema.next(), 5000);
       <li><a href="https://github.com/SuperMemo/" target="_blank" rel="noopener">GitHub page</a></li>
       <li><a href="https://www.supermemo.wiki" target="_blank" rel="noopener">SuperMemo documentation</a></li>
 	</ul>
-    <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em> ; <em>18.04</em> ; <em>18.041</em> ; <em>18.05</em>.</p>
+    <p id="supported-versions"><strong>Supported SM versions</strong>: <em>17.40</em> ; <em>18.03</em> ; <em>18.04</em> ; <em>18.041</em> ; <em>18.05</em>. <small><a href="https://sma.supermemo.wiki/#/qs-installation?id=supported-sm-versions">How do I find my SM version?</a></small></p>
   </div>
   <div class="pure-u-1 pure-u-smd-11-24">
 	<div class="youtube-container">
