@@ -31,13 +31,35 @@ We have been extensively testing SMA since 2019. There are no reasons to believe
 
 Simply execute the installer, and wait for the setup to complete. A "SuperMemo Assistant" shortcut will be placed in your start menu.
 
-### Updating from version 2.0.3 to 2.1.0
+### Updating
+
+Updates are distributed automatically. If you are updating from version 2.0.3, you will need to manually install the new version. See instructions below.
+
+#### Migrating from version 2.0.3 to 2.1.x
 
 If you were previously using version 2.0.3 or older, you can migrate your configuration to the new version:
 
 1. In **File Explorer**, navigate to `%UserProfile%\Documents\SuperMemoAssistant`
 2. Copy your **Configs** folder
 3. Navigate to `%UserProfile%\SuperMemoAssistant` (create the folder if it doesn't exist)
-4. Paste the folder
+4. Paste the **Configs** folder
 
 The final path should be: `%UserProfile%\SuperMemoAssistant\Configs` (e.g. `C:\Users\Alexis\SuperMemoAssistant\Configs`).
+
+#### What's new in version 2.1.x?
+
+**Import++ Plugin**
+
+The latest addition is Import++ which allows you to import your tabs from FF/Chrome/Edge and any other chromium-based browser that supports the standard extension format. It also has several other features such as RSS/Atom import, custom filters, and more.
+
+You can find the documentation for Import++ [here](/#plugin-Import).
+
+**PDF Plugin**
+
+There is a new option to select the default template to apply to your elements. Open the PDF configuration (**Ctrl** + **Shift** + **Alt** + **O** > PDF), and you will see them at the top.
+
+You can also now extract your selection with priority (**Alt** + **Shift** + **X**).
+
+**Other**
+
+There are a number of other improvements & bug fixes.

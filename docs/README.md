@@ -37,8 +37,9 @@ setInterval(() => siema.next(), 5000);
   <div class="pure-u-1 pure-u-smd-13-24">
     <p style="color: darkred;"><strong>Get started with <u>SMA in 5 minutes</u> (really)</strong>:</p>
 	<ol>
-      <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/">Download</a> the latest version</li>
+      <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/download/2.1.0-beta.21/SuperMemoAssistant-Setup-2.1.0-beta.21.exe">Download</a> the latest version</li>
       <!-- <li><a href="https://github.com/supermemo/SuperMemoAssistant/releases/latest/" target="_blank" rel="noopener">Download</a> the latest version</li> -->
+      <li><a href="#/qs-installation">Install instructions</a></li>
       <li><a href="#/qs-using-sma">Quick start</a></li>
       <li><a href="#/qs-using-sma#sma-102">Import PDF and Browser tabs</a></li>
 	</ol>
