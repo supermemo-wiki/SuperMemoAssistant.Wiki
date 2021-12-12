@@ -21,6 +21,10 @@ You will need to install the following tools in order to use SMA:
 
 SMA releases are published on [our GitHub page](https://github.com/supermemo/SuperMemoAssistant/releases/latest/). You may also build the software from sources.
 
+Scroll to the latest release, and find the **Assets** button as shown below. Click on the .exe file to download it.
+
+![SMA GitHub releases download](content/images/qs-install/sma-github-releases.png)
+
 #### Are there risks ?
 
 !> ⚠️ **Your collection is precious**. If you are using SuperMemo, you will likely be pouring days, weeks or months of your life in building it. Don't let it all go to waste. **Make sure you have a [backup strategy](https://www.supermemo.wiki/backup)**.
