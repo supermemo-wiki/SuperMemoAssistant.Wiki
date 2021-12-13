@@ -93,7 +93,7 @@ To access the **LaTeX settings**, either:
 
 ### Advanced configuration
 
-For advanced LaTeX configurations, you can directly edit the configuration file located at `%AppData%\SuperMemoAssistant\Configs\SuperMemoAssistant.Plugins.LaTeX\LateXCfg.json`.
+For advanced LaTeX configurations, you can directly edit the configuration file located at `%UserProfile%\SuperMemoAssistant\Configs\SuperMemoAssistant.Plugins.LaTeX\LateXCfg.json`.
 
 You can download the [default configuration here](content/data/LateXCfg.json ':ignore').
 
