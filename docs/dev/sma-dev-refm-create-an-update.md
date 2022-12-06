@@ -8,7 +8,7 @@ After finalizing your changes in the SMA code base, this guide describes the pro
 
 1. Make sure your code is clean, and can be compiled and run without errors.
 2. **Commit** your work to git.
-3. Create a tag at your latest commit. Make sure to follow the versioning convention.
+3. Create a tag at your latest commit. Make sure to follow the [versioning convention](https://semver.org/).
 4. Push your work to GitHub.
 5. Select the **desired configuration** in Visual Studio (Alpha, Beta release/debug, Stable release/debug).
 6. In the solution explorer, right-click on the **SuperMemoAssistant** project, and select **Pack**.

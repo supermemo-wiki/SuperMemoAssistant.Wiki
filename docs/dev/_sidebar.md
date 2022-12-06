@@ -19,6 +19,7 @@
     - [SMA](plugin-dev-refm-svc-sma.md)
   - SMA
     - [Building SMA](sma-build-guide.md)
+    - [SMA Installer & Updates](sma-dev-refm-create-an-update.md)
     - [Controls and Components](sma-dev-refm-controls-and-components.md)
     - [Native methods and variables](sma-dev-refm-natives.md)
 - Other wikis
